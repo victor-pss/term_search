@@ -37,6 +37,7 @@ if submit_button:
         with st.spinner('Working on your request...'):
             results = term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER)
             st.write('Search Results:')
+            st.divider()
             for el in results:
                 st.write(el)
     else:
