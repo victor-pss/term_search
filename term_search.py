@@ -12,7 +12,7 @@ st.write("""
 def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
     files = []
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
-        for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/pss-theme'):
+        for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/' + THEME_FOLDER):
             for name in filename:
                 dir = dirnames
                 if dir[-1] != '/':
