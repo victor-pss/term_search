@@ -35,7 +35,7 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
 form = st.form(key='my_form')
 FTP_HOST = form.text_input("FTP Host", key=None)
 FTP_USER = form.text_input("FTP User", key=None)
-FTP_PASS = form.text_input("FTP Password", key=None)
+FTP_PASS = form.text_input("FTP Password", type="password", key=None)
 THEME_FOLDER = form.text_input("Theme Folder", key=None)
 submit_button = form.form_submit_button("Submit")
     
