@@ -2,7 +2,14 @@ import streamlit as st
 import ftputil
 import re
 
-st.title("Code Digger")
+# st.title("Code Digger")
+st.markdown("""
+    <div style="display: flex; align-items: center;">
+        <img style="width: 100px; margin-right: 15px;" src="https://pss-application-assets.s3.amazonaws.com/code-digger/code_digger-logo2.png" />
+        <h1>Code Digger</h1>
+    </div>
+    
+    """, unsafe_allow_html=True)
 st.write("""
     This app helps search for the_field and the_sub_field ACF fields.
     Please enter the FTP credentials below and the theme folder as it
@@ -38,8 +45,12 @@ if submit_button:
             results = term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER)
             st.write('Search Results:')
             st.divider()
-            for el in results:
-                st.write(el)
+            if len(results) == 0:
+                st.write('There are no instances found...')
+            else:
+                st.write(len(results), 'were found')
+                for el in results:
+                    st.write(el)
     else:
         st.error('Please fill all the fields before submitting!')
 
