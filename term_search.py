@@ -3,7 +3,16 @@ import streamlit.components.v1 as components
 import ftputil
 import re
 
-# st.title("Code Digger")
+st.markdown("""
+    <style>
+    div.stSpinner > div {
+        text-align: center;
+        align-items: center;
+        justify-content: center;
+        margin-top: 10px;
+    }
+    </style>
+    """, unsafe_allow_html=True)
 st.markdown("""
     <div style="display: flex; align-items: center;">
         <img style="width: 100px; margin-right: 15px;" src="https://pss-application-assets.s3.amazonaws.com/code-digger/code_digger-logo2.png" />
