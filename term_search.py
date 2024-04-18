@@ -1,4 +1,5 @@
 import streamlit as st
+import streamlit.components.v1 as components
 import ftputil
 import re
 
@@ -41,6 +42,11 @@ submit_button = form.form_submit_button("Submit")
     
 if submit_button:
     if FTP_HOST and FTP_USER and FTP_PASS and THEME_FOLDER:
+        st.markdown("""
+            <div style="display: flex; justify-content: center;">
+                <img style="width: 470px; height: 75px; object-fit: cover;" src="https://pss-application-assets.s3.amazonaws.com/code-digger/miner.gif" />
+            </div>
+            """, unsafe_allow_html=True)
         with st.spinner('Working on your request...'):
             results = term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER)
             st.write('Search Results:')
