@@ -66,20 +66,6 @@ if 'query_start' not in st.session_state:
 if 'query_complete' not in st.session_state:
     st.session_state['query_complete'] = False
 
-# form = st.form(key='my_form')
-# FTP_HOST = form.text_input("FTP Host", key=None)
-# FTP_USER = form.text_input("FTP User", key=None)
-# FTP_PASS = form.text_input("FTP Password", type="password", key=None)
-# THEME_FOLDER = form.text_input("Theme Folder", key=None)
-# submit_button = form.form_submit_button("Submit")
-
-# form = st.form(key='my_form')
-# st.session_state['FTP_HOST'] = form.selectbox("FTP Host", options=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], index=None, key=None)
-# st.session_state['FTP_USER'] = form.text_input("FTP User", key=None)
-# st.session_state['FTP_PASS'] = form.text_input("FTP Password", type="password", key=None)
-# # st.session_state['THEME_FOLDER'] = form.selectbox("Theme Folder", options=['pss-theme', 'other'], index=0, key=None)
-# st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None)
-
 with st.form('my_form'):
     st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)
     st.session_state['FTP_USER'] = st.text_input('FTP User', key=None)
