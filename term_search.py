@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-from streamlit_tags import st_tags
+# from streamlit_tags import st_tags
 import ftputil
 import re
 
@@ -61,10 +61,12 @@ if 'query_complete' not in st.session_state:
     st.session_state['query_complete'] = False
 
 with st.form('my_form'):
-    st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)
+    # st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)
+    st.session_state['FTP_HOST'] = st.text_input('FTP Host', key=None)
     st.session_state['FTP_USER'] = st.text_input('FTP User', key=None)
     st.session_state['FTP_PASS'] = st.text_input('FTP Password', type="password", key=None)
-    st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None)
+    # st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None)
+    st.session_state['THEME_FOLDER'] = st.text_input('Theme Folder', key=None)
     submit_button = st.form_submit_button("Submit")
 
     if submit_button:
@@ -83,7 +85,7 @@ with st.form('my_form'):
                     </div>
                 """, unsafe_allow_html=True)
             with st.spinner('Working on your request...'):
-                results = term_search(st.session_state['FTP_HOST'][0], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'][0])
+                results = term_search(st.session_state['FTP_HOST'], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'])
                 st.session_state['results'] = results
                 st.session_state['query_complete'] = True
 
