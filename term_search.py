@@ -65,7 +65,7 @@ with st.form('my_form'):
     st.session_state['FTP_HOST'] = st.text_input('FTP Host', key=None)
     st.session_state['FTP_USER'] = st.text_input('FTP User', key=None)
     st.session_state['FTP_PASS'] = st.text_input('FTP Password', type="password", key=None)
-    # st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None)
+    # st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None) 
     st.session_state['THEME_FOLDER'] = st.text_input('Theme Folder', key=None)
     submit_button = st.form_submit_button("Submit")
 
