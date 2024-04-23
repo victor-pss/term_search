@@ -100,12 +100,6 @@ with st.form('my_form'):
         else:
             st.error('Please fill all the fields before submitting!')
 
-if st.session_state['query_complete'] is False:
-    st.markdown("""
-            <div style="display: flex; justify-content: center;" class="miner">
-                <img style="width: 470px; height: 75px; object-fit: cover;" src="https://pss-application-assets.s3.amazonaws.com/code-digger/miner.gif" />
-            </div>
-        """, unsafe_allow_html=True)
 if st.session_state['query_complete'] is True:
     st.write('Search Results:')
     st.divider()
