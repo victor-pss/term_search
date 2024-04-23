@@ -52,10 +52,7 @@ if 'FTP_PASS' not in st.session_state:
     st.session_state['FTP_PASS'] = ''
 
 if 'THEME_FOLDER' not in st.session_state:
-    st.session_state['THEME_FOLDER'] = st.empty()
-
-if 'TF' not in st.session_state:
-    st.session_state['TF'] = st.empty()
+    st.session_state['THEME_FOLDER'] = ''
 
 if 'results' not in st.session_state:
     st.session_state['results'] = []
@@ -68,7 +65,6 @@ with st.form('my_form'):
     st.session_state['FTP_USER'] = st.text_input('FTP User', key=None)
     st.session_state['FTP_PASS'] = st.text_input('FTP Password', type="password", key=None)
     st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None)
-
     submit_button = st.form_submit_button("Submit")
 
     if submit_button:
@@ -87,7 +83,8 @@ with st.form('my_form'):
                     </div>
                 """, unsafe_allow_html=True)
             with st.spinner('Working on your request...'):
-                st.session_state['results'] = term_search(st.session_state['FTP_HOST'][0], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'][0])
+                results = term_search(st.session_state['FTP_HOST'][0], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'][0])
+                st.session_state['results'] = results
                 st.session_state['query_complete'] = True
 
             st.markdown("""
