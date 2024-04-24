@@ -5,7 +5,7 @@ def get_date():
     return ' - ' + str(datetime.now()) + ': '
 
 logger = logging.getLogger(__name__)
-logging.basicConfig(filename='app.log', encoding='utf-8', level=logging.DEBUG)
+logging.basicConfig(format='%(levelname)s:%(message)s', filename='app.log', encoding='utf-8', level=logging.DEBUG)
 
 logger.info(get_date() + 'Starting Imports')
 
@@ -51,7 +51,7 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
                 if dir[-1] != '/':
                     dir += '/'
                 f = dir + name
-
+                print(f)
                 logger.info(get_date() + 'file searched - ' + f)
 
                 if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
