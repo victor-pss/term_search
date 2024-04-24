@@ -51,7 +51,7 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
                 if dir[-1] != '/':
                     dir += '/'
                 f = dir + name
-                print(f)
+                st.write(f)
                 logger.info(get_date() + 'file searched - ' + f)
 
                 if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
@@ -59,6 +59,7 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
                         file = obj.read()
                         if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
                             logger.info(get_date() + ' file found    - term found in the above file ^^^^^^^^^')
+                            st.write('found ^^^^^^^^^^^^^')
                             files.append(f)
 
     logger.info(get_date() + 'found files - ' + str(files))
