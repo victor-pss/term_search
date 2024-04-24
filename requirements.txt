@@ -1,3 +1,2 @@
 ftputil==5.1.0
 streamlit==1.33.0
-streamlit_tags==1.2.8

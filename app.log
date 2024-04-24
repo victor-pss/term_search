@@ -1,0 +1,565 @@
+INFO:__main__: - 2024-04-24 15:46:55.665424: Starting Imports
+INFO:__main__: - 2024-04-24 15:46:55.673219: Imports Complete
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/app.log", inode=42919268, flags=10100, id=45979431): is_created, is_file
+DEBUG:fsevents:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/app.log', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO:__main__: - 2024-04-24 15:46:55.705631: Initial State
+INFO:__main__: - 2024-04-24 15:46:55.705738: {'FTP_HOST': '', 'query_complete': False, 'results': [], 'FTP_PASS': '', 'THEME_FOLDER': '', 'FTP_USER': ''}
+INFO:__main__: - 2024-04-24 15:46:56.321336: Starting Imports
+INFO:__main__: - 2024-04-24 15:46:56.321579: Imports Complete
+INFO:__main__: - 2024-04-24 15:46:56.322881: Initial State
+INFO:__main__: - 2024-04-24 15:46:56.322959: {'FTP_HOST': '', 'query_complete': False, 'results': [], 'THEME_FOLDER': '', 'FTP_USER': '', 'FTP_PASS': ''}
+INFO:__main__: - 2024-04-24 15:47:07.576764: Starting Imports
+INFO:__main__: - 2024-04-24 15:47:07.577076: Imports Complete
+INFO:__main__: - 2024-04-24 15:47:07.580140: Initial State
+INFO:__main__: - 2024-04-24 15:47:07.580466: {'FTP_HOST': '', 'query_complete': False, 'results': [], 'FTP_PASS': '', 'THEME_FOLDER': '', 'FTP_USER': ''}
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/app.log", inode=42919268, flags=18100, id=45981828): is_created, is_file, is_xattr_mod
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/app.log', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/app.log", inode=42919268, flags=18000, id=45983365): is_file, is_xattr_mod
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/app.log', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:__main__: - 2024-04-24 15:47:56.750858: Starting Imports
+INFO:__main__: - 2024-04-24 15:47:56.751512: Imports Complete
+INFO:__main__: - 2024-04-24 15:47:56.753214: Initial State
+INFO:__main__: - 2024-04-24 15:47:56.753441: {'FTP_HOST': '', 'query_complete': False, 'results': [], 'THEME_FOLDER': '', 'FTP_USER': '', 'FTP_PASS': '', 'FormSubmitter:my_form-Submit': True}
+INFO:__main__: - 2024-04-24 15:49:42.497530: Starting Imports
+INFO:__main__: - 2024-04-24 15:49:42.498013: Imports Complete
+INFO:__main__: - 2024-04-24 15:49:42.499545: Initial State
+INFO:__main__: - 2024-04-24 15:49:42.499640: {'FTP_HOST': '92.204.139.241', 'query_complete': False, 'results': [], 'THEME_FOLDER': 'pss-theme', 'FTP_USER': 'sandboxvictorpss', 'FTP_PASS': ';D=9?ycaUA{qZ_!.Q-', 'FormSubmitter:my_form-Submit': False}
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.DS_Store", inode=42311234, flags=11400, id=46001392): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.DS_Store', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=46006738): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO:__main__: - 2024-04-24 15:54:02.886875: Starting Imports
+INFO:__main__: - 2024-04-24 15:54:02.887194: Imports Complete
+INFO:__main__: - 2024-04-24 15:54:02.888959: Initial State
+INFO:__main__: - 2024-04-24 15:54:02.889061: {'FTP_HOST': '', 'query_complete': False, 'results': [], 'FTP_PASS': '', 'THEME_FOLDER': '', 'FTP_USER': ''}
+INFO:__main__: - 2024-04-24 15:54:30.599283: Starting Imports
+INFO:__main__: - 2024-04-24 15:54:30.599913: Imports Complete
+INFO:__main__: - 2024-04-24 15:54:30.602279: Initial State
+INFO:__main__: - 2024-04-24 15:54:30.602677: {'FTP_HOST': '', 'query_complete': False, 'results': [], 'THEME_FOLDER': '', 'FTP_USER': '', 'FTP_PASS': '', 'FormSubmitter:my_form-Submit': True}
+INFO:__main__: - 2024-04-24 15:54:30.609015: term_search function - {'FTP_HOST': '92.204.139.241', 'FTP_USER': 'sandboxvictorpss', 'FTP_PASS': ';D=9?ycaUA{qZ_!.Q-', 'THEME_FOLDER': 'pss-theme'}
+INFO:__main__: - 2024-04-24 15:54:33.081725: file searched - /public_html/wp-content/themes/pss-theme/404.php
+INFO:__main__: - 2024-04-24 15:54:33.712413: file searched - /public_html/wp-content/themes/pss-theme/README.md
+INFO:__main__: - 2024-04-24 15:54:33.712840: file searched - /public_html/wp-content/themes/pss-theme/acf-export-2016-05-02.json
+INFO:__main__: - 2024-04-24 15:54:33.712989: file searched - /public_html/wp-content/themes/pss-theme/bower.json
+INFO:__main__: - 2024-04-24 15:54:33.713046: file searched - /public_html/wp-content/themes/pss-theme/category.php
+INFO:__main__: - 2024-04-24 15:54:34.072213: file searched - /public_html/wp-content/themes/pss-theme/favicon.ico
+INFO:__main__: - 2024-04-24 15:54:34.072735: file searched - /public_html/wp-content/themes/pss-theme/footer-overview.php
+INFO:__main__: - 2024-04-24 15:54:34.430674: file searched - /public_html/wp-content/themes/pss-theme/footer.php
+INFO:__main__: - 2024-04-24 15:54:34.789868: file searched - /public_html/wp-content/themes/pss-theme/front-page.php
+INFO:__main__: - 2024-04-24 15:54:35.150103: file searched - /public_html/wp-content/themes/pss-theme/functions.php
+INFO:__main__: - 2024-04-24 15:54:35.510824: file searched - /public_html/wp-content/themes/pss-theme/gravityforms-export-2016-04-29.json
+INFO:__main__: - 2024-04-24 15:54:35.511285: file searched - /public_html/wp-content/themes/pss-theme/gulpfile.js
+INFO:__main__: - 2024-04-24 15:54:35.872249: file searched - /public_html/wp-content/themes/pss-theme/gutenberg-blocks.css
+INFO:__main__: - 2024-04-24 15:54:36.232050: file searched - /public_html/wp-content/themes/pss-theme/header.php
+INFO:__main__: - 2024-04-24 15:54:36.590080: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:54:36.590593: file searched - /public_html/wp-content/themes/pss-theme/home.php
+INFO:__main__: - 2024-04-24 15:54:36.952252: file searched - /public_html/wp-content/themes/pss-theme/index.php
+INFO:__main__: - 2024-04-24 15:54:37.311447: file searched - /public_html/wp-content/themes/pss-theme/package.json
+INFO:__main__: - 2024-04-24 15:54:37.311655: file searched - /public_html/wp-content/themes/pss-theme/page-contact-us.php
+INFO:__main__: - 2024-04-24 15:54:37.671406: file searched - /public_html/wp-content/themes/pss-theme/page.php
+INFO:__main__: - 2024-04-24 15:54:38.032779: file searched - /public_html/wp-content/themes/pss-theme/screenshot.png
+INFO:__main__: - 2024-04-24 15:54:38.033061: file searched - /public_html/wp-content/themes/pss-theme/scss-lint.yml
+INFO:__main__: - 2024-04-24 15:54:38.033157: file searched - /public_html/wp-content/themes/pss-theme/search.php
+INFO:__main__: - 2024-04-24 15:54:38.391875: file searched - /public_html/wp-content/themes/pss-theme/searchform.php
+INFO:__main__: - 2024-04-24 15:54:38.751183: file searched - /public_html/wp-content/themes/pss-theme/setup
+INFO:__main__: - 2024-04-24 15:54:38.756909: file searched - /public_html/wp-content/themes/pss-theme/shortcode.js
+INFO:__main__: - 2024-04-24 15:54:39.116918: file searched - /public_html/wp-content/themes/pss-theme/sidebar-blog.php
+INFO:__main__: - 2024-04-24 15:54:39.478031: file searched - /public_html/wp-content/themes/pss-theme/sidebar-contact.php
+INFO:__main__: - 2024-04-24 15:54:39.835670: file searched - /public_html/wp-content/themes/pss-theme/sidebar.php
+INFO:__main__: - 2024-04-24 15:54:40.192837: file searched - /public_html/wp-content/themes/pss-theme/single-photo-gallery.php
+INFO:__main__: - 2024-04-24 15:54:40.555261: file searched - /public_html/wp-content/themes/pss-theme/single-procedure.php
+INFO:__main__: - 2024-04-24 15:54:40.912952: file searched - /public_html/wp-content/themes/pss-theme/single.php
+INFO:__main__: - 2024-04-24 15:54:41.270574: file searched - /public_html/wp-content/themes/pss-theme/style.css
+INFO:__main__: - 2024-04-24 15:54:41.629911: file searched - /public_html/wp-content/themes/pss-theme/taxonomy-procedures.php
+INFO:__main__: - 2024-04-24 15:54:42.408698: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/camp-sample-page.php
+INFO:__main__: - 2024-04-24 15:54:42.767741: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-breast-aug.php
+INFO:__main__: - 2024-04-24 15:54:43.129778: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-butt-aug.php
+INFO:__main__: - 2024-04-24 15:54:43.490478: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-chemical-peel.php
+INFO:__main__: - 2024-04-24 15:54:43.853219: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-coolsculpting.php
+INFO:__main__: - 2024-04-24 15:54:44.213340: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-liquid-facelift.php
+INFO:__main__: - 2024-04-24 15:54:44.571899: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-sample-page.php
+INFO:__main__: - 2024-04-24 15:54:44.932542: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-skin-lesions.php
+INFO:__main__: - 2024-04-24 15:54:45.292376: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-skin.php
+INFO:__main__: - 2024-04-24 15:54:45.653991: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/prem-smartlipo.php
+INFO:__main__: - 2024-04-24 15:54:46.015215: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/premium-enhanced.php
+INFO:__main__: - 2024-04-24 15:54:46.373306: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/premium-injectables.php
+INFO:__main__: - 2024-04-24 15:54:46.795573: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/premium-practice-overview.php
+INFO:__main__: - 2024-04-24 15:54:47.155148: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/premium-procedures.php
+INFO:__main__: - 2024-04-24 15:54:47.938139: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/README.md
+INFO:__main__: - 2024-04-24 15:54:48.361477: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/css/base.css
+INFO:__main__: - 2024-04-24 15:54:48.720314: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/css/camp-page-name.css
+INFO:__main__: - 2024-04-24 15:54:49.502523: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/inc/camp-page.php
+INFO:__main__: - 2024-04-24 15:54:50.283687: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/js/camp-page.js
+INFO:__main__: - 2024-04-24 15:54:51.068738: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/README.txt
+INFO:__main__: - 2024-04-24 15:54:51.491581: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_css/base.css
+INFO:__main__: - 2024-04-24 15:54:51.852769: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_css/enhanced.css
+INFO:__main__: - 2024-04-24 15:54:52.211399: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_css/injectables.css
+INFO:__main__: - 2024-04-24 15:54:52.570681: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_css/practice-overview.css
+INFO:__main__: - 2024-04-24 15:54:52.928573: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_css/procedures.css
+INFO:__main__: - 2024-04-24 15:54:54.134940: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/base/paint.png
+INFO:__main__: - 2024-04-24 15:54:54.135283: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/base/pencil.jpg
+INFO:__main__: - 2024-04-24 15:54:54.135494: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/base/stars.png
+INFO:__main__: - 2024-04-24 15:54:54.559267: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/enhanced/drpersky-logo.jpg
+INFO:__main__: - 2024-04-24 15:54:54.982131: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/injectables/model.jpg
+INFO:__main__: - 2024-04-24 15:54:54.982516: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/injectables/model.png
+INFO:__main__: - 2024-04-24 15:54:55.407956: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/practice-overview/dr-persky.png
+INFO:__main__: - 2024-04-24 15:54:55.408361: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/practice-overview/juvederm-ba.jpg
+INFO:__main__: - 2024-04-24 15:54:55.408501: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/practice-overview/model.png
+INFO:__main__: - 2024-04-24 15:54:55.832088: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_images/procedures/model.jpg
+INFO:__main__: - 2024-04-24 15:54:56.254925: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_inc/prem-page.php
+INFO:__main__: - 2024-04-24 15:54:57.034082: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_js/base.js
+INFO:__main__: - 2024-04-24 15:54:57.391677: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/_js/injectables.js
+INFO:__main__: - 2024-04-24 15:54:58.172482: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/base.css
+INFO:__main__: - 2024-04-24 15:54:58.532901: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-breast-aug.css
+INFO:__main__: - 2024-04-24 15:54:58.892637: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-butt-aug.css
+INFO:__main__: - 2024-04-24 15:54:59.252401: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-chemical-peel.css
+INFO:__main__: - 2024-04-24 15:54:59.611650: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-coolsculpting.css
+INFO:__main__: - 2024-04-24 15:54:59.971290: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-liquid-facelift.css
+INFO:__main__: - 2024-04-24 15:55:00.332288: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-name.css
+INFO:__main__: - 2024-04-24 15:55:00.691685: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-skin-lesions.css
+INFO:__main__: - 2024-04-24 15:55:01.052306: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-skin.css
+INFO:__main__: - 2024-04-24 15:55:01.412280: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-smartlipo.css
+INFO:__main__: - 2024-04-24 15:55:02.618197: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/breast-aug-concerns-mobile.jpg
+INFO:__main__: - 2024-04-24 15:55:02.618626: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/breast-aug-concerns.jpg
+INFO:__main__: - 2024-04-24 15:55:02.618997: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/breast-aug-desire.png
+INFO:__main__: - 2024-04-24 15:55:02.619109: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/breast-aug-hero-mobile.png
+INFO:__main__: - 2024-04-24 15:55:02.619223: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/breast-aug-hero.png
+INFO:__main__: - 2024-04-24 15:55:02.619288: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/fuller-chest.jpg
+INFO:__main__: - 2024-04-24 15:55:02.619347: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/breast-aug/natural-shape-and-feel.jpg
+INFO:__main__: - 2024-04-24 15:55:03.042209: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/butt-aug-before-after-1.jpg
+INFO:__main__: - 2024-04-24 15:55:03.042503: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/img-butt-2-mobile.png
+INFO:__main__: - 2024-04-24 15:55:03.043241: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/img-butt-2.png
+INFO:__main__: - 2024-04-24 15:55:03.043340: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/img-butt-3-mobile.png
+INFO:__main__: - 2024-04-24 15:55:03.043408: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/img-butt-3.png
+INFO:__main__: - 2024-04-24 15:55:03.043449: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/img-butt-hero-mobile.png
+INFO:__main__: - 2024-04-24 15:55:03.043486: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/butt-aug/img-butt-hero.png
+INFO:__main__: - 2024-04-24 15:55:03.465841: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/chem-peel-checkoff.png
+INFO:__main__: - 2024-04-24 15:55:03.466211: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/chem-peel-hero-mobile.png
+INFO:__main__: - 2024-04-24 15:55:03.466437: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/chem-peel-hero.png
+INFO:__main__: - 2024-04-24 15:55:03.466549: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/concerns-mobile.png
+INFO:__main__: - 2024-04-24 15:55:03.466650: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/concerns.png
+INFO:__main__: - 2024-04-24 15:55:03.466720: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/facial-1.jpg
+INFO:__main__: - 2024-04-24 15:55:03.466773: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/chemical-peel/facial-2.jpg
+INFO:__main__: - 2024-04-24 15:55:03.889118: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/benefits-mobile.png
+INFO:__main__: - 2024-04-24 15:55:03.889459: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/benefits.png
+INFO:__main__: - 2024-04-24 15:55:03.889568: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/hip.jpg
+INFO:__main__: - 2024-04-24 15:55:03.889742: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/last-results.jpg
+INFO:__main__: - 2024-04-24 15:55:03.889865: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/no-anesthia.jpg
+INFO:__main__: - 2024-04-24 15:55:03.889983: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/no-recovery.jpg
+INFO:__main__: - 2024-04-24 15:55:03.890065: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/no-scarring.jpg
+INFO:__main__: - 2024-04-24 15:55:03.890133: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/thigh.jpg
+INFO:__main__: - 2024-04-24 15:55:03.890238: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/coolsculpting/trouble-areas-model.jpg
+INFO:__main__: - 2024-04-24 15:55:04.312705: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/liquid-facelift/img-liquid-facelift-2.png
+INFO:__main__: - 2024-04-24 15:55:04.313087: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/liquid-facelift/img-liquid-facelift-3-mobile.png
+INFO:__main__: - 2024-04-24 15:55:04.313230: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/liquid-facelift/img-liquid-facelift-3.png
+INFO:__main__: - 2024-04-24 15:55:04.313335: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/liquid-facelift/img-liquid-facelift-hero-mobile.png
+INFO:__main__: - 2024-04-24 15:55:04.313421: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/liquid-facelift/img-liquid-facelift-hero.png
+INFO:__main__: - 2024-04-24 15:55:04.737143: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/lesions.jpg
+INFO:__main__: - 2024-04-24 15:55:04.737609: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/moles.jpg
+INFO:__main__: - 2024-04-24 15:55:04.737764: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/patient1.png
+INFO:__main__: - 2024-04-24 15:55:04.737875: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/patient2.png
+INFO:__main__: - 2024-04-24 15:55:04.737962: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/precancerous-lesions.jpg
+INFO:__main__: - 2024-04-24 15:55:04.738052: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/skin-lesion-removal-mobile.png
+INFO:__main__: - 2024-04-24 15:55:04.738240: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/skin-lesion-removal.png
+INFO:__main__: - 2024-04-24 15:55:04.738379: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/skin-tags.jpg
+INFO:__main__: - 2024-04-24 15:55:04.738478: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-lesions/warts.jpg
+INFO:__main__: - 2024-04-24 15:55:05.162354: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/facial-1.jpg
+INFO:__main__: - 2024-04-24 15:55:05.162653: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/facial-2.jpg
+INFO:__main__: - 2024-04-24 15:55:05.162740: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/facial-concerns-mobile.png
+INFO:__main__: - 2024-04-24 15:55:05.162798: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/facial-concerns.png
+INFO:__main__: - 2024-04-24 15:55:05.162855: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/facial.png
+INFO:__main__: - 2024-04-24 15:55:05.162906: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/hero-facial-mobile.png
+INFO:__main__: - 2024-04-24 15:55:05.162949: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/skin-rejuvenation/hero-facial.png
+INFO:__main__: - 2024-04-24 15:55:05.585705: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/smartlipo/smartlipo-advantage-fast-recovery.jpg
+INFO:__main__: - 2024-04-24 15:55:05.586081: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/smartlipo/smartlipo-advantage-many-treatment-areas.jpg
+INFO:__main__: - 2024-04-24 15:55:05.586275: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/smartlipo/smartlipo-advantage-permenant-results.jpg
+INFO:__main__: - 2024-04-24 15:55:05.586374: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/smartlipo/smartlipo-advantage-skin-tightening.jpg
+INFO:__main__: - 2024-04-24 15:55:05.586462: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/smartlipo/smartlipo-hero-mobile.png
+INFO:__main__: - 2024-04-24 15:55:05.586549: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/images/smartlipo/smartlipo-hero.png
+INFO:__main__: - 2024-04-24 15:55:06.009930: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/breast-aug-procedure-tab.php
+INFO:__main__: - 2024-04-24 15:55:06.371294: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:06.371753: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/concern-tab.php
+INFO:__main__: - 2024-04-24 15:55:06.729512: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:06.729837: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/coolsculpting-procedure-tab.php
+INFO:__main__: - 2024-04-24 15:55:07.089263: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:07.089945: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/desire-tab.php
+INFO:__main__: - 2024-04-24 15:55:07.449986: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:07.450639: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/prem-page.php
+INFO:__main__: - 2024-04-24 15:55:07.809651: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/procedure-tab.php
+INFO:__main__: - 2024-04-24 15:55:08.167881: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:08.168433: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/skin-lesions-procedure-tab.php
+INFO:__main__: - 2024-04-24 15:55:08.528496: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:08.952007: file searched - /public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/js/prem-page.js
+INFO:__main__: - 2024-04-24 15:55:09.738652: file searched - /public_html/wp-content/themes/pss-theme/_customizer/carousel_customizer.php
+INFO:__main__: - 2024-04-24 15:55:10.098104: file searched - /public_html/wp-content/themes/pss-theme/_customizer/contact_customizer.php
+INFO:__main__: - 2024-04-24 15:55:10.457417: file searched - /public_html/wp-content/themes/pss-theme/_customizer/custom_css_customizer.php
+INFO:__main__: - 2024-04-24 15:55:10.816967: file searched - /public_html/wp-content/themes/pss-theme/_customizer/footer_customizer.php
+INFO:__main__: - 2024-04-24 15:55:11.177416: file searched - /public_html/wp-content/themes/pss-theme/_customizer/global_customizer.php
+INFO:__main__: - 2024-04-24 15:55:11.536997: file searched - /public_html/wp-content/themes/pss-theme/_customizer/header_customizer.php
+INFO:__main__: - 2024-04-24 15:55:11.896199: file searched - /public_html/wp-content/themes/pss-theme/_customizer/navigation_customizer.php
+INFO:__main__: - 2024-04-24 15:55:12.256388: file searched - /public_html/wp-content/themes/pss-theme/_customizer/procedures_customizer.php
+INFO:__main__: - 2024-04-24 15:55:12.617291: file searched - /public_html/wp-content/themes/pss-theme/_customizer/social_customizer.php
+INFO:__main__: - 2024-04-24 15:55:12.974452: file searched - /public_html/wp-content/themes/pss-theme/_customizer/subpage_bg_customizer.php
+INFO:__main__: - 2024-04-24 15:55:13.333502: file searched - /public_html/wp-content/themes/pss-theme/_customizer/welcome_customizer.php
+INFO:__main__: - 2024-04-24 15:55:13.694230: file searched - /public_html/wp-content/themes/pss-theme/_customizer/wp_customizer.php
+INFO:__main__: - 2024-04-24 15:55:14.054998: file searched - /public_html/wp-content/themes/pss-theme/_customizer/wp_default.php
+INFO:__main__: - 2024-04-24 15:55:15.256878: file searched - /public_html/wp-content/themes/pss-theme/_dist/css/editor.css
+INFO:__main__: - 2024-04-24 15:55:15.615126: file searched - /public_html/wp-content/themes/pss-theme/_dist/css/editor.css.map
+INFO:__main__: - 2024-04-24 15:55:15.615487: file searched - /public_html/wp-content/themes/pss-theme/_dist/css/global.css
+INFO:__main__: - 2024-04-24 15:55:16.102080: file searched - /public_html/wp-content/themes/pss-theme/_dist/css/global.css.map
+INFO:__main__: - 2024-04-24 15:55:16.102415: file searched - /public_html/wp-content/themes/pss-theme/_dist/css/global.min.css
+INFO:__main__: - 2024-04-24 15:55:17.011858: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/ABOHNS-logo.png
+INFO:__main__: - 2024-04-24 15:55:17.012322: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/android-icon-144x144.png
+INFO:__main__: - 2024-04-24 15:55:17.012501: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/android-icon-192x192.png
+INFO:__main__: - 2024-04-24 15:55:17.012709: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/android-icon-36x36.png
+INFO:__main__: - 2024-04-24 15:55:17.012879: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/android-icon-48x48.png
+INFO:__main__: - 2024-04-24 15:55:17.012990: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/android-icon-72x72.png
+INFO:__main__: - 2024-04-24 15:55:17.013079: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/android-icon-96x96.png
+INFO:__main__: - 2024-04-24 15:55:17.013161: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/angle-down.svg
+INFO:__main__: - 2024-04-24 15:55:17.013246: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/angle-right.svg
+INFO:__main__: - 2024-04-24 15:55:17.013324: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-114x114.png
+INFO:__main__: - 2024-04-24 15:55:17.013400: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-120x120.png
+INFO:__main__: - 2024-04-24 15:55:17.013476: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-144x144.png
+INFO:__main__: - 2024-04-24 15:55:17.013549: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-152x152.png
+INFO:__main__: - 2024-04-24 15:55:17.013623: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-180x180.png
+INFO:__main__: - 2024-04-24 15:55:17.013700: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-57x57.png
+INFO:__main__: - 2024-04-24 15:55:17.013776: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-60x60.png
+INFO:__main__: - 2024-04-24 15:55:17.013854: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-72x72.png
+INFO:__main__: - 2024-04-24 15:55:17.013928: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-76x76.png
+INFO:__main__: - 2024-04-24 15:55:17.014004: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon-precomposed.png
+INFO:__main__: - 2024-04-24 15:55:17.014079: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/apple-icon.png
+INFO:__main__: - 2024-04-24 15:55:17.014153: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/browserconfig.xml
+INFO:__main__: - 2024-04-24 15:55:17.014226: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/dr-harris.jpg
+INFO:__main__: - 2024-04-24 15:55:17.014300: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/favicon-16x16.png
+INFO:__main__: - 2024-04-24 15:55:17.014374: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/favicon-32x32.png
+INFO:__main__: - 2024-04-24 15:55:17.014535: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/favicon-96x96.png
+INFO:__main__: - 2024-04-24 15:55:17.014701: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/favicon.ico
+INFO:__main__: - 2024-04-24 15:55:17.014802: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-body-patient.jpg
+INFO:__main__: - 2024-04-24 15:55:17.014887: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-care-credit.png
+INFO:__main__: - 2024-04-24 15:55:17.014966: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-consultaion.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015045: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-consultation.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015122: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-doctor.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015197: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-featured.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015270: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-footer.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015345: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-hero.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015418: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-institute.png
+INFO:__main__: - 2024-04-24 15:55:17.015492: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-logo.png
+INFO:__main__: - 2024-04-24 15:55:17.015577: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-next.png
+INFO:__main__: - 2024-04-24 15:55:17.015652: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-prev.png
+INFO:__main__: - 2024-04-24 15:55:17.015721: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-skin-patient.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015903: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-subpage-hero.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015947: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/img-temp-hero.jpg
+INFO:__main__: - 2024-04-24 15:55:17.015987: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/logo-studios.png
+INFO:__main__: - 2024-04-24 15:55:17.016028: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/manifest.json
+INFO:__main__: - 2024-04-24 15:55:17.016068: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/ms-icon-144x144.png
+INFO:__main__: - 2024-04-24 15:55:17.016109: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/ms-icon-150x150.png
+INFO:__main__: - 2024-04-24 15:55:17.016146: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/ms-icon-310x310.png
+INFO:__main__: - 2024-04-24 15:55:17.016187: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/ms-icon-70x70.png
+INFO:__main__: - 2024-04-24 15:55:17.016226: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/pss-logo.png
+INFO:__main__: - 2024-04-24 15:55:17.016264: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/realself-logo-color-sm.png
+INFO:__main__: - 2024-04-24 15:55:17.016301: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/realself.png
+INFO:__main__: - 2024-04-24 15:55:17.016341: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/right-arrow.jpg
+INFO:__main__: - 2024-04-24 15:55:17.016379: file searched - /public_html/wp-content/themes/pss-theme/_dist/img/volux.jpg
+INFO:__main__: - 2024-04-24 15:55:17.439947: file searched - /public_html/wp-content/themes/pss-theme/_dist/js/scripts.js
+INFO:__main__: - 2024-04-24 15:55:17.994725: file searched - /public_html/wp-content/themes/pss-theme/_dist/js/scripts.min.js
+INFO:__main__: - 2024-04-24 15:55:18.903301: file searched - /public_html/wp-content/themes/pss-theme/_gallery/gallery.php
+INFO:__main__: - 2024-04-24 15:55:19.685937: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_css/gallery.css
+INFO:__main__: - 2024-04-24 15:55:20.467004: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_img/loading.gif
+INFO:__main__: - 2024-04-24 15:55:20.467485: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_img/spacer-horizontal.gif
+INFO:__main__: - 2024-04-24 15:55:20.467676: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_img/spacer-square.gif
+INFO:__main__: - 2024-04-24 15:55:20.467792: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_img/spacer-vertical.gif
+INFO:__main__: - 2024-04-24 15:55:20.467885: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_img/spacer.gif
+INFO:__main__: - 2024-04-24 15:55:20.892305: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_inc/carousel-gallery.php
+INFO:__main__: - 2024-04-24 15:55:21.251789: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_inc/loop-same-tax.php
+INFO:__main__: - 2024-04-24 15:55:21.614334: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_inc/post-types.php
+INFO:__main__: - 2024-04-24 15:55:21.975728: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_inc/wp-category-list.php
+INFO:__main__: - 2024-04-24 15:55:22.338014: file searched - /public_html/wp-content/themes/pss-theme/_gallery/_inc/wp-category-walker.php
+INFO:__main__: - 2024-04-24 15:55:23.122020: file searched - /public_html/wp-content/themes/pss-theme/_gallery/css/gallery.css
+INFO:__main__: - 2024-04-24 15:55:23.907773: file searched - /public_html/wp-content/themes/pss-theme/_gallery/img/loading.gif
+INFO:__main__: - 2024-04-24 15:55:23.908148: file searched - /public_html/wp-content/themes/pss-theme/_gallery/img/spacer-horizontal.gif
+INFO:__main__: - 2024-04-24 15:55:23.908286: file searched - /public_html/wp-content/themes/pss-theme/_gallery/img/spacer-square.gif
+INFO:__main__: - 2024-04-24 15:55:23.908509: file searched - /public_html/wp-content/themes/pss-theme/_gallery/img/spacer-vertical.gif
+INFO:__main__: - 2024-04-24 15:55:23.908667: file searched - /public_html/wp-content/themes/pss-theme/_gallery/img/spacer.gif
+INFO:__main__: - 2024-04-24 15:55:24.330970: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/carousel-gallery.php
+INFO:__main__: - 2024-04-24 15:55:24.690848: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/display-gallery.php
+INFO:__main__: - 2024-04-24 15:55:25.048969: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/display-thumbnails.php
+INFO:__main__: - 2024-04-24 15:55:25.408784: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/loop-same-tax.php
+INFO:__main__: - 2024-04-24 15:55:25.770484: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/post-types.php
+INFO:__main__: - 2024-04-24 15:55:26.131179: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/wp-category-list.php
+INFO:__main__: - 2024-04-24 15:55:26.490627: file searched - /public_html/wp-content/themes/pss-theme/_gallery/inc/wp-category-walker.php
+INFO:__main__: - 2024-04-24 15:55:27.268629: file searched - /public_html/wp-content/themes/pss-theme/_gallery/js/gallery.js
+INFO:__main__: - 2024-04-24 15:55:27.628475: file searched - /public_html/wp-content/themes/pss-theme/_gallery/js/jquery.lazyload.min.js
+INFO:__main__: - 2024-04-24 15:55:28.409015: file searched - /public_html/wp-content/themes/pss-theme/_inc/accordion.php
+INFO:__main__: - 2024-04-24 15:55:28.768502: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:28.768936: file searched - /public_html/wp-content/themes/pss-theme/_inc/carousel-patient.php
+INFO:__main__: - 2024-04-24 15:55:29.128439: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:29.128847: file searched - /public_html/wp-content/themes/pss-theme/_inc/carousel.php
+INFO:__main__: - 2024-04-24 15:55:29.486993: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:29.487259: file searched - /public_html/wp-content/themes/pss-theme/_inc/contact-form.php
+INFO:__main__: - 2024-04-24 15:55:29.846113: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-blocks.php
+INFO:__main__: - 2024-04-24 15:55:30.206220: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-contact.php
+INFO:__main__: - 2024-04-24 15:55:30.565326: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-disclaimer.php
+INFO:__main__: - 2024-04-24 15:55:30.924685: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-featured-badges.php
+INFO:__main__: - 2024-04-24 15:55:31.283469: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-featured.php
+INFO:__main__: - 2024-04-24 15:55:31.642608: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:31.643029: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-intro.php
+INFO:__main__: - 2024-04-24 15:55:32.002091: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:32.002643: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-social.php
+INFO:__main__: - 2024-04-24 15:55:32.360605: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:32.361061: file searched - /public_html/wp-content/themes/pss-theme/_inc/content-title.php
+INFO:__main__: - 2024-04-24 15:55:32.718643: file searched - /public_html/wp-content/themes/pss-theme/_inc/front-carousel.php
+INFO:__main__: - 2024-04-24 15:55:33.078245: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:33.079016: file searched - /public_html/wp-content/themes/pss-theme/_inc/home-seminars.php
+INFO:__main__: - 2024-04-24 15:55:33.436655: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:33.437303: file searched - /public_html/wp-content/themes/pss-theme/_inc/homepage-hero.php
+INFO:__main__: - 2024-04-24 15:55:33.795245: file searched - /public_html/wp-content/themes/pss-theme/_inc/info.php
+INFO:__main__: - 2024-04-24 15:55:34.155564: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:34.156130: file searched - /public_html/wp-content/themes/pss-theme/_inc/mobile-detect.php
+INFO:__main__: - 2024-04-24 15:55:34.642778: file searched - /public_html/wp-content/themes/pss-theme/_inc/pager.php
+INFO:__main__: - 2024-04-24 15:55:35.003365: file searched - /public_html/wp-content/themes/pss-theme/_inc/patient-info.php
+INFO:__main__: - 2024-04-24 15:55:35.363158: file searched - /public_html/wp-content/themes/pss-theme/_inc/post-types.php
+INFO:__main__: - 2024-04-24 15:55:35.721151: file searched - /public_html/wp-content/themes/pss-theme/_inc/search-lists.php
+INFO:__main__: - 2024-04-24 15:55:36.082104: file searched - /public_html/wp-content/themes/pss-theme/_inc/shortcodes.php
+INFO:__main__: - 2024-04-24 15:55:36.441169: file searched - /public_html/wp-content/themes/pss-theme/_inc/sidebar-image.php
+INFO:__main__: - 2024-04-24 15:55:36.800593: file searched - /public_html/wp-content/themes/pss-theme/_inc/simple-carousel.php
+INFO:__main__: - 2024-04-24 15:55:37.160810: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:37.161284: file searched - /public_html/wp-content/themes/pss-theme/_inc/social-links.php
+INFO:__main__: - 2024-04-24 15:55:37.519106: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:37.519622: file searched - /public_html/wp-content/themes/pss-theme/_inc/subpage-hero.php
+INFO:__main__: - 2024-04-24 15:55:37.880155: file searched - /public_html/wp-content/themes/pss-theme/_inc/subpage-info.php
+INFO:__main__: - 2024-04-24 15:55:38.238810: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:38.239118: file searched - /public_html/wp-content/themes/pss-theme/_inc/tabs.php
+INFO:__main__: - 2024-04-24 15:55:38.598168: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:38.598712: file searched - /public_html/wp-content/themes/pss-theme/_inc/wp_bootstrap_navwalker.php
+INFO:__main__: - 2024-04-24 15:55:38.957737: file searched - /public_html/wp-content/themes/pss-theme/_inc/wp_navwalker.php
+INFO:__main__: - 2024-04-24 15:55:39.741551: file searched - /public_html/wp-content/themes/pss-theme/_inc/_blocks/accordion.php
+INFO:__main__: - 2024-04-24 15:55:40.101984: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:40.102537: file searched - /public_html/wp-content/themes/pss-theme/_inc/_blocks/basic.php
+INFO:__main__: - 2024-04-24 15:55:40.460886: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:40.461388: file searched - /public_html/wp-content/themes/pss-theme/_inc/_blocks/jumbotron.php
+INFO:__main__: - 2024-04-24 15:55:40.819884: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:40.820441: file searched - /public_html/wp-content/themes/pss-theme/_inc/_blocks/video.php
+INFO:__main__: - 2024-04-24 15:55:41.180350: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:41.604612: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/blocks.php
+INFO:__main__: - 2024-04-24 15:55:41.966103: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/index.php
+INFO:__main__: - 2024-04-24 15:55:43.171072: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/accordion/accordion.php
+INFO:__main__: - 2024-04-24 15:55:43.956197: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/banner/banner.php
+INFO:__main__: - 2024-04-24 15:55:44.736997: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/basic/basic.php
+INFO:__main__: - 2024-04-24 15:55:45.097785: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:45.522340: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/carousel/carousel.php
+INFO:__main__: - 2024-04-24 15:55:46.304237: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/columns/columns.php
+INFO:__main__: - 2024-04-24 15:55:47.085576: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/faqs/faqs.php
+INFO:__main__: - 2024-04-24 15:55:47.868426: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/feature/feature.php
+INFO:__main__: - 2024-04-24 15:55:48.226501: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:48.648801: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-full/hero-full.php
+INFO:__main__: - 2024-04-24 15:55:49.430754: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-image/hero-image.php
+INFO:__main__: - 2024-04-24 15:55:49.790190: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:50.210863: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-slider/hero-slider.php
+INFO:__main__: - 2024-04-24 15:55:50.569530: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:50.990141: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/item/item.php
+INFO:__main__: - 2024-04-24 15:55:51.349729: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:51.770200: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/overlay/overlay.php
+INFO:__main__: - 2024-04-24 15:55:52.127843: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:52.549614: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/procedure-list/procedure-list.php
+INFO:__main__: - 2024-04-24 15:55:53.328957: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/resources/resources.php
+INFO:__main__: - 2024-04-24 15:55:54.110150: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/simple-carousel/simple-carousel.php
+INFO:__main__: - 2024-04-24 15:55:54.892515: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/tabs/tabs.php
+INFO:__main__: - 2024-04-24 15:55:55.678309: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/video/video.php
+INFO:__main__: - 2024-04-24 15:55:56.037460: term found in the above file ^^^^^^^^^
+INFO:__main__: - 2024-04-24 15:55:56.882975: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/config.codekit3
+INFO:__main__: - 2024-04-24 15:55:56.883334: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/editor.css
+INFO:__main__: - 2024-04-24 15:55:57.243407: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/global-min.css
+INFO:__main__: - 2024-04-24 15:55:57.797333: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/global-min.css.map
+INFO:__main__: - 2024-04-24 15:55:57.797692: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/global.css
+INFO:__main__: - 2024-04-24 15:55:58.346269: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/global.css.map
+INFO:__main__: - 2024-04-24 15:55:58.346703: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/theme-min.css
+INFO:__main__: - 2024-04-24 15:55:58.705522: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/theme.css
+INFO:__main__: - 2024-04-24 15:55:59.488497: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/_bootstrap-submenu.scss
+INFO:__main__: - 2024-04-24 15:55:59.488869: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/_bootstrap.scss
+INFO:__main__: - 2024-04-24 15:55:59.489029: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/_gravity-forms.scss
+INFO:__main__: - 2024-04-24 15:55:59.489129: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/_mixins.scss
+INFO:__main__: - 2024-04-24 15:55:59.489213: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/_offcanvas.scss
+INFO:__main__: - 2024-04-24 15:55:59.489292: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/config.codekit
+INFO:__main__: - 2024-04-24 15:55:59.489368: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/config.codekit3
+INFO:__main__: - 2024-04-24 15:55:59.489447: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/editor.scss
+INFO:__main__: - 2024-04-24 15:55:59.489522: file searched - /public_html/wp-content/themes/pss-theme/_src/_css/_scss/global.scss
+INFO:__main__: - 2024-04-24 15:55:59.912756: file searched - /public_html/wp-content/themes/pss-theme/_src/_fonts/glyphicons-halflings-regular.eot
+INFO:__main__: - 2024-04-24 15:55:59.913073: file searched - /public_html/wp-content/themes/pss-theme/_src/_fonts/glyphicons-halflings-regular.svg
+INFO:__main__: - 2024-04-24 15:55:59.913166: file searched - /public_html/wp-content/themes/pss-theme/_src/_fonts/glyphicons-halflings-regular.ttf
+INFO:__main__: - 2024-04-24 15:55:59.913218: file searched - /public_html/wp-content/themes/pss-theme/_src/_fonts/glyphicons-halflings-regular.woff
+INFO:__main__: - 2024-04-24 15:56:00.336205: file searched - /public_html/wp-content/themes/pss-theme/_src/_img/apple-touch-icon-ipad-retina.png
+INFO:__main__: - 2024-04-24 15:56:00.336580: file searched - /public_html/wp-content/themes/pss-theme/_src/_img/apple-touch-icon-ipad.png
+INFO:__main__: - 2024-04-24 15:56:00.336802: file searched - /public_html/wp-content/themes/pss-theme/_src/_img/apple-touch-icon-iphone-retina.png
+INFO:__main__: - 2024-04-24 15:56:00.336979: file searched - /public_html/wp-content/themes/pss-theme/_src/_img/apple-touch-icon.png
+INFO:__main__: - 2024-04-24 15:56:00.337094: file searched - /public_html/wp-content/themes/pss-theme/_src/_img/favicon.ico
+INFO:__main__: - 2024-04-24 15:56:00.337283: file searched - /public_html/wp-content/themes/pss-theme/_src/_img/logo-studios.png
+INFO:__main__: - 2024-04-24 15:56:00.762426: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/bootstrap-submenu-smart.js
+INFO:__main__: - 2024-04-24 15:56:01.122405: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/bootstrap-submenu.js
+INFO:__main__: - 2024-04-24 15:56:01.543684: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/bootstrap.js
+INFO:__main__: - 2024-04-24 15:56:01.967665: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/config.codekit
+INFO:__main__: - 2024-04-24 15:56:01.968067: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/config.codekit3
+INFO:__main__: - 2024-04-24 15:56:01.968258: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/jquery-scrolltofixed-min.js
+INFO:__main__: - 2024-04-24 15:56:02.329636: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/jquery.lazyload.min.js
+INFO:__main__: - 2024-04-24 15:56:02.688340: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/jquery.mobile.custom.min.js
+INFO:__main__: - 2024-04-24 15:56:03.049849: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/matchHeight.js
+INFO:__main__: - 2024-04-24 15:56:03.408662: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/script-min.js
+INFO:__main__: - 2024-04-24 15:56:03.890322: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/script.js
+INFO:__main__: - 2024-04-24 15:56:04.248304: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/theme-customizer.js
+INFO:__main__: - 2024-04-24 15:56:04.609530: file searched - /public_html/wp-content/themes/pss-theme/_src/_js/theme.js
+INFO:__main__: - 2024-04-24 15:56:05.391136: file searched - /public_html/wp-content/themes/pss-theme/_src/fonts/.gitkeep
+INFO:__main__: - 2024-04-24 15:56:05.815822: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-144x144.png
+INFO:__main__: - 2024-04-24 15:56:05.816213: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-192x192.png
+INFO:__main__: - 2024-04-24 15:56:05.816365: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-36x36.png
+INFO:__main__: - 2024-04-24 15:56:05.816475: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-48x48.png
+INFO:__main__: - 2024-04-24 15:56:05.816568: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-72x72.png
+INFO:__main__: - 2024-04-24 15:56:05.816654: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-96x96.png
+INFO:__main__: - 2024-04-24 15:56:05.816873: file searched - /public_html/wp-content/themes/pss-theme/_src/img/angle-down.svg
+INFO:__main__: - 2024-04-24 15:56:05.816996: file searched - /public_html/wp-content/themes/pss-theme/_src/img/angle-right.svg
+INFO:__main__: - 2024-04-24 15:56:05.817200: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-114x114.png
+INFO:__main__: - 2024-04-24 15:56:05.817507: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-120x120.png
+INFO:__main__: - 2024-04-24 15:56:05.817609: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-144x144.png
+INFO:__main__: - 2024-04-24 15:56:05.817692: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-152x152.png
+INFO:__main__: - 2024-04-24 15:56:05.817776: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-180x180.png
+INFO:__main__: - 2024-04-24 15:56:05.817862: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-57x57.png
+INFO:__main__: - 2024-04-24 15:56:05.817942: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-60x60.png
+INFO:__main__: - 2024-04-24 15:56:05.818019: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-72x72.png
+INFO:__main__: - 2024-04-24 15:56:05.818098: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-76x76.png
+INFO:__main__: - 2024-04-24 15:56:05.818174: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-precomposed.png
+INFO:__main__: - 2024-04-24 15:56:05.818250: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon.png
+INFO:__main__: - 2024-04-24 15:56:05.818330: file searched - /public_html/wp-content/themes/pss-theme/_src/img/browserconfig.xml
+INFO:__main__: - 2024-04-24 15:56:05.818406: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon-16x16.png
+INFO:__main__: - 2024-04-24 15:56:05.818480: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon-32x32.png
+INFO:__main__: - 2024-04-24 15:56:05.818595: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon-96x96.png
+INFO:__main__: - 2024-04-24 15:56:05.818666: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon.ico
+INFO:__main__: - 2024-04-24 15:56:05.818738: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-body-patient.jpg
+INFO:__main__: - 2024-04-24 15:56:05.818812: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-care-credit.png
+INFO:__main__: - 2024-04-24 15:56:05.819131: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-consultation.jpg
+INFO:__main__: - 2024-04-24 15:56:05.819409: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-doctor.jpg
+INFO:__main__: - 2024-04-24 15:56:05.819525: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-featured.jpg
+INFO:__main__: - 2024-04-24 15:56:05.819831: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-footer.jpg
+INFO:__main__: - 2024-04-24 15:56:05.819931: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-hero.jpg
+INFO:__main__: - 2024-04-24 15:56:05.820021: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-institute.png
+INFO:__main__: - 2024-04-24 15:56:05.820156: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-logo.png
+INFO:__main__: - 2024-04-24 15:56:05.820256: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-next.png
+INFO:__main__: - 2024-04-24 15:56:05.820336: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-prev.png
+INFO:__main__: - 2024-04-24 15:56:05.820475: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-skin-patient.jpg
+INFO:__main__: - 2024-04-24 15:56:05.820589: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-subpage-hero.jpg
+INFO:__main__: - 2024-04-24 15:56:05.820819: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-temp-hero.jpg
+INFO:__main__: - 2024-04-24 15:56:05.820940: file searched - /public_html/wp-content/themes/pss-theme/_src/img/logo-studios.png
+INFO:__main__: - 2024-04-24 15:56:05.821019: file searched - /public_html/wp-content/themes/pss-theme/_src/img/manifest.json
+INFO:__main__: - 2024-04-24 15:56:05.821084: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-144x144.png
+INFO:__main__: - 2024-04-24 15:56:05.821143: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-150x150.png
+INFO:__main__: - 2024-04-24 15:56:05.821201: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-310x310.png
+INFO:__main__: - 2024-04-24 15:56:05.821257: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-70x70.png
+INFO:__main__: - 2024-04-24 15:56:05.821309: file searched - /public_html/wp-content/themes/pss-theme/_src/img/right-arrow.jpg
+INFO:__main__: - 2024-04-24 15:56:06.243781: file searched - /public_html/wp-content/themes/pss-theme/_src/js/accordion.js
+INFO:__main__: - 2024-04-24 15:56:06.602776: file searched - /public_html/wp-content/themes/pss-theme/_src/js/blazy.js
+INFO:__main__: - 2024-04-24 15:56:06.963157: file searched - /public_html/wp-content/themes/pss-theme/_src/js/doubletaptogo.js
+INFO:__main__: - 2024-04-24 15:56:07.321899: file searched - /public_html/wp-content/themes/pss-theme/_src/js/jquery-scrolltofixed.js
+INFO:__main__: - 2024-04-24 15:56:07.742581: file searched - /public_html/wp-content/themes/pss-theme/_src/js/jquery.matchHeight.js
+INFO:__main__: - 2024-04-24 15:56:08.103415: file searched - /public_html/wp-content/themes/pss-theme/_src/js/matchHeight.js
+INFO:__main__: - 2024-04-24 15:56:08.462139: file searched - /public_html/wp-content/themes/pss-theme/_src/js/owl.carousel.js
+INFO:__main__: - 2024-04-24 15:56:08.946869: file searched - /public_html/wp-content/themes/pss-theme/_src/js/scripts.js
+INFO:__main__: - 2024-04-24 15:56:09.305898: file searched - /public_html/wp-content/themes/pss-theme/_src/js/scrollFixed.js
+INFO:__main__: - 2024-04-24 15:56:09.666699: file searched - /public_html/wp-content/themes/pss-theme/_src/js/simple-lightbox.js
+INFO:__main__: - 2024-04-24 15:56:10.028625: file searched - /public_html/wp-content/themes/pss-theme/_src/js/tabs.js
+INFO:__main__: - 2024-04-24 15:56:10.809697: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/config.codekit3
+INFO:__main__: - 2024-04-24 15:56:10.810143: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/editor.scss
+INFO:__main__: - 2024-04-24 15:56:10.810370: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global.scss
+INFO:__main__: - 2024-04-24 15:56:11.235579: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_b-forms.scss
+INFO:__main__: - 2024-04-24 15:56:11.235869: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_b-page.scss
+INFO:__main__: - 2024-04-24 15:56:11.235992: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_b-type.scss
+INFO:__main__: - 2024-04-24 15:56:11.236050: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-about.scss
+INFO:__main__: - 2024-04-24 15:56:11.236100: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-accordion.scss
+INFO:__main__: - 2024-04-24 15:56:11.236143: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-animate.scss
+INFO:__main__: - 2024-04-24 15:56:11.236256: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-background.scss
+INFO:__main__: - 2024-04-24 15:56:11.236317: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-banner.scss
+INFO:__main__: - 2024-04-24 15:56:11.236372: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-blazy.scss
+INFO:__main__: - 2024-04-24 15:56:11.236417: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-block.scss
+INFO:__main__: - 2024-04-24 15:56:11.236460: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-breadcrumb.scss
+INFO:__main__: - 2024-04-24 15:56:11.236498: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-buttons.scss
+INFO:__main__: - 2024-04-24 15:56:11.236536: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-carousel.scss
+INFO:__main__: - 2024-04-24 15:56:11.236572: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-columns.scss
+INFO:__main__: - 2024-04-24 15:56:11.236609: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-consultation.scss
+INFO:__main__: - 2024-04-24 15:56:11.236649: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-disclaimer.scss
+INFO:__main__: - 2024-04-24 15:56:11.236690: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-embed.scss
+INFO:__main__: - 2024-04-24 15:56:11.236726: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-faqs.scss
+INFO:__main__: - 2024-04-24 15:56:11.236764: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-featured.scss
+INFO:__main__: - 2024-04-24 15:56:11.236804: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-footer.scss
+INFO:__main__: - 2024-04-24 15:56:11.236840: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-header.scss
+INFO:__main__: - 2024-04-24 15:56:11.236879: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-hero-full.scss
+INFO:__main__: - 2024-04-24 15:56:11.236923: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-hero.scss
+INFO:__main__: - 2024-04-24 15:56:11.236961: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-info.scss
+INFO:__main__: - 2024-04-24 15:56:11.237033: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-lead.scss
+INFO:__main__: - 2024-04-24 15:56:11.237088: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-list.scss
+INFO:__main__: - 2024-04-24 15:56:11.237173: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-logo.scss
+INFO:__main__: - 2024-04-24 15:56:11.237219: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-nav.scss
+INFO:__main__: - 2024-04-24 15:56:11.237257: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-offcanvas.scss
+INFO:__main__: - 2024-04-24 15:56:11.237297: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-overlay.scss
+INFO:__main__: - 2024-04-24 15:56:11.237336: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-owl-carousel.scss
+INFO:__main__: - 2024-04-24 15:56:11.237372: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-owl.carousel.scss
+INFO:__main__: - 2024-04-24 15:56:11.237421: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-pager.scss
+INFO:__main__: - 2024-04-24 15:56:11.237466: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-pagination.scss
+INFO:__main__: - 2024-04-24 15:56:11.237504: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-patient-info.scss
+INFO:__main__: - 2024-04-24 15:56:11.237545: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-pre.scss
+INFO:__main__: - 2024-04-24 15:56:11.237581: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-procedure-list.scss
+INFO:__main__: - 2024-04-24 15:56:11.237620: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-resources.scss
+INFO:__main__: - 2024-04-24 15:56:11.237660: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-seminars.scss
+INFO:__main__: - 2024-04-24 15:56:11.237696: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-sidebar.scss
+INFO:__main__: - 2024-04-24 15:56:11.237736: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-simple-lightbox.scss
+INFO:__main__: - 2024-04-24 15:56:11.237774: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-social.scss
+INFO:__main__: - 2024-04-24 15:56:11.237812: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-tables.scss
+INFO:__main__: - 2024-04-24 15:56:11.237852: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-tabs.scss
+INFO:__main__: - 2024-04-24 15:56:11.237891: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-theme.scss
+INFO:__main__: - 2024-04-24 15:56:11.237927: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-title.scss
+INFO:__main__: - 2024-04-24 15:56:11.237962: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-widget.scss
+INFO:__main__: - 2024-04-24 15:56:11.238003: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_g-border-box.scss
+INFO:__main__: - 2024-04-24 15:56:11.238039: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_g-normalize.scss
+INFO:__main__: - 2024-04-24 15:56:11.238077: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_o-container.scss
+INFO:__main__: - 2024-04-24 15:56:11.238117: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_o-content.scss
+INFO:__main__: - 2024-04-24 15:56:11.238231: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_o-grid.scss
+INFO:__main__: - 2024-04-24 15:56:11.238294: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_o-layout.scss
+INFO:__main__: - 2024-04-24 15:56:11.238346: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_s-variables.scss
+INFO:__main__: - 2024-04-24 15:56:11.238392: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_t-functions.scss
+INFO:__main__: - 2024-04-24 15:56:11.238432: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_t-mixins.scss
+INFO:__main__: - 2024-04-24 15:56:11.238495: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-block.scss
+INFO:__main__: - 2024-04-24 15:56:11.238534: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-img.scss
+INFO:__main__: - 2024-04-24 15:56:11.238574: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-procedures.scss
+INFO:__main__: - 2024-04-24 15:56:11.238672: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-reset.scss
+INFO:__main__: - 2024-04-24 15:56:11.238716: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-text.scss
+INFO:__main__: - 2024-04-24 15:56:11.238754: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-visibility.scss
+INFO:__main__: - 2024-04-24 15:56:11.661591: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-contact.php
+INFO:__main__: - 2024-04-24 15:56:12.021492: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-gallery.php
+INFO:__main__: - 2024-04-24 15:56:12.379898: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-procedures.php
+INFO:__main__: - 2024-04-24 15:56:12.739156: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-sitemap.php
+INFO:__main__: - 2024-04-24 15:56:13.098549: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-video-gallery.php
+INFO:__main__: - 2024-04-24 15:56:13.882221: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55e3da10e2377.json
+INFO:__main__: - 2024-04-24 15:56:13.882608: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55e4ab8f152ea.json
+INFO:__main__: - 2024-04-24 15:56:13.882750: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55f2f9f2bd6a8.json
+INFO:__main__: - 2024-04-24 15:56:13.882850: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55f2fb47865b5.json
+INFO:__main__: - 2024-04-24 15:56:13.882932: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55f2fee3ed4f7.json
+INFO:__main__: - 2024-04-24 15:56:13.883006: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_591b31753ee6f.json
+INFO:__main__: - 2024-04-24 15:56:13.883083: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_591b34dfafb93.json
+INFO:__main__: - 2024-04-24 15:56:13.883158: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5b24245776d5a.json
+INFO:__main__: - 2024-04-24 15:56:13.883235: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5bb6747bcd172.json
+INFO:__main__: - 2024-04-24 15:56:13.883348: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30dbbac9bc8.json
+INFO:__main__: - 2024-04-24 15:56:13.883425: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30dbbac9bc9.json
+INFO:__main__: - 2024-04-24 15:56:13.883500: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f2377c6c6.json
+INFO:__main__: - 2024-04-24 15:56:13.883573: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f5dc4a6d4.json
+INFO:__main__: - 2024-04-24 15:56:13.883644: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f89f6e46b.json
+INFO:__main__: - 2024-04-24 15:56:13.883737: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f89f6e46p.json
+INFO:__main__: - 2024-04-24 15:56:13.883811: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d32058a40ba7.json
+INFO:__main__: - 2024-04-24 15:56:13.884043: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d3205df03692.json
+INFO:__main__: - 2024-04-24 15:56:13.884171: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d320613bea07.json
+INFO:__main__: - 2024-04-24 15:56:13.884293: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_601b16e679bc3.json
+INFO:__main__: - 2024-04-24 15:56:13.884384: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_63caf3bf5cab7.json
+INFO:__main__: - 2024-04-24 15:56:13.884459: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_63d049b4d4ef2.json
+INFO:__main__: - 2024-04-24 15:56:13.885564: found files - ['/public_html/wp-content/themes/pss-theme/header.php', '/public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/breast-aug-procedure-tab.php', '/public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/concern-tab.php', '/public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/coolsculpting-procedure-tab.php', '/public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/desire-tab.php', '/public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/procedure-tab.php', '/public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/skin-lesions-procedure-tab.php', '/public_html/wp-content/themes/pss-theme/_inc/accordion.php', '/public_html/wp-content/themes/pss-theme/_inc/carousel-patient.php', '/public_html/wp-content/themes/pss-theme/_inc/carousel.php', '/public_html/wp-content/themes/pss-theme/_inc/content-featured.php', '/public_html/wp-content/themes/pss-theme/_inc/content-intro.php', '/public_html/wp-content/themes/pss-theme/_inc/content-social.php', '/public_html/wp-content/themes/pss-theme/_inc/front-carousel.php', '/public_html/wp-content/themes/pss-theme/_inc/home-seminars.php', '/public_html/wp-content/themes/pss-theme/_inc/info.php', '/public_html/wp-content/themes/pss-theme/_inc/simple-carousel.php', '/public_html/wp-content/themes/pss-theme/_inc/social-links.php', '/public_html/wp-content/themes/pss-theme/_inc/subpage-info.php', '/public_html/wp-content/themes/pss-theme/_inc/tabs.php', '/public_html/wp-content/themes/pss-theme/_inc/_blocks/accordion.php', '/public_html/wp-content/themes/pss-theme/_inc/_blocks/basic.php', '/public_html/wp-content/themes/pss-theme/_inc/_blocks/jumbotron.php', '/public_html/wp-content/themes/pss-theme/_inc/_blocks/video.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/basic/basic.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/feature/feature.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-image/hero-image.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-slider/hero-slider.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/item/item.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/overlay/overlay.php', '/public_html/wp-content/themes/pss-theme/_inc/blocks/partials/video/video.php']
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=46026392): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=46029334): is_file, is_inode_meta_mod, is_modified
+DEBUG:fsevents:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/requirements.txt", inode=42292871, flags=10800, id=46030206): is_file, is_renamed
+DEBUG:fsevents:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/requirements.txt', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:fsevents:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
