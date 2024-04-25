@@ -45,6 +45,7 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
     logger.info(get_date() + 'term_search function - ' +  str({'FTP_HOST': FTP_HOST, 'FTP_USER': FTP_USER, 'FTP_PASS': FTP_PASS, 'THEME_FOLDER': THEME_FOLDER}))
 
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
+        ftp.getwelcome()
         for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/' + THEME_FOLDER):
             for name in filename:
                 dir = dirnames
