@@ -1428,3 +1428,20 @@ INFO: - 2024-04-24 16:32:07.464094: file searched - /public_html/wp-content/them
 INFO: - 2024-04-24 16:32:07.465635: found files - ['/public_html/wp-content/themes/pss-theme/header.php', '/public_html/wp-content/themes/pss-theme/_inc/accordion.php', '/public_html/wp-content/themes/pss-theme/_inc/carousel.php', '/public_html/wp-content/themes/pss-theme/_inc/content-list.php', '/public_html/wp-content/themes/pss-theme/_inc/content-social.php', '/public_html/wp-content/themes/pss-theme/_inc/simple-carousel.php', '/public_html/wp-content/themes/pss-theme/_inc/tabs.php']
 DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=46379663): is_file, is_inode_meta_mod, is_modified
 DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO: - 2024-04-24 17:09:19.989806: Starting Imports
+INFO: - 2024-04-24 17:09:20.000170: Imports Complete
+INFO: - 2024-04-24 17:09:20.021921: Initial State
+INFO: - 2024-04-24 17:09:20.021985: {'results': [], 'FTP_PASS': '', 'query_complete': False, 'THEME_FOLDER': '', 'FTP_HOST': '', 'FTP_USER': ''}
+INFO: - 2024-04-24 17:09:23.001481: Starting Imports
+INFO: - 2024-04-24 17:09:23.001645: Imports Complete
+INFO: - 2024-04-24 17:09:23.003291: Initial State
+INFO: - 2024-04-24 17:09:23.003469: {'results': [], 'FTP_PASS': '', 'query_complete': False, 'THEME_FOLDER': '', 'FTP_HOST': '', 'FTP_USER': ''}
+INFO: - 2024-04-24 17:09:39.192363: Starting Imports
+INFO: - 2024-04-24 17:09:39.192779: Imports Complete
+INFO: - 2024-04-24 17:09:39.194481: Initial State
+INFO: - 2024-04-24 17:09:39.194611: {'results': [], 'query_complete': False, 'THEME_FOLDER': '', 'FormSubmitter:my_form-Submit': True, 'FTP_USER': '', 'FTP_PASS': '', 'FTP_HOST': ''}
+INFO: - 2024-04-24 17:09:39.199963: term_search function - {'FTP_HOST': '92.204.128.116', 'FTP_USER': 'medispafresno', 'FTP_PASS': 'Jq_o?T+8gJp=', 'THEME_FOLDER': 'pss-theme'}
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=46422692): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=46432806): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
