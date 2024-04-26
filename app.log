@@ -2799,3 +2799,323 @@ INFO: - 2024-04-26 13:13:49.813983: file searched - /public_html/wp-content/them
 INFO: - 2024-04-26 13:13:50.209564: file searched - /public_html/wp-content/themes/pss-theme/_inc/post-types.php
 INFO: - 2024-04-26 13:13:50.605786: file searched - /public_html/wp-content/themes/pss-theme/_inc/search-lists.php
 INFO: - 2024-04-26 13:13:51.003435: file searched - /public_html/wp-content/themes/pss-theme/_inc/shortcodes.php
+INFO: - 2024-04-26 13:13:51.397866: file searched - /public_html/wp-content/themes/pss-theme/_inc/sidebar-image.php
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24/408276bf3b9dd8f3c299688454a26105a23cd0", inode=43014187, flags=110100, id=47615419): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24", inode=43014186, flags=20500, id=47615422): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24/tmp_obj_ys8GUG", inode=43014187, flags=111300, id=47615425): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f/a1e92e9984043e8c7eb5d8ad2d5661abe55de1", inode=43014191, flags=110100, id=47615437): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f", inode=43014190, flags=20500, id=47615440): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f/tmp_obj_ehLwFb", inode=43014191, flags=111300, id=47615443): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43014185, flags=11900, id=47615449): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43014185, flags=10800, id=47615450): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43013361, flags=10800, id=47615451): is_file, is_renamed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24/408276bf3b9dd8f3c299688454a26105a23cd0', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24/tmp_obj_ys8GUG', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24/tmp_obj_ys8GUG', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/24', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f/a1e92e9984043e8c7eb5d8ad2d5661abe55de1', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f/tmp_obj_ehLwFb', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f/tmp_obj_ehLwFb', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/5f', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43014185, flags=10800, id=47615450)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 13:13:51.791798: file searched - /public_html/wp-content/themes/pss-theme/_inc/simple-carousel.php
+INFO: - 2024-04-26 13:13:52.187648: file searched - /public_html/wp-content/themes/pss-theme/_inc/tabs.php
+INFO: - 2024-04-26 13:13:52.617904: file searched - /public_html/wp-content/themes/pss-theme/_inc/wp_navwalker.php
+INFO: - 2024-04-26 13:13:53.478018: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/blocks.php
+INFO: - 2024-04-26 13:13:53.876213: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/index.php
+INFO: - 2024-04-26 13:13:55.200379: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/accordion/accordion.php
+INFO: - 2024-04-26 13:13:56.061598: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/banner/banner.php
+INFO: - 2024-04-26 13:13:56.923489: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/carousel/carousel.php
+INFO: - 2024-04-26 13:13:57.783180: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/columns/columns.php
+INFO: - 2024-04-26 13:13:58.640954: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/cta/cta.php
+INFO: - 2024-04-26 13:13:59.500041: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/cta-secondary/cta-secondary.php
+INFO: - 2024-04-26 13:14:00.362663: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/faqs/faqs.php
+INFO: - 2024-04-26 13:14:01.221644: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/feature/feature.php
+INFO: - 2024-04-26 13:14:02.079760: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/gallery/gallery.php
+INFO: - 2024-04-26 13:14:02.939460: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-image/hero-image.php
+INFO: - 2024-04-26 13:14:03.798280: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/hero-slider/hero-slider.php
+INFO: - 2024-04-26 13:14:04.657630: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/info/info.php
+INFO: - 2024-04-26 13:14:05.516773: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/item/item.php
+INFO: - 2024-04-26 13:14:06.374981: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/procedure-list/procedure-list.php
+INFO: - 2024-04-26 13:14:07.234373: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/simple-carousel/simple-carousel.php
+INFO: - 2024-04-26 13:14:08.094232: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/slider/slider.php
+INFO: - 2024-04-26 13:14:08.952213: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/standard/standard.php
+INFO: - 2024-04-26 13:14:09.813228: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/standard-secondary/standard-secondary.php
+INFO: - 2024-04-26 13:14:10.671697: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/tabs/tabs.php
+INFO: - 2024-04-26 13:14:11.532605: file searched - /public_html/wp-content/themes/pss-theme/_inc/blocks/partials/testimonial/testimonial.php
+INFO: - 2024-04-26 13:14:12.844896: file searched - /public_html/wp-content/themes/pss-theme/_src/fonts/.gitkeep
+INFO: - 2024-04-26 13:14:13.312802: file searched - /public_html/wp-content/themes/pss-theme/_src/img/.gitignore
+INFO: - 2024-04-26 13:14:13.313446: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-144x144.png
+INFO: - 2024-04-26 13:14:13.313761: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-192x192.png
+INFO: - 2024-04-26 13:14:13.314522: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-36x36.png
+INFO: - 2024-04-26 13:14:13.315114: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-48x48.png
+INFO: - 2024-04-26 13:14:13.315546: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-72x72.png
+INFO: - 2024-04-26 13:14:13.315834: file searched - /public_html/wp-content/themes/pss-theme/_src/img/android-icon-96x96.png
+INFO: - 2024-04-26 13:14:13.316110: file searched - /public_html/wp-content/themes/pss-theme/_src/img/angle-down.svg
+INFO: - 2024-04-26 13:14:13.316519: file searched - /public_html/wp-content/themes/pss-theme/_src/img/angle-right.svg
+INFO: - 2024-04-26 13:14:13.316922: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-114x114.png
+INFO: - 2024-04-26 13:14:13.317310: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-120x120.png
+INFO: - 2024-04-26 13:14:13.317650: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-144x144.png
+INFO: - 2024-04-26 13:14:13.318020: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-152x152.png
+INFO: - 2024-04-26 13:14:13.318415: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-180x180.png
+INFO: - 2024-04-26 13:14:13.318723: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-57x57.png
+INFO: - 2024-04-26 13:14:13.319281: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-60x60.png
+INFO: - 2024-04-26 13:14:13.319697: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-72x72.png
+INFO: - 2024-04-26 13:14:13.319984: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-76x76.png
+INFO: - 2024-04-26 13:14:13.320260: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon-precomposed.png
+INFO: - 2024-04-26 13:14:13.320840: file searched - /public_html/wp-content/themes/pss-theme/_src/img/apple-icon.png
+INFO: - 2024-04-26 13:14:13.321211: file searched - /public_html/wp-content/themes/pss-theme/_src/img/browserconfig.xml
+INFO: - 2024-04-26 13:14:13.321538: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon-16x16.png
+INFO: - 2024-04-26 13:14:13.321884: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon-32x32.png
+INFO: - 2024-04-26 13:14:13.322178: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon-96x96.png
+INFO: - 2024-04-26 13:14:13.322443: file searched - /public_html/wp-content/themes/pss-theme/_src/img/favicon.ico
+INFO: - 2024-04-26 13:14:13.322711: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-disclaimer.png
+INFO: - 2024-04-26 13:14:13.322984: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-dr-1.jpg
+INFO: - 2024-04-26 13:14:13.323250: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-footer.jpg
+INFO: - 2024-04-26 13:14:13.323527: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-lobby.jpg
+INFO: - 2024-04-26 13:14:13.323822: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-lobby.png
+INFO: - 2024-04-26 13:14:13.324087: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-logo-old.png
+INFO: - 2024-04-26 13:14:13.324349: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-logo.png
+INFO: - 2024-04-26 13:14:13.324645: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-mark.png
+INFO: - 2024-04-26 13:14:13.324923: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-next.png
+INFO: - 2024-04-26 13:14:13.325200: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-office.jpg
+INFO: - 2024-04-26 13:14:13.325461: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-or.jpg
+INFO: - 2024-04-26 13:14:13.325739: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-overlay.png
+INFO: - 2024-04-26 13:14:13.326013: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-pattern.jpg
+INFO: - 2024-04-26 13:14:13.326286: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-prev.png
+INFO: - 2024-04-26 13:14:13.326578: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-quotes.png
+INFO: - 2024-04-26 13:14:13.326846: file searched - /public_html/wp-content/themes/pss-theme/_src/img/img-slider-1.jpg
+INFO: - 2024-04-26 13:14:13.327113: file searched - /public_html/wp-content/themes/pss-theme/_src/img/logo-studios.png
+INFO: - 2024-04-26 13:14:13.327364: file searched - /public_html/wp-content/themes/pss-theme/_src/img/manifest.json
+INFO: - 2024-04-26 13:14:13.327648: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-144x144.png
+INFO: - 2024-04-26 13:14:13.327903: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-150x150.png
+INFO: - 2024-04-26 13:14:13.328131: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-310x310.png
+INFO: - 2024-04-26 13:14:13.328364: file searched - /public_html/wp-content/themes/pss-theme/_src/img/ms-icon-70x70.png
+INFO: - 2024-04-26 13:14:13.792637: file searched - /public_html/wp-content/themes/pss-theme/_src/js/accordion.js
+INFO: - 2024-04-26 13:14:14.190225: file searched - /public_html/wp-content/themes/pss-theme/_src/js/blazy.js
+INFO: - 2024-04-26 13:14:14.586545: file searched - /public_html/wp-content/themes/pss-theme/_src/js/doubletaptogo.js
+INFO: - 2024-04-26 13:14:14.982512: file searched - /public_html/wp-content/themes/pss-theme/_src/js/jquery-scrolltofixed.js
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97/bdf7d1e7c7c94b6f7524d2eceabeca528a73d2", inode=43014218, flags=110100, id=47615906): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97", inode=42830261, flags=20400, id=47615909): is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97/tmp_obj_9uNL3L", inode=43014218, flags=111300, id=47615912): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43014217, flags=11900, id=47615918): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43014217, flags=10800, id=47615919): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43014185, flags=10800, id=47615920): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG", inode=42830216, flags=11400, id=47615926): is_file, is_inode_meta_mod, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5/d018806361177c66191c0aca15615724519fea", inode=43014222, flags=110100, id=47615938): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5", inode=43014221, flags=20500, id=47615941): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5/tmp_obj_pCZDP6", inode=43014222, flags=111300, id=47615944): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD", inode=42276686, flags=11000, id=47615956): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main", inode=42276688, flags=11000, id=47615959): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock", inode=43014226, flags=11900, id=47615962): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43014226, flags=10800, id=47615963): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43013371, flags=10800, id=47615964): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock", inode=43014225, flags=10300, id=47615967): is_coalesced, is_created, is_file, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock", inode=43014227, flags=10300, id=47615973): is_coalesced, is_created, is_file, is_removed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97/bdf7d1e7c7c94b6f7524d2eceabeca528a73d2', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97/tmp_obj_9uNL3L', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97/tmp_obj_9uNL3L', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/97', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43014217, flags=10800, id=47615919)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5/d018806361177c66191c0aca15615724519fea', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5/tmp_obj_pCZDP6', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5/tmp_obj_pCZDP6', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/c5', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43014226, flags=10800, id=47615963)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 13:14:15.442246: file searched - /public_html/wp-content/themes/pss-theme/_src/js/jquery.matchHeight.js
+INFO: - 2024-04-26 13:14:15.837683: file searched - /public_html/wp-content/themes/pss-theme/_src/js/owl.carousel.js
+INFO: - 2024-04-26 13:14:16.370639: file searched - /public_html/wp-content/themes/pss-theme/_src/js/scripts.js
+INFO: - 2024-04-26 13:14:16.767424: file searched - /public_html/wp-content/themes/pss-theme/_src/js/tabs.js
+INFO: - 2024-04-26 13:14:17.631539: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/config.codekit3
+INFO: - 2024-04-26 13:14:17.632262: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/editor.scss
+INFO: - 2024-04-26 13:14:17.633089: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global.scss
+INFO: - 2024-04-26 13:14:18.097558: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_b-forms.scss
+INFO: - 2024-04-26 13:14:18.098205: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_b-page.scss
+INFO: - 2024-04-26 13:14:18.098890: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_b-type.scss
+INFO: - 2024-04-26 13:14:18.099365: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-accordion.scss
+INFO: - 2024-04-26 13:14:18.100013: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-animate.scss
+INFO: - 2024-04-26 13:14:18.100715: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-background.scss
+INFO: - 2024-04-26 13:14:18.101180: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-banner.scss
+INFO: - 2024-04-26 13:14:18.101699: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-blazy.scss
+INFO: - 2024-04-26 13:14:18.102249: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-block.scss
+INFO: - 2024-04-26 13:14:18.102681: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-blog.scss
+INFO: - 2024-04-26 13:14:18.103147: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-breadcrumb.scss
+INFO: - 2024-04-26 13:14:18.103675: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-buttons.scss
+INFO: - 2024-04-26 13:14:18.104010: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-carousel.scss
+INFO: - 2024-04-26 13:14:18.104417: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-columns.scss
+INFO: - 2024-04-26 13:14:18.104770: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-contact.scss
+INFO: - 2024-04-26 13:14:18.105130: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-embed.scss
+INFO: - 2024-04-26 13:14:18.105548: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-faqs.scss
+INFO: - 2024-04-26 13:14:18.106047: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-feature.scss
+INFO: - 2024-04-26 13:14:18.106346: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-footer.scss
+INFO: - 2024-04-26 13:14:18.106753: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-header.scss
+INFO: - 2024-04-26 13:14:18.107008: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-hero.scss
+INFO: - 2024-04-26 13:14:18.107269: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-info.scss
+INFO: - 2024-04-26 13:14:18.107917: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-lead.scss
+INFO: - 2024-04-26 13:14:18.108602: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-list.scss
+INFO: - 2024-04-26 13:14:18.108929: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-logo.scss
+INFO: - 2024-04-26 13:14:18.109273: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-nav.scss
+INFO: - 2024-04-26 13:14:18.109801: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-offcanvas.scss
+INFO: - 2024-04-26 13:14:18.110201: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-owl-carousel.scss
+INFO: - 2024-04-26 13:14:18.110556: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-pager.scss
+INFO: - 2024-04-26 13:14:18.110883: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-pagination.scss
+INFO: - 2024-04-26 13:14:18.111203: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-pre.scss
+INFO: - 2024-04-26 13:14:18.111594: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-procedure-list.scss
+INFO: - 2024-04-26 13:14:18.111998: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-reviews.scss
+INFO: - 2024-04-26 13:14:18.112344: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-sidebar.scss
+INFO: - 2024-04-26 13:14:18.112691: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-social.scss
+INFO: - 2024-04-26 13:14:18.113048: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-tables.scss
+INFO: - 2024-04-26 13:14:18.113383: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-tabs.scss
+INFO: - 2024-04-26 13:14:18.113705: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-title.scss
+INFO: - 2024-04-26 13:14:18.114040: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_c-widget.scss
+INFO: - 2024-04-26 13:14:18.114394: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_g-border-box.scss
+INFO: - 2024-04-26 13:14:18.114714: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_g-normalize.scss
+INFO: - 2024-04-26 13:14:18.115029: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_o-content.scss
+INFO: - 2024-04-26 13:14:18.115358: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_o-grid.scss
+INFO: - 2024-04-26 13:14:18.115663: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_s-variables.scss
+INFO: - 2024-04-26 13:14:18.115937: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_t-functions.scss
+INFO: - 2024-04-26 13:14:18.116205: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_t-mixins.scss
+INFO: - 2024-04-26 13:14:18.116480: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-block.scss
+INFO: - 2024-04-26 13:14:18.116810: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-img.scss
+INFO: - 2024-04-26 13:14:18.117082: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-reset.scss
+INFO: - 2024-04-26 13:14:18.117406: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-text.scss
+INFO: - 2024-04-26 13:14:18.117685: file searched - /public_html/wp-content/themes/pss-theme/_src/scss/global/_u-visibility.scss
+INFO: - 2024-04-26 13:14:18.579959: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-contact.php
+INFO: - 2024-04-26 13:14:18.976659: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-procedures.php
+INFO: - 2024-04-26 13:14:19.372898: file searched - /public_html/wp-content/themes/pss-theme/_templates/template-sitemap.php
+INFO: - 2024-04-26 13:14:20.227703: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55e3da10e2377.json
+INFO: - 2024-04-26 13:14:20.228685: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55e4ab8f152ea.json
+INFO: - 2024-04-26 13:14:20.229272: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55f2f9f2bd6a8.json
+INFO: - 2024-04-26 13:14:20.229957: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55f2fb47865b5.json
+INFO: - 2024-04-26 13:14:20.230646: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_55f2fee3ed4f7.json
+INFO: - 2024-04-26 13:14:20.231090: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5b24245776d5a.json
+INFO: - 2024-04-26 13:14:20.231443: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5bb6747bcd172.json
+INFO: - 2024-04-26 13:14:20.231980: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30dbbac9bc8.json
+INFO: - 2024-04-26 13:14:20.232469: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f2377c6c6.json
+INFO: - 2024-04-26 13:14:20.232830: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f5dc4a6d4.json
+INFO: - 2024-04-26 13:14:20.233163: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d30f89f6e46b.json
+INFO: - 2024-04-26 13:14:20.233706: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d32058a40ba7.json
+INFO: - 2024-04-26 13:14:20.234339: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d3205df03692.json
+INFO: - 2024-04-26 13:14:20.234736: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_5d320613bea07.json
+INFO: - 2024-04-26 13:14:20.235143: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_601c752b49c7c.json
+INFO: - 2024-04-26 13:14:20.235576: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_601d8055690be.json
+INFO: - 2024-04-26 13:14:20.235998: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_601d830d3844e.json
+INFO: - 2024-04-26 13:14:20.236459: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_601d853777dfc.json
+INFO: - 2024-04-26 13:14:20.236821: file searched - /public_html/wp-content/themes/pss-theme/acf-json/group_6144c0d5b077b.json
+INFO: - 2024-04-26 13:14:20.237032: found files - []
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main", inode=42278662, flags=11000, id=47616177): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock", inode=43014240, flags=11900, id=47616180): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43014240, flags=10800, id=47616181): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43013385, flags=10800, id=47616182): is_file, is_renamed
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43014240, flags=10800, id=47616181)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=47623202): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO: - 2024-04-26 13:16:40.689253: Starting Imports
+INFO: - 2024-04-26 13:16:40.689438: Imports Complete
+INFO: - 2024-04-26 13:16:40.691184: Initial State
+INFO: - 2024-04-26 13:16:40.691314: {'FTP_PASS': '', 'THEME_FOLDER': '', 'FTP_HOST': '', 'query_complete': False, 'results': [], 'FTP_USER': ''}
+INFO: - 2024-04-26 13:17:01.375923: Starting Imports
+INFO: - 2024-04-26 13:17:01.376202: Imports Complete
+INFO: - 2024-04-26 13:17:01.378790: Initial State
+INFO: - 2024-04-26 13:17:01.379095: {'query_complete': False, 'results': [], 'FTP_USER': '', 'FTP_PASS': '', 'THEME_FOLDER': '', 'FTP_HOST': '', 'FormSubmitter:my_form-Submit': True}
+INFO: - 2024-04-26 13:17:01.383428: term_search function - {'FTP_HOST': '92.204.139.144', 'FTP_USER': 'mygynecomastiasu', 'FTP_PASS': '+#.OQ5Hj3jcL_h5t(x', 'THEME_FOLDER': 'pss-theme'}
+INFO: - 2024-04-26 13:17:04.090272: file searched - ./public_html/wp-content/themes/pss-theme/.bowerrc
+INFO: - 2024-04-26 13:17:04.091796: file searched - ./public_html/wp-content/themes/pss-theme/.editorconfig
+INFO: - 2024-04-26 13:17:04.092677: file searched - ./public_html/wp-content/themes/pss-theme/.gitignore
+INFO: - 2024-04-26 13:17:04.093759: file searched - ./public_html/wp-content/themes/pss-theme/404.php
+INFO: - 2024-04-26 13:17:04.789942: file searched - ./public_html/wp-content/themes/pss-theme/README.md
+INFO: - 2024-04-26 13:17:04.791057: file searched - ./public_html/wp-content/themes/pss-theme/app.css
+INFO: - 2024-04-26 13:17:05.183536: file searched - ./public_html/wp-content/themes/pss-theme/bower.json
+INFO: - 2024-04-26 13:17:05.184200: file searched - ./public_html/wp-content/themes/pss-theme/category.php
+INFO: - 2024-04-26 13:17:05.576882: file searched - ./public_html/wp-content/themes/pss-theme/footer.php
+INFO: - 2024-04-26 13:17:05.970462: file searched - ./public_html/wp-content/themes/pss-theme/front-page.php
+INFO: - 2024-04-26 13:17:06.363092: file searched - ./public_html/wp-content/themes/pss-theme/functions.php
+INFO: - 2024-04-26 13:17:06.755874: file searched - ./public_html/wp-content/themes/pss-theme/gulpfile.js
+INFO: - 2024-04-26 13:17:07.147501: file searched - ./public_html/wp-content/themes/pss-theme/gutenberg-blocks.css
+INFO: - 2024-04-26 13:17:07.539365: file searched - ./public_html/wp-content/themes/pss-theme/header.php
+INFO: - 2024-04-26 13:17:07.933813: file searched - ./public_html/wp-content/themes/pss-theme/home.php
+INFO: - 2024-04-26 13:17:08.327121: file searched - ./public_html/wp-content/themes/pss-theme/index.php
+INFO: - 2024-04-26 13:17:08.719532: file searched - ./public_html/wp-content/themes/pss-theme/package-lock.json
+INFO: - 2024-04-26 13:17:08.720118: file searched - ./public_html/wp-content/themes/pss-theme/package.json
+INFO: - 2024-04-26 13:17:08.720476: file searched - ./public_html/wp-content/themes/pss-theme/page.php
+INFO: - 2024-04-26 13:17:09.113156: file searched - ./public_html/wp-content/themes/pss-theme/screenshot.png
+INFO: - 2024-04-26 13:17:09.114487: file searched - ./public_html/wp-content/themes/pss-theme/scss-lint.yml
+INFO: - 2024-04-26 13:17:09.115374: file searched - ./public_html/wp-content/themes/pss-theme/search.php
+INFO: - 2024-04-26 13:17:09.507786: file searched - ./public_html/wp-content/themes/pss-theme/searchform.php
+INFO: - 2024-04-26 13:17:09.901402: file searched - ./public_html/wp-content/themes/pss-theme/setup
+INFO: - 2024-04-26 13:17:09.902229: file searched - ./public_html/wp-content/themes/pss-theme/shortcode.js
+INFO: - 2024-04-26 13:17:10.294225: file searched - ./public_html/wp-content/themes/pss-theme/sidebar-blog.php
+INFO: - 2024-04-26 13:17:10.684468: file searched - ./public_html/wp-content/themes/pss-theme/sidebar.php
+INFO: - 2024-04-26 13:17:11.078053: file searched - ./public_html/wp-content/themes/pss-theme/single-procedure.php
+INFO: - 2024-04-26 13:17:11.471438: file searched - ./public_html/wp-content/themes/pss-theme/single.php
+INFO: - 2024-04-26 13:17:11.863877: file searched - ./public_html/wp-content/themes/pss-theme/style.css
+INFO: - 2024-04-26 13:17:12.721908: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/camp-sample-page.php
+INFO: - 2024-04-26 13:17:13.115069: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/prem-sample-page.php
+INFO: - 2024-04-26 13:17:13.976916: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/README.md
+INFO: - 2024-04-26 13:17:14.446985: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/css/base.css
+INFO: - 2024-04-26 13:17:14.837885: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/css/camp-page-name.css
+INFO: - 2024-04-26 13:17:15.693633: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/inc/camp-page.php
+INFO: - 2024-04-26 13:17:16.551498: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_campaign-pages/js/camp-page.js
+INFO: - 2024-04-26 13:17:17.408508: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/README.md
+INFO: - 2024-04-26 13:17:17.879880: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/base.css
+INFO: - 2024-04-26 13:17:18.273182: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/css/prem-page-name.css
+INFO: - 2024-04-26 13:17:19.593645: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/img/prem-page-name/.keep
+INFO: - 2024-04-26 13:17:20.062521: file searched - ./public_html/wp-content/themes/pss-theme/_add-ons/_premium-pages/inc/prem-page.php
