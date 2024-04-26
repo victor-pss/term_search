@@ -4598,3 +4598,570 @@ INFO: - 2024-04-26 15:37:28.460700: file searched - /mail/.Trash/maildirfolder
 INFO: - 2024-04-26 15:37:30.309518: file searched - /mail/.mailbox_format.cpanel/dovecot-uidlist
 INFO: - 2024-04-26 15:37:30.311416: file searched - /mail/.mailbox_format.cpanel/dovecot.index.log
 INFO: - 2024-04-26 15:37:30.312006: file searched - /mail/.mailbox_format.cpanel/maildirfolder
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6/84360b76aa7e9f349861401758ac5cbfab2908", inode=43033730, flags=110100, id=47955390): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6", inode=42382854, flags=20400, id=47955393): is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6/tmp_obj_ZamBkW", inode=43033730, flags=111300, id=47955396): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76/669ad3c6e799bbaf076d86999517db3f222e1e", inode=43033733, flags=110100, id=47955405): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76", inode=42331509, flags=20400, id=47955408): is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76/tmp_obj_q11Iip", inode=43033733, flags=111300, id=47955411): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43033729, flags=11900, id=47955417): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43033729, flags=10800, id=47955418): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43028173, flags=10800, id=47955419): is_file, is_renamed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6/84360b76aa7e9f349861401758ac5cbfab2908', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6/tmp_obj_ZamBkW', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6/tmp_obj_ZamBkW', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f6', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76/669ad3c6e799bbaf076d86999517db3f222e1e', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76/tmp_obj_q11Iip', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76/tmp_obj_q11Iip', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/76', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43033729, flags=10800, id=47955418)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 15:37:38.644986: file searched - /public_html/.htaccess
+INFO: - 2024-04-26 15:37:38.645735: file searched - /public_html/13f4ec38ce9ee01cffc61de9a6d8ed88.txt
+INFO: - 2024-04-26 15:37:38.646202: file searched - /public_html/error_log
+INFO: - 2024-04-26 15:37:38.646514: file searched - /public_html/index.php
+INFO: - 2024-04-26 15:37:39.042680: file searched - /public_html/license.txt
+INFO: - 2024-04-26 15:37:39.043800: file searched - /public_html/readme.html
+INFO: - 2024-04-26 15:37:39.441333: file searched - /public_html/robots.txt
+INFO: - 2024-04-26 15:37:39.442136: file searched - /public_html/wp-activate.php
+INFO: - 2024-04-26 15:37:39.838184: file searched - /public_html/wp-blog-header.php
+INFO: - 2024-04-26 15:37:40.234090: file searched - /public_html/wp-comments-post.php
+INFO: - 2024-04-26 15:37:40.631787: file searched - /public_html/wp-config-sample.php
+INFO: - 2024-04-26 15:37:41.027262: file searched - /public_html/wp-config.php
+INFO: - 2024-04-26 15:37:41.424360: file searched - /public_html/wp-cron.php
+INFO: - 2024-04-26 15:37:41.820551: file searched - /public_html/wp-links-opml.php
+INFO: - 2024-04-26 15:37:42.217355: file searched - /public_html/wp-load.php
+INFO: - 2024-04-26 15:37:42.613865: file searched - /public_html/wp-login.php
+INFO: - 2024-04-26 15:37:43.145059: file searched - /public_html/wp-mail.php
+INFO: - 2024-04-26 15:37:43.541242: file searched - /public_html/wp-settings.php
+INFO: - 2024-04-26 15:37:44.002313: file searched - /public_html/wp-signup.php
+INFO: - 2024-04-26 15:37:44.466106: file searched - /public_html/wp-trackback.php
+INFO: - 2024-04-26 15:37:44.861817: file searched - /public_html/xmlrpc.php
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84/a02e680775723c916a105cbd604d6161898de0", inode=43033794, flags=110100, id=47956258): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84", inode=43033793, flags=20500, id=47956261): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84/tmp_obj_mdezbx", inode=43033794, flags=111300, id=47956264): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43033792, flags=11900, id=47956270): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43033792, flags=10800, id=47956271): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43033729, flags=10800, id=47956272): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG", inode=42830216, flags=11400, id=47956278): is_file, is_inode_meta_mod, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70/b03eeb6277b5b340b9a84c344707ddd12d1f6d", inode=43033798, flags=110100, id=47956290): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70", inode=43033797, flags=20500, id=47956293): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70/tmp_obj_75tPrW", inode=43033798, flags=111300, id=47956296): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD", inode=42276686, flags=11000, id=47956308): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main", inode=42276688, flags=11000, id=47956311): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock", inode=43033802, flags=11900, id=47956314): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43033802, flags=10800, id=47956315): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43028182, flags=10800, id=47956316): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock", inode=43033801, flags=10300, id=47956319): is_coalesced, is_created, is_file, is_removed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84/a02e680775723c916a105cbd604d6161898de0', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84/tmp_obj_mdezbx', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84/tmp_obj_mdezbx', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/84', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43033792, flags=10800, id=47956271)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70/b03eeb6277b5b340b9a84c344707ddd12d1f6d', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70/tmp_obj_75tPrW', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70/tmp_obj_75tPrW', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/70', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43033802, flags=10800, id=47956315)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock", inode=43033803, flags=10300, id=47956325): is_coalesced, is_created, is_file, is_removed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 15:37:47.578848: file searched - /public_html/wp-admin/about.php
+INFO: - 2024-04-26 15:37:48.044346: file searched - /public_html/wp-admin/admin-ajax.php
+INFO: - 2024-04-26 15:37:48.439210: file searched - /public_html/wp-admin/admin-footer.php
+INFO: - 2024-04-26 15:37:48.834153: file searched - /public_html/wp-admin/admin-functions.php
+INFO: - 2024-04-26 15:37:49.230052: file searched - /public_html/wp-admin/admin-header.php
+INFO: - 2024-04-26 15:37:49.623655: file searched - /public_html/wp-admin/admin-post.php
+INFO: - 2024-04-26 15:37:50.018149: file searched - /public_html/wp-admin/admin.php
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main", inode=42278662, flags=11000, id=47956448): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock", inode=43033812, flags=11900, id=47956451): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43033812, flags=10800, id=47956452): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43028198, flags=10800, id=47956453): is_file, is_renamed
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43033812, flags=10800, id=47956452)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 15:37:50.413650: file searched - /public_html/wp-admin/async-upload.php
+INFO: - 2024-04-26 15:37:50.810543: file searched - /public_html/wp-admin/authorize-application.php
+INFO: - 2024-04-26 15:37:51.209530: file searched - /public_html/wp-admin/comment.php
+INFO: - 2024-04-26 15:37:51.605292: file searched - /public_html/wp-admin/contribute.php
+INFO: - 2024-04-26 15:37:52.000908: file searched - /public_html/wp-admin/credits.php
+INFO: - 2024-04-26 15:37:52.394682: file searched - /public_html/wp-admin/custom-background.php
+INFO: - 2024-04-26 15:37:52.792193: file searched - /public_html/wp-admin/custom-header.php
+INFO: - 2024-04-26 15:37:53.186286: file searched - /public_html/wp-admin/customize.php
+INFO: - 2024-04-26 15:37:53.580415: file searched - /public_html/wp-admin/edit-comments.php
+INFO: - 2024-04-26 15:37:53.978883: file searched - /public_html/wp-admin/edit-form-advanced.php
+INFO: - 2024-04-26 15:37:54.439324: file searched - /public_html/wp-admin/edit-form-blocks.php
+INFO: - 2024-04-26 15:37:54.836436: file searched - /public_html/wp-admin/edit-form-comment.php
+INFO: - 2024-04-26 15:37:55.233260: file searched - /public_html/wp-admin/edit-link-form.php
+INFO: - 2024-04-26 15:37:55.629684: file searched - /public_html/wp-admin/edit-tag-form.php
+INFO: - 2024-04-26 15:37:56.027061: file searched - /public_html/wp-admin/edit-tags.php
+INFO: - 2024-04-26 15:37:56.485394: file searched - /public_html/wp-admin/edit.php
+INFO: - 2024-04-26 15:37:56.944233: file searched - /public_html/wp-admin/erase-personal-data.php
+INFO: - 2024-04-26 15:37:57.339149: file searched - /public_html/wp-admin/error_log
+INFO: - 2024-04-26 15:37:57.341778: file searched - /public_html/wp-admin/export-personal-data.php
+INFO: - 2024-04-26 15:37:57.738541: file searched - /public_html/wp-admin/export.php
+INFO: - 2024-04-26 15:37:58.135145: file searched - /public_html/wp-admin/freedoms.php
+INFO: - 2024-04-26 15:37:58.530172: file searched - /public_html/wp-admin/import.php
+INFO: - 2024-04-26 15:37:58.926869: file searched - /public_html/wp-admin/index.php
+INFO: - 2024-04-26 15:37:59.322264: file searched - /public_html/wp-admin/install-helper.php
+INFO: - 2024-04-26 15:37:59.715350: file searched - /public_html/wp-admin/install.php
+INFO: - 2024-04-26 15:38:00.177149: file searched - /public_html/wp-admin/link-add.php
+INFO: - 2024-04-26 15:38:00.571889: file searched - /public_html/wp-admin/link-manager.php
+INFO: - 2024-04-26 15:38:00.965441: file searched - /public_html/wp-admin/link-parse-opml.php
+INFO: - 2024-04-26 15:38:01.358645: file searched - /public_html/wp-admin/link.php
+INFO: - 2024-04-26 15:38:01.751530: file searched - /public_html/wp-admin/load-scripts.php
+INFO: - 2024-04-26 15:38:02.145972: file searched - /public_html/wp-admin/load-styles.php
+INFO: - 2024-04-26 15:38:02.542665: file searched - /public_html/wp-admin/media-new.php
+INFO: - 2024-04-26 15:38:02.939110: file searched - /public_html/wp-admin/media-upload.php
+INFO: - 2024-04-26 15:38:03.334099: file searched - /public_html/wp-admin/media.php
+INFO: - 2024-04-26 15:38:03.729818: file searched - /public_html/wp-admin/menu-header.php
+INFO: - 2024-04-26 15:38:04.125034: file searched - /public_html/wp-admin/menu.php
+INFO: - 2024-04-26 15:38:04.588025: file searched - /public_html/wp-admin/moderation.php
+INFO: - 2024-04-26 15:38:04.982276: file searched - /public_html/wp-admin/ms-admin.php
+INFO: - 2024-04-26 15:38:05.378584: file searched - /public_html/wp-admin/ms-delete-site.php
+INFO: - 2024-04-26 15:38:05.774430: file searched - /public_html/wp-admin/ms-edit.php
+INFO: - 2024-04-26 15:38:06.170117: file searched - /public_html/wp-admin/ms-options.php
+INFO: - 2024-04-26 15:38:06.566753: file searched - /public_html/wp-admin/ms-sites.php
+INFO: - 2024-04-26 15:38:06.961196: file searched - /public_html/wp-admin/ms-themes.php
+INFO: - 2024-04-26 15:38:07.355928: file searched - /public_html/wp-admin/ms-upgrade-network.php
+INFO: - 2024-04-26 15:38:07.751656: file searched - /public_html/wp-admin/ms-users.php
+INFO: - 2024-04-26 15:38:08.145243: file searched - /public_html/wp-admin/my-sites.php
+INFO: - 2024-04-26 15:38:08.539430: file searched - /public_html/wp-admin/nav-menus.php
+INFO: - 2024-04-26 15:38:09.064939: file searched - /public_html/wp-admin/network.php
+INFO: - 2024-04-26 15:38:09.461493: file searched - /public_html/wp-admin/options-discussion.php
+INFO: - 2024-04-26 15:38:09.923068: file searched - /public_html/wp-admin/options-general.php
+INFO: - 2024-04-26 15:38:10.384104: file searched - /public_html/wp-admin/options-head.php
+INFO: - 2024-04-26 15:38:10.779095: file searched - /public_html/wp-admin/options-media.php
+INFO: - 2024-04-26 15:38:11.175522: file searched - /public_html/wp-admin/options-permalink.php
+INFO: - 2024-04-26 15:38:11.636424: file searched - /public_html/wp-admin/options-privacy.php
+INFO: - 2024-04-26 15:38:12.032778: file searched - /public_html/wp-admin/options-reading.php
+INFO: - 2024-04-26 15:38:12.428218: file searched - /public_html/wp-admin/options-writing.php
+INFO: - 2024-04-26 15:38:12.825935: file searched - /public_html/wp-admin/options.php
+INFO: - 2024-04-26 15:38:13.221706: file searched - /public_html/wp-admin/plugin-editor.php
+INFO: - 2024-04-26 15:38:13.617350: file searched - /public_html/wp-admin/plugin-install.php
+INFO: - 2024-04-26 15:38:14.014202: file searched - /public_html/wp-admin/plugins.php
+INFO: - 2024-04-26 15:38:14.473056: file searched - /public_html/wp-admin/post-new.php
+INFO: - 2024-04-26 15:38:14.868298: file searched - /public_html/wp-admin/post.php
+INFO: - 2024-04-26 15:38:15.265526: file searched - /public_html/wp-admin/press-this.php
+INFO: - 2024-04-26 15:38:15.660673: file searched - /public_html/wp-admin/privacy-policy-guide.php
+INFO: - 2024-04-26 15:38:16.056225: file searched - /public_html/wp-admin/privacy.php
+INFO: - 2024-04-26 15:38:16.451949: file searched - /public_html/wp-admin/profile.php
+INFO: - 2024-04-26 15:38:16.848113: file searched - /public_html/wp-admin/revision.php
+INFO: - 2024-04-26 15:38:17.241896: file searched - /public_html/wp-admin/setup-config.php
+INFO: - 2024-04-26 15:38:17.702482: file searched - /public_html/wp-admin/site-editor.php
+INFO: - 2024-04-26 15:38:18.095921: file searched - /public_html/wp-admin/site-health-info.php
+INFO: - 2024-04-26 15:38:18.491428: file searched - /public_html/wp-admin/site-health.php
+INFO: - 2024-04-26 15:38:18.886118: file searched - /public_html/wp-admin/term.php
+INFO: - 2024-04-26 15:38:19.280390: file searched - /public_html/wp-admin/theme-editor.php
+INFO: - 2024-04-26 15:38:19.677004: file searched - /public_html/wp-admin/theme-install.php
+INFO: - 2024-04-26 15:38:20.138571: file searched - /public_html/wp-admin/themes.php
+INFO: - 2024-04-26 15:38:20.668950: file searched - /public_html/wp-admin/tools.php
+INFO: - 2024-04-26 15:38:21.066091: file searched - /public_html/wp-admin/update-core.php
+INFO: - 2024-04-26 15:38:21.590321: file searched - /public_html/wp-admin/update.php
+INFO: - 2024-04-26 15:38:21.986426: file searched - /public_html/wp-admin/upgrade-functions.php
+INFO: - 2024-04-26 15:38:22.382582: file searched - /public_html/wp-admin/upgrade.php
+INFO: - 2024-04-26 15:38:22.779802: file searched - /public_html/wp-admin/upload.php
+INFO: - 2024-04-26 15:38:23.174091: file searched - /public_html/wp-admin/user-edit.php
+INFO: - 2024-04-26 15:38:23.636509: file searched - /public_html/wp-admin/user-new.php
+INFO: - 2024-04-26 15:38:24.097450: file searched - /public_html/wp-admin/users.php
+INFO: - 2024-04-26 15:38:24.556722: file searched - /public_html/wp-admin/widgets-form-blocks.php
+INFO: - 2024-04-26 15:38:24.951858: file searched - /public_html/wp-admin/widgets-form.php
+INFO: - 2024-04-26 15:38:25.412558: file searched - /public_html/wp-admin/widgets.php
+INFO: - 2024-04-26 15:38:26.278070: file searched - /public_html/wp-admin/css/about-rtl.css
+INFO: - 2024-04-26 15:38:26.739994: file searched - /public_html/wp-admin/css/about-rtl.min.css
+INFO: - 2024-04-26 15:38:27.200542: file searched - /public_html/wp-admin/css/about.css
+INFO: - 2024-04-26 15:38:27.664283: file searched - /public_html/wp-admin/css/about.min.css
+INFO: - 2024-04-26 15:38:28.125901: file searched - /public_html/wp-admin/css/admin-menu-rtl.css
+INFO: - 2024-04-26 15:38:28.588955: file searched - /public_html/wp-admin/css/admin-menu-rtl.min.css
+INFO: - 2024-04-26 15:38:28.985304: file searched - /public_html/wp-admin/css/admin-menu.css
+INFO: - 2024-04-26 15:38:29.445346: file searched - /public_html/wp-admin/css/admin-menu.min.css
+INFO: - 2024-04-26 15:38:29.840248: file searched - /public_html/wp-admin/css/code-editor-rtl.css
+INFO: - 2024-04-26 15:38:30.234821: file searched - /public_html/wp-admin/css/code-editor-rtl.min.css
+INFO: - 2024-04-26 15:38:30.630654: file searched - /public_html/wp-admin/css/code-editor.css
+INFO: - 2024-04-26 15:38:31.026722: file searched - /public_html/wp-admin/css/code-editor.min.css
+INFO: - 2024-04-26 15:38:31.421768: file searched - /public_html/wp-admin/css/color-picker-rtl.css
+INFO: - 2024-04-26 15:38:31.818077: file searched - /public_html/wp-admin/css/color-picker-rtl.min.css
+INFO: - 2024-04-26 15:38:32.213975: file searched - /public_html/wp-admin/css/color-picker.css
+INFO: - 2024-04-26 15:38:32.609654: file searched - /public_html/wp-admin/css/color-picker.min.css
+INFO: - 2024-04-26 15:38:33.004818: file searched - /public_html/wp-admin/css/common-rtl.css
+INFO: - 2024-04-26 15:38:33.532947: file searched - /public_html/wp-admin/css/common-rtl.min.css
+INFO: - 2024-04-26 15:38:34.062421: file searched - /public_html/wp-admin/css/common.css
+INFO: - 2024-04-26 15:38:34.596225: file searched - /public_html/wp-admin/css/common.min.css
+INFO: - 2024-04-26 15:38:35.125468: file searched - /public_html/wp-admin/css/customize-controls-rtl.css
+INFO: - 2024-04-26 15:38:35.650596: file searched - /public_html/wp-admin/css/customize-controls-rtl.min.css
+INFO: - 2024-04-26 15:38:36.178374: file searched - /public_html/wp-admin/css/customize-controls.css
+INFO: - 2024-04-26 15:38:36.707969: file searched - /public_html/wp-admin/css/customize-controls.min.css
+INFO: - 2024-04-26 15:38:37.237604: file searched - /public_html/wp-admin/css/customize-nav-menus-rtl.css
+INFO: - 2024-04-26 15:38:37.697126: file searched - /public_html/wp-admin/css/customize-nav-menus-rtl.min.css
+INFO: - 2024-04-26 15:38:38.160655: file searched - /public_html/wp-admin/css/customize-nav-menus.css
+INFO: - 2024-04-26 15:38:38.620895: file searched - /public_html/wp-admin/css/customize-nav-menus.min.css
+INFO: - 2024-04-26 15:38:39.083676: file searched - /public_html/wp-admin/css/customize-widgets-rtl.css
+INFO: - 2024-04-26 15:38:39.479676: file searched - /public_html/wp-admin/css/customize-widgets-rtl.min.css
+INFO: - 2024-04-26 15:38:39.875637: file searched - /public_html/wp-admin/css/customize-widgets.css
+INFO: - 2024-04-26 15:38:40.268116: file searched - /public_html/wp-admin/css/customize-widgets.min.css
+INFO: - 2024-04-26 15:38:40.662889: file searched - /public_html/wp-admin/css/dashboard-rtl.css
+INFO: - 2024-04-26 15:38:41.125839: file searched - /public_html/wp-admin/css/dashboard-rtl.min.css
+INFO: - 2024-04-26 15:38:41.587634: file searched - /public_html/wp-admin/css/dashboard.css
+INFO: - 2024-04-26 15:38:42.047848: file searched - /public_html/wp-admin/css/dashboard.min.css
+INFO: - 2024-04-26 15:38:42.508365: file searched - /public_html/wp-admin/css/deprecated-media-rtl.css
+INFO: - 2024-04-26 15:38:42.905780: file searched - /public_html/wp-admin/css/deprecated-media-rtl.min.css
+INFO: - 2024-04-26 15:38:43.303152: file searched - /public_html/wp-admin/css/deprecated-media.css
+INFO: - 2024-04-26 15:38:43.697777: file searched - /public_html/wp-admin/css/deprecated-media.min.css
+INFO: - 2024-04-26 15:38:44.093252: file searched - /public_html/wp-admin/css/edit-rtl.css
+INFO: - 2024-04-26 15:38:44.559370: file searched - /public_html/wp-admin/css/edit-rtl.min.css
+INFO: - 2024-04-26 15:38:45.023746: file searched - /public_html/wp-admin/css/edit.css
+INFO: - 2024-04-26 15:38:45.487947: file searched - /public_html/wp-admin/css/edit.min.css
+INFO: - 2024-04-26 15:38:45.949167: file searched - /public_html/wp-admin/css/farbtastic-rtl.css
+INFO: - 2024-04-26 15:38:46.345147: file searched - /public_html/wp-admin/css/farbtastic-rtl.min.css
+INFO: - 2024-04-26 15:38:46.743762: file searched - /public_html/wp-admin/css/farbtastic.css
+INFO: - 2024-04-26 15:38:47.140046: file searched - /public_html/wp-admin/css/farbtastic.min.css
+INFO: - 2024-04-26 15:38:47.535446: file searched - /public_html/wp-admin/css/forms-rtl.css
+INFO: - 2024-04-26 15:38:48.002199: file searched - /public_html/wp-admin/css/forms-rtl.min.css
+INFO: - 2024-04-26 15:38:48.469316: file searched - /public_html/wp-admin/css/forms.css
+INFO: - 2024-04-26 15:38:48.930843: file searched - /public_html/wp-admin/css/forms.min.css
+INFO: - 2024-04-26 15:38:49.394028: file searched - /public_html/wp-admin/css/install-rtl.css
+INFO: - 2024-04-26 15:38:49.787643: file searched - /public_html/wp-admin/css/install-rtl.min.css
+INFO: - 2024-04-26 15:38:50.183334: file searched - /public_html/wp-admin/css/install.css
+INFO: - 2024-04-26 15:38:50.578820: file searched - /public_html/wp-admin/css/install.min.css
+INFO: - 2024-04-26 15:38:50.974273: file searched - /public_html/wp-admin/css/l10n-rtl.css
+INFO: - 2024-04-26 15:38:51.367832: file searched - /public_html/wp-admin/css/l10n-rtl.min.css
+INFO: - 2024-04-26 15:38:51.762190: file searched - /public_html/wp-admin/css/l10n.css
+INFO: - 2024-04-26 15:38:52.158665: file searched - /public_html/wp-admin/css/l10n.min.css
+INFO: - 2024-04-26 15:38:52.554812: file searched - /public_html/wp-admin/css/list-tables-rtl.css
+INFO: - 2024-04-26 15:38:53.015399: file searched - /public_html/wp-admin/css/list-tables-rtl.min.css
+INFO: - 2024-04-26 15:38:53.481397: file searched - /public_html/wp-admin/css/list-tables.css
+INFO: - 2024-04-26 15:38:53.946562: file searched - /public_html/wp-admin/css/list-tables.min.css
+INFO: - 2024-04-26 15:38:54.410229: file searched - /public_html/wp-admin/css/login-rtl.css
+INFO: - 2024-04-26 15:38:54.806605: file searched - /public_html/wp-admin/css/login-rtl.min.css
+INFO: - 2024-04-26 15:38:55.203677: file searched - /public_html/wp-admin/css/login.css
+INFO: - 2024-04-26 15:38:55.599127: file searched - /public_html/wp-admin/css/login.min.css
+INFO: - 2024-04-26 15:38:55.994785: file searched - /public_html/wp-admin/css/media-rtl.css
+INFO: - 2024-04-26 15:38:56.458733: file searched - /public_html/wp-admin/css/media-rtl.min.css
+INFO: - 2024-04-26 15:38:56.921039: file searched - /public_html/wp-admin/css/media.css
+INFO: - 2024-04-26 15:38:57.381986: file searched - /public_html/wp-admin/css/media.min.css
+INFO: - 2024-04-26 15:38:57.844145: file searched - /public_html/wp-admin/css/nav-menus-rtl.css
+INFO: - 2024-04-26 15:38:58.307676: file searched - /public_html/wp-admin/css/nav-menus-rtl.min.css
+INFO: - 2024-04-26 15:38:58.704040: file searched - /public_html/wp-admin/css/nav-menus.css
+INFO: - 2024-04-26 15:38:59.167660: file searched - /public_html/wp-admin/css/nav-menus.min.css
+INFO: - 2024-04-26 15:38:59.564636: file searched - /public_html/wp-admin/css/revisions-rtl.css
+INFO: - 2024-04-26 15:38:59.962699: file searched - /public_html/wp-admin/css/revisions-rtl.min.css
+INFO: - 2024-04-26 15:39:00.359828: file searched - /public_html/wp-admin/css/revisions.css
+INFO: - 2024-04-26 15:39:00.755025: file searched - /public_html/wp-admin/css/revisions.min.css
+INFO: - 2024-04-26 15:39:01.152360: file searched - /public_html/wp-admin/css/site-health-rtl.css
+INFO: - 2024-04-26 15:39:01.549082: file searched - /public_html/wp-admin/css/site-health-rtl.min.css
+INFO: - 2024-04-26 15:39:01.945512: file searched - /public_html/wp-admin/css/site-health.css
+INFO: - 2024-04-26 15:39:02.341138: file searched - /public_html/wp-admin/css/site-health.min.css
+INFO: - 2024-04-26 15:39:02.737400: file searched - /public_html/wp-admin/css/site-icon-rtl.css
+INFO: - 2024-04-26 15:39:03.133277: file searched - /public_html/wp-admin/css/site-icon-rtl.min.css
+INFO: - 2024-04-26 15:39:03.527768: file searched - /public_html/wp-admin/css/site-icon.css
+INFO: - 2024-04-26 15:39:03.924539: file searched - /public_html/wp-admin/css/site-icon.min.css
+INFO: - 2024-04-26 15:39:04.319171: file searched - /public_html/wp-admin/css/themes-rtl.css
+INFO: - 2024-04-26 15:39:04.780919: file searched - /public_html/wp-admin/css/themes-rtl.min.css
+INFO: - 2024-04-26 15:39:05.242520: file searched - /public_html/wp-admin/css/themes.css
+INFO: - 2024-04-26 15:39:05.707068: file searched - /public_html/wp-admin/css/themes.min.css
+INFO: - 2024-04-26 15:39:06.170883: file searched - /public_html/wp-admin/css/widgets-rtl.css
+INFO: - 2024-04-26 15:39:06.635083: file searched - /public_html/wp-admin/css/widgets-rtl.min.css
+INFO: - 2024-04-26 15:39:07.031412: file searched - /public_html/wp-admin/css/widgets.css
+INFO: - 2024-04-26 15:39:07.494835: file searched - /public_html/wp-admin/css/widgets.min.css
+INFO: - 2024-04-26 15:39:07.889720: file searched - /public_html/wp-admin/css/wp-admin-rtl.css
+INFO: - 2024-04-26 15:39:08.285870: file searched - /public_html/wp-admin/css/wp-admin-rtl.min.css
+INFO: - 2024-04-26 15:39:08.682160: file searched - /public_html/wp-admin/css/wp-admin.css
+INFO: - 2024-04-26 15:39:09.076755: file searched - /public_html/wp-admin/css/wp-admin.min.css
+INFO: - 2024-04-26 15:39:09.931968: file searched - /public_html/wp-admin/css/colors/_admin.scss
+INFO: - 2024-04-26 15:39:09.933414: file searched - /public_html/wp-admin/css/colors/_mixins.scss
+INFO: - 2024-04-26 15:39:09.934704: file searched - /public_html/wp-admin/css/colors/_variables.scss
+INFO: - 2024-04-26 15:39:10.394700: file searched - /public_html/wp-admin/css/colors/blue/colors-rtl.css
+INFO: - 2024-04-26 15:39:10.852643: file searched - /public_html/wp-admin/css/colors/blue/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:11.313614: file searched - /public_html/wp-admin/css/colors/blue/colors.css
+INFO: - 2024-04-26 15:39:11.774705: file searched - /public_html/wp-admin/css/colors/blue/colors.min.css
+INFO: - 2024-04-26 15:39:12.238658: file searched - /public_html/wp-admin/css/colors/blue/colors.scss
+INFO: - 2024-04-26 15:39:12.703745: file searched - /public_html/wp-admin/css/colors/coffee/colors-rtl.css
+INFO: - 2024-04-26 15:39:13.166333: file searched - /public_html/wp-admin/css/colors/coffee/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:13.628810: file searched - /public_html/wp-admin/css/colors/coffee/colors.css
+INFO: - 2024-04-26 15:39:14.088563: file searched - /public_html/wp-admin/css/colors/coffee/colors.min.css
+INFO: - 2024-04-26 15:39:14.550287: file searched - /public_html/wp-admin/css/colors/coffee/colors.scss
+INFO: - 2024-04-26 15:39:15.014114: file searched - /public_html/wp-admin/css/colors/ectoplasm/colors-rtl.css
+INFO: - 2024-04-26 15:39:15.474093: file searched - /public_html/wp-admin/css/colors/ectoplasm/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:15.936778: file searched - /public_html/wp-admin/css/colors/ectoplasm/colors.css
+INFO: - 2024-04-26 15:39:16.398782: file searched - /public_html/wp-admin/css/colors/ectoplasm/colors.min.css
+INFO: - 2024-04-26 15:39:16.860784: file searched - /public_html/wp-admin/css/colors/ectoplasm/colors.scss
+INFO: - 2024-04-26 15:39:17.325041: file searched - /public_html/wp-admin/css/colors/light/colors-rtl.css
+INFO: - 2024-04-26 15:39:17.785105: file searched - /public_html/wp-admin/css/colors/light/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:18.245470: file searched - /public_html/wp-admin/css/colors/light/colors.css
+INFO: - 2024-04-26 15:39:18.708102: file searched - /public_html/wp-admin/css/colors/light/colors.min.css
+INFO: - 2024-04-26 15:39:19.170659: file searched - /public_html/wp-admin/css/colors/light/colors.scss
+INFO: - 2024-04-26 15:39:19.634898: file searched - /public_html/wp-admin/css/colors/midnight/colors-rtl.css
+INFO: - 2024-04-26 15:39:20.096263: file searched - /public_html/wp-admin/css/colors/midnight/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:20.556558: file searched - /public_html/wp-admin/css/colors/midnight/colors.css
+INFO: - 2024-04-26 15:39:21.020825: file searched - /public_html/wp-admin/css/colors/midnight/colors.min.css
+INFO: - 2024-04-26 15:39:21.483864: file searched - /public_html/wp-admin/css/colors/midnight/colors.scss
+INFO: - 2024-04-26 15:39:21.948859: file searched - /public_html/wp-admin/css/colors/modern/colors-rtl.css
+INFO: - 2024-04-26 15:39:22.409150: file searched - /public_html/wp-admin/css/colors/modern/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:22.870227: file searched - /public_html/wp-admin/css/colors/modern/colors.css
+INFO: - 2024-04-26 15:39:23.334063: file searched - /public_html/wp-admin/css/colors/modern/colors.min.css
+INFO: - 2024-04-26 15:39:23.795167: file searched - /public_html/wp-admin/css/colors/modern/colors.scss
+INFO: - 2024-04-26 15:39:24.260430: file searched - /public_html/wp-admin/css/colors/ocean/colors-rtl.css
+INFO: - 2024-04-26 15:39:24.721252: file searched - /public_html/wp-admin/css/colors/ocean/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:25.185884: file searched - /public_html/wp-admin/css/colors/ocean/colors.css
+INFO: - 2024-04-26 15:39:25.648454: file searched - /public_html/wp-admin/css/colors/ocean/colors.min.css
+INFO: - 2024-04-26 15:39:26.109926: file searched - /public_html/wp-admin/css/colors/ocean/colors.scss
+INFO: - 2024-04-26 15:39:26.577418: file searched - /public_html/wp-admin/css/colors/sunrise/colors-rtl.css
+INFO: - 2024-04-26 15:39:27.036922: file searched - /public_html/wp-admin/css/colors/sunrise/colors-rtl.min.css
+INFO: - 2024-04-26 15:39:27.497970: file searched - /public_html/wp-admin/css/colors/sunrise/colors.css
+INFO: - 2024-04-26 15:39:27.958887: file searched - /public_html/wp-admin/css/colors/sunrise/colors.min.css
+INFO: - 2024-04-26 15:39:28.421245: file searched - /public_html/wp-admin/css/colors/sunrise/colors.scss
+INFO: - 2024-04-26 15:39:28.889862: file searched - /public_html/wp-admin/images/about-release-badge.svg
+INFO: - 2024-04-26 15:39:28.891352: file searched - /public_html/wp-admin/images/about-texture.png
+INFO: - 2024-04-26 15:39:28.892343: file searched - /public_html/wp-admin/images/align-center-2x.png
+INFO: - 2024-04-26 15:39:28.893376: file searched - /public_html/wp-admin/images/align-center.png
+INFO: - 2024-04-26 15:39:28.893947: file searched - /public_html/wp-admin/images/align-left-2x.png
+INFO: - 2024-04-26 15:39:28.894663: file searched - /public_html/wp-admin/images/align-left.png
+INFO: - 2024-04-26 15:39:28.895306: file searched - /public_html/wp-admin/images/align-none-2x.png
+INFO: - 2024-04-26 15:39:28.896015: file searched - /public_html/wp-admin/images/align-none.png
+INFO: - 2024-04-26 15:39:28.896772: file searched - /public_html/wp-admin/images/align-right-2x.png
+INFO: - 2024-04-26 15:39:28.897199: file searched - /public_html/wp-admin/images/align-right.png
+INFO: - 2024-04-26 15:39:28.897661: file searched - /public_html/wp-admin/images/arrows-2x.png
+INFO: - 2024-04-26 15:39:28.898065: file searched - /public_html/wp-admin/images/arrows.png
+INFO: - 2024-04-26 15:39:28.898498: file searched - /public_html/wp-admin/images/browser-rtl.png
+INFO: - 2024-04-26 15:39:28.898995: file searched - /public_html/wp-admin/images/browser.png
+INFO: - 2024-04-26 15:39:28.899603: file searched - /public_html/wp-admin/images/bubble_bg-2x.gif
+INFO: - 2024-04-26 15:39:28.900043: file searched - /public_html/wp-admin/images/bubble_bg.gif
+INFO: - 2024-04-26 15:39:28.900446: file searched - /public_html/wp-admin/images/comment-grey-bubble-2x.png
+INFO: - 2024-04-26 15:39:28.900774: file searched - /public_html/wp-admin/images/comment-grey-bubble.png
+INFO: - 2024-04-26 15:39:28.901075: file searched - /public_html/wp-admin/images/contribute-code.svg
+INFO: - 2024-04-26 15:39:28.901555: file searched - /public_html/wp-admin/images/contribute-main.svg
+INFO: - 2024-04-26 15:39:28.902005: file searched - /public_html/wp-admin/images/contribute-no-code.svg
+INFO: - 2024-04-26 15:39:28.902349: file searched - /public_html/wp-admin/images/dashboard-background.svg
+INFO: - 2024-04-26 15:39:28.902638: file searched - /public_html/wp-admin/images/date-button-2x.gif
+INFO: - 2024-04-26 15:39:28.902926: file searched - /public_html/wp-admin/images/date-button.gif
+INFO: - 2024-04-26 15:39:28.903213: file searched - /public_html/wp-admin/images/freedom-1.svg
+INFO: - 2024-04-26 15:39:28.903496: file searched - /public_html/wp-admin/images/freedom-2.svg
+INFO: - 2024-04-26 15:39:28.903776: file searched - /public_html/wp-admin/images/freedom-3.svg
+INFO: - 2024-04-26 15:39:28.904054: file searched - /public_html/wp-admin/images/freedom-4.svg
+INFO: - 2024-04-26 15:39:28.904331: file searched - /public_html/wp-admin/images/generic.png
+INFO: - 2024-04-26 15:39:28.904611: file searched - /public_html/wp-admin/images/icons32-2x.png
+INFO: - 2024-04-26 15:39:28.904871: file searched - /public_html/wp-admin/images/icons32-vs-2x.png
+INFO: - 2024-04-26 15:39:28.905117: file searched - /public_html/wp-admin/images/icons32-vs.png
+INFO: - 2024-04-26 15:39:28.905403: file searched - /public_html/wp-admin/images/icons32.png
+INFO: - 2024-04-26 15:39:28.906062: file searched - /public_html/wp-admin/images/imgedit-icons-2x.png
+INFO: - 2024-04-26 15:39:28.906357: file searched - /public_html/wp-admin/images/imgedit-icons.png
+INFO: - 2024-04-26 15:39:28.906612: file searched - /public_html/wp-admin/images/list-2x.png
+INFO: - 2024-04-26 15:39:28.906868: file searched - /public_html/wp-admin/images/list.png
+INFO: - 2024-04-26 15:39:28.907130: file searched - /public_html/wp-admin/images/loading.gif
+INFO: - 2024-04-26 15:39:28.907544: file searched - /public_html/wp-admin/images/marker.png
+INFO: - 2024-04-26 15:39:28.907886: file searched - /public_html/wp-admin/images/mask.png
+INFO: - 2024-04-26 15:39:28.908249: file searched - /public_html/wp-admin/images/media-button-2x.png
+INFO: - 2024-04-26 15:39:28.908574: file searched - /public_html/wp-admin/images/media-button-image.gif
+INFO: - 2024-04-26 15:39:28.908881: file searched - /public_html/wp-admin/images/media-button-music.gif
+INFO: - 2024-04-26 15:39:28.909703: file searched - /public_html/wp-admin/images/media-button-other.gif
+INFO: - 2024-04-26 15:39:28.910131: file searched - /public_html/wp-admin/images/media-button-video.gif
+INFO: - 2024-04-26 15:39:28.910718: file searched - /public_html/wp-admin/images/media-button.png
+INFO: - 2024-04-26 15:39:28.911146: file searched - /public_html/wp-admin/images/menu-2x.png
+INFO: - 2024-04-26 15:39:28.911580: file searched - /public_html/wp-admin/images/menu-vs-2x.png
+INFO: - 2024-04-26 15:39:28.912004: file searched - /public_html/wp-admin/images/menu-vs.png
+INFO: - 2024-04-26 15:39:28.912429: file searched - /public_html/wp-admin/images/menu.png
+INFO: - 2024-04-26 15:39:28.912875: file searched - /public_html/wp-admin/images/no.png
+INFO: - 2024-04-26 15:39:28.913233: file searched - /public_html/wp-admin/images/post-formats-vs.png
+INFO: - 2024-04-26 15:39:28.913633: file searched - /public_html/wp-admin/images/post-formats.png
+INFO: - 2024-04-26 15:39:28.914062: file searched - /public_html/wp-admin/images/post-formats32-vs.png
+INFO: - 2024-04-26 15:39:28.914398: file searched - /public_html/wp-admin/images/post-formats32.png
+INFO: - 2024-04-26 15:39:28.914772: file searched - /public_html/wp-admin/images/privacy.svg
+INFO: - 2024-04-26 15:39:28.915205: file searched - /public_html/wp-admin/images/resize-2x.gif
+INFO: - 2024-04-26 15:39:28.915528: file searched - /public_html/wp-admin/images/resize-rtl-2x.gif
+INFO: - 2024-04-26 15:39:28.915884: file searched - /public_html/wp-admin/images/resize-rtl.gif
+INFO: - 2024-04-26 15:39:28.916301: file searched - /public_html/wp-admin/images/resize.gif
+INFO: - 2024-04-26 15:39:28.916612: file searched - /public_html/wp-admin/images/se.png
+INFO: - 2024-04-26 15:39:28.916985: file searched - /public_html/wp-admin/images/sort-2x.gif
+INFO: - 2024-04-26 15:39:28.917303: file searched - /public_html/wp-admin/images/sort.gif
+INFO: - 2024-04-26 15:39:28.917626: file searched - /public_html/wp-admin/images/spinner-2x.gif
+INFO: - 2024-04-26 15:39:28.918006: file searched - /public_html/wp-admin/images/spinner.gif
+INFO: - 2024-04-26 15:39:28.918352: file searched - /public_html/wp-admin/images/stars-2x.png
+INFO: - 2024-04-26 15:39:28.918668: file searched - /public_html/wp-admin/images/stars.png
+INFO: - 2024-04-26 15:39:28.918876: file searched - /public_html/wp-admin/images/w-logo-blue.png
+INFO: - 2024-04-26 15:39:28.919077: file searched - /public_html/wp-admin/images/w-logo-white.png
+INFO: - 2024-04-26 15:39:28.919327: file searched - /public_html/wp-admin/images/wheel.png
+INFO: - 2024-04-26 15:39:28.919609: file searched - /public_html/wp-admin/images/wordpress-logo-white.svg
+INFO: - 2024-04-26 15:39:28.919882: file searched - /public_html/wp-admin/images/wordpress-logo.png
+INFO: - 2024-04-26 15:39:28.920193: file searched - /public_html/wp-admin/images/wordpress-logo.svg
+INFO: - 2024-04-26 15:39:28.920555: file searched - /public_html/wp-admin/images/wpspin_light-2x.gif
+INFO: - 2024-04-26 15:39:28.920809: file searched - /public_html/wp-admin/images/wpspin_light.gif
+INFO: - 2024-04-26 15:39:28.921019: file searched - /public_html/wp-admin/images/xit-2x.gif
+INFO: - 2024-04-26 15:39:28.921283: file searched - /public_html/wp-admin/images/xit.gif
+INFO: - 2024-04-26 15:39:28.921571: file searched - /public_html/wp-admin/images/yes.png
+INFO: - 2024-04-26 15:39:29.392828: file searched - /public_html/wp-admin/includes/admin-filters.php
+INFO: - 2024-04-26 15:39:29.786445: file searched - /public_html/wp-admin/includes/admin.php
+INFO: - 2024-04-26 15:39:30.183244: file searched - /public_html/wp-admin/includes/ajax-actions.php
+INFO: - 2024-04-26 15:39:30.782119: file searched - /public_html/wp-admin/includes/bookmark.php
+INFO: - 2024-04-26 15:39:31.177575: file searched - /public_html/wp-admin/includes/class-automatic-upgrader-skin.php
+INFO: - 2024-04-26 15:39:31.572752: file searched - /public_html/wp-admin/includes/class-bulk-plugin-upgrader-skin.php
+INFO: - 2024-04-26 15:39:31.967152: file searched - /public_html/wp-admin/includes/class-bulk-theme-upgrader-skin.php
+INFO: - 2024-04-26 15:39:32.363365: file searched - /public_html/wp-admin/includes/class-bulk-upgrader-skin.php
+INFO: - 2024-04-26 15:39:32.756183: file searched - /public_html/wp-admin/includes/class-core-upgrader.php
+INFO: - 2024-04-26 15:39:33.150587: file searched - /public_html/wp-admin/includes/class-custom-background.php
+INFO: - 2024-04-26 15:39:33.633846: file searched - /public_html/wp-admin/includes/class-custom-image-header.php
+INFO: - 2024-04-26 15:39:34.162971: file searched - /public_html/wp-admin/includes/class-file-upload-upgrader.php
+INFO: - 2024-04-26 15:39:34.557916: file searched - /public_html/wp-admin/includes/class-ftp-pure.php
+INFO: - 2024-04-26 15:39:34.954423: file searched - /public_html/wp-admin/includes/class-ftp-sockets.php
+INFO: - 2024-04-26 15:39:35.350770: file searched - /public_html/wp-admin/includes/class-ftp.php
+INFO: - 2024-04-26 15:39:35.811134: file searched - /public_html/wp-admin/includes/class-language-pack-upgrader-skin.php
+INFO: - 2024-04-26 15:39:36.206866: file searched - /public_html/wp-admin/includes/class-language-pack-upgrader.php
+INFO: - 2024-04-26 15:39:36.605207: file searched - /public_html/wp-admin/includes/class-pclzip.php
+INFO: - 2024-04-26 15:39:37.202893: file searched - /public_html/wp-admin/includes/class-plugin-installer-skin.php
+INFO: - 2024-04-26 15:39:37.598019: file searched - /public_html/wp-admin/includes/class-plugin-upgrader-skin.php
+INFO: - 2024-04-26 15:39:37.993724: file searched - /public_html/wp-admin/includes/class-plugin-upgrader.php
+INFO: - 2024-04-26 15:39:38.452082: file searched - /public_html/wp-admin/includes/class-theme-installer-skin.php
+INFO: - 2024-04-26 15:39:38.847363: file searched - /public_html/wp-admin/includes/class-theme-upgrader-skin.php
+INFO: - 2024-04-26 15:39:39.248269: file searched - /public_html/wp-admin/includes/class-theme-upgrader.php
+INFO: - 2024-04-26 15:39:39.706638: file searched - /public_html/wp-admin/includes/class-walker-category-checklist.php
+INFO: - 2024-04-26 15:39:40.104978: file searched - /public_html/wp-admin/includes/class-walker-nav-menu-checklist.php
+INFO: - 2024-04-26 15:39:40.501290: file searched - /public_html/wp-admin/includes/class-walker-nav-menu-edit.php
+INFO: - 2024-04-26 15:39:40.895120: file searched - /public_html/wp-admin/includes/class-wp-ajax-upgrader-skin.php
+INFO: - 2024-04-26 15:39:41.288209: file searched - /public_html/wp-admin/includes/class-wp-application-passwords-list-table.php
+INFO: - 2024-04-26 15:39:41.682945: file searched - /public_html/wp-admin/includes/class-wp-automatic-updater.php
+INFO: - 2024-04-26 15:39:42.206920: file searched - /public_html/wp-admin/includes/class-wp-comments-list-table.php
+INFO: - 2024-04-26 15:39:42.670619: file searched - /public_html/wp-admin/includes/class-wp-community-events.php
+INFO: - 2024-04-26 15:39:43.129903: file searched - /public_html/wp-admin/includes/class-wp-debug-data.php
+INFO: - 2024-04-26 15:39:43.657860: file searched - /public_html/wp-admin/includes/class-wp-filesystem-base.php
+INFO: - 2024-04-26 15:39:44.119538: file searched - /public_html/wp-admin/includes/class-wp-filesystem-direct.php
+INFO: - 2024-04-26 15:39:44.578915: file searched - /public_html/wp-admin/includes/class-wp-filesystem-ftpext.php
+INFO: - 2024-04-26 15:39:45.042259: file searched - /public_html/wp-admin/includes/class-wp-filesystem-ftpsockets.php
+INFO: - 2024-04-26 15:39:45.503847: file searched - /public_html/wp-admin/includes/class-wp-filesystem-ssh2.php
+INFO: - 2024-04-26 15:39:45.965462: file searched - /public_html/wp-admin/includes/class-wp-importer.php
+INFO: - 2024-04-26 15:39:46.360317: file searched - /public_html/wp-admin/includes/class-wp-internal-pointers.php
+INFO: - 2024-04-26 15:39:46.752953: file searched - /public_html/wp-admin/includes/class-wp-links-list-table.php
+INFO: - 2024-04-26 15:39:47.146988: file searched - /public_html/wp-admin/includes/class-wp-list-table-compat.php
+INFO: - 2024-04-26 15:39:47.542159: file searched - /public_html/wp-admin/includes/class-wp-list-table.php
+INFO: - 2024-04-26 15:39:48.070613: file searched - /public_html/wp-admin/includes/class-wp-media-list-table.php
+INFO: - 2024-04-26 15:39:48.533074: file searched - /public_html/wp-admin/includes/class-wp-ms-sites-list-table.php
+INFO: - 2024-04-26 15:39:48.994685: file searched - /public_html/wp-admin/includes/class-wp-ms-themes-list-table.php
+INFO: - 2024-04-26 15:39:49.460817: file searched - /public_html/wp-admin/includes/class-wp-ms-users-list-table.php
+INFO: - 2024-04-26 15:39:49.856940: file searched - /public_html/wp-admin/includes/class-wp-plugin-install-list-table.php
+INFO: - 2024-04-26 15:39:50.319732: file searched - /public_html/wp-admin/includes/class-wp-plugins-list-table.php
+INFO: - 2024-04-26 15:39:50.846507: file searched - /public_html/wp-admin/includes/class-wp-post-comments-list-table.php
+INFO: - 2024-04-26 15:39:51.242854: file searched - /public_html/wp-admin/includes/class-wp-posts-list-table.php
+INFO: - 2024-04-26 15:39:51.772951: file searched - /public_html/wp-admin/includes/class-wp-privacy-data-export-requests-list-table.php
+INFO: - 2024-04-26 15:39:52.169619: file searched - /public_html/wp-admin/includes/class-wp-privacy-data-removal-requests-list-table.php
+INFO: - 2024-04-26 15:39:52.564484: file searched - /public_html/wp-admin/includes/class-wp-privacy-policy-content.php
+INFO: - 2024-04-26 15:39:53.026987: file searched - /public_html/wp-admin/includes/class-wp-privacy-requests-table.php
+INFO: - 2024-04-26 15:39:53.423934: file searched - /public_html/wp-admin/includes/class-wp-screen.php
+INFO: - 2024-04-26 15:39:53.886061: file searched - /public_html/wp-admin/includes/class-wp-site-health-auto-updates.php
+INFO: - 2024-04-26 15:39:54.281707: file searched - /public_html/wp-admin/includes/class-wp-site-health.php
+INFO: - 2024-04-26 15:39:54.881809: file searched - /public_html/wp-admin/includes/class-wp-site-icon.php
+INFO: - 2024-04-26 15:39:55.274597: file searched - /public_html/wp-admin/includes/class-wp-terms-list-table.php
+INFO: - 2024-04-26 15:39:55.735560: file searched - /public_html/wp-admin/includes/class-wp-theme-install-list-table.php
+INFO: - 2024-04-26 15:39:56.132668: file searched - /public_html/wp-admin/includes/class-wp-themes-list-table.php
+INFO: - 2024-04-26 15:39:56.527339: file searched - /public_html/wp-admin/includes/class-wp-upgrader-skin.php
+INFO: - 2024-04-26 15:39:56.922862: file searched - /public_html/wp-admin/includes/class-wp-upgrader-skins.php
+INFO: - 2024-04-26 15:39:57.318993: file searched - /public_html/wp-admin/includes/class-wp-upgrader.php
+INFO: - 2024-04-26 15:39:57.845727: file searched - /public_html/wp-admin/includes/class-wp-users-list-table.php
+INFO: - 2024-04-26 15:39:58.306159: file searched - /public_html/wp-admin/includes/comment.php
+INFO: - 2024-04-26 15:39:58.701195: file searched - /public_html/wp-admin/includes/continents-cities.php
+INFO: - 2024-04-26 15:39:59.162414: file searched - /public_html/wp-admin/includes/credits.php
+INFO: - 2024-04-26 15:39:59.558722: file searched - /public_html/wp-admin/includes/dashboard.php
+INFO: - 2024-04-26 15:40:00.089520: file searched - /public_html/wp-admin/includes/deprecated.php
+INFO: - 2024-04-26 15:40:00.551971: file searched - /public_html/wp-admin/includes/edit-tag-messages.php
+INFO: - 2024-04-26 15:40:00.946553: file searched - /public_html/wp-admin/includes/export.php
+INFO: - 2024-04-26 15:40:01.413413: file searched - /public_html/wp-admin/includes/file.php
+INFO: - 2024-04-26 15:40:01.945080: file searched - /public_html/wp-admin/includes/image-edit.php
+INFO: - 2024-04-26 15:40:02.409912: file searched - /public_html/wp-admin/includes/image.php
+INFO: - 2024-04-26 15:40:02.874215: file searched - /public_html/wp-admin/includes/import.php
+INFO: - 2024-04-26 15:40:03.270526: file searched - /public_html/wp-admin/includes/list-table.php
+INFO: - 2024-04-26 15:40:03.664861: file searched - /public_html/wp-admin/includes/media.php
+INFO: - 2024-04-26 15:40:04.262767: file searched - /public_html/wp-admin/includes/menu.php
+INFO: - 2024-04-26 15:40:04.659009: file searched - /public_html/wp-admin/includes/meta-boxes.php
+INFO: - 2024-04-26 15:40:05.184692: file searched - /public_html/wp-admin/includes/misc.php
+INFO: - 2024-04-26 15:40:05.709537: file searched - /public_html/wp-admin/includes/ms-admin-filters.php
+INFO: - 2024-04-26 15:40:06.103133: file searched - /public_html/wp-admin/includes/ms-deprecated.php
+INFO: - 2024-04-26 15:40:06.497661: file searched - /public_html/wp-admin/includes/ms.php
+INFO: - 2024-04-26 15:40:06.960242: file searched - /public_html/wp-admin/includes/nav-menu.php
+INFO: - 2024-04-26 15:40:07.487050: file searched - /public_html/wp-admin/includes/network.php
+INFO: - 2024-04-26 15:40:07.953853: file searched - /public_html/wp-admin/includes/noop.php
+INFO: - 2024-04-26 15:40:08.350516: file searched - /public_html/wp-admin/includes/options.php
+INFO: - 2024-04-26 15:40:08.747618: file searched - /public_html/wp-admin/includes/plugin-install.php
+INFO: - 2024-04-26 15:40:09.210432: file searched - /public_html/wp-admin/includes/plugin.php
+INFO: - 2024-04-26 15:40:09.740774: file searched - /public_html/wp-admin/includes/post.php
+INFO: - 2024-04-26 15:40:10.275152: file searched - /public_html/wp-admin/includes/privacy-tools.php
+INFO: - 2024-04-26 15:40:10.737912: file searched - /public_html/wp-admin/includes/revision.php
+INFO: - 2024-04-26 15:40:11.201407: file searched - /public_html/wp-admin/includes/schema.php
+INFO: - 2024-04-26 15:40:11.665009: file searched - /public_html/wp-admin/includes/screen.php
+INFO: - 2024-04-26 15:40:12.059441: file searched - /public_html/wp-admin/includes/taxonomy.php
+INFO: - 2024-04-26 15:40:12.455311: file searched - /public_html/wp-admin/includes/template.php
+INFO: - 2024-04-26 15:40:12.986951: file searched - /public_html/wp-admin/includes/theme-install.php
+INFO: - 2024-04-26 15:40:13.384851: file searched - /public_html/wp-admin/includes/theme.php
+INFO: - 2024-04-26 15:40:13.917950: file searched - /public_html/wp-admin/includes/translation-install.php
+INFO: - 2024-04-26 15:40:14.314210: file searched - /public_html/wp-admin/includes/update-core.php
+INFO: - 2024-04-26 15:40:14.845223: file searched - /public_html/wp-admin/includes/update.php
+INFO: - 2024-04-26 15:40:15.306054: file searched - /public_html/wp-admin/includes/upgrade.php
+INFO: - 2024-04-26 15:40:15.903025: file searched - /public_html/wp-admin/includes/user.php
+INFO: - 2024-04-26 15:40:16.365465: file searched - /public_html/wp-admin/includes/widgets.php
+INFO: - 2024-04-26 15:40:17.233963: file searched - /public_html/wp-admin/js/accordion.js
+INFO: - 2024-04-26 15:40:17.629498: file searched - /public_html/wp-admin/js/accordion.min.js
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=47964688): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO: - 2024-04-26 15:40:18.024562: file searched - /public_html/wp-admin/js/application-passwords.js
+INFO: - 2024-04-26 15:40:18.421295: file searched - /public_html/wp-admin/js/application-passwords.min.js
+INFO: - 2024-04-26 15:40:18.821229: file searched - /public_html/wp-admin/js/auth-app.js
+INFO: - 2024-04-26 15:40:19.215054: file searched - /public_html/wp-admin/js/auth-app.min.js
+INFO: - 2024-04-26 15:40:19.610525: file searched - /public_html/wp-admin/js/code-editor.js
+INFO: - 2024-04-26 15:40:20.006306: file searched - /public_html/wp-admin/js/code-editor.min.js
+INFO: - 2024-04-26 15:40:20.402800: file searched - /public_html/wp-admin/js/color-picker.js
+INFO: - 2024-04-26 15:40:20.798027: file searched - /public_html/wp-admin/js/color-picker.min.js
+INFO: - 2024-04-26 15:40:21.193292: file searched - /public_html/wp-admin/js/comment.js
+INFO: - 2024-04-26 15:40:21.587548: file searched - /public_html/wp-admin/js/comment.min.js
+INFO: - 2024-04-26 15:40:21.984060: file searched - /public_html/wp-admin/js/common.js
+INFO: - 2024-04-26 15:40:22.513796: file searched - /public_html/wp-admin/js/common.min.js
+INFO: - 2024-04-26 15:40:22.974545: file searched - /public_html/wp-admin/js/custom-background.js
+INFO: - 2024-04-26 15:40:23.371703: file searched - /public_html/wp-admin/js/custom-background.min.js
+INFO: - 2024-04-26 15:40:23.765366: file searched - /public_html/wp-admin/js/custom-header.js

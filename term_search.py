@@ -16,6 +16,9 @@ import ftputil
 import re
 import requests
 
+ip = requests.get('https://api64.ipify.org').text
+st.write(ip)
+
 logger.info(get_date() + 'Imports Complete')
 
 st.markdown("""
@@ -46,8 +49,6 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
     logger.info(get_date() + 'term_search function - ' +  str({'FTP_HOST': FTP_HOST, 'FTP_USER': FTP_USER, 'FTP_PASS': FTP_PASS, 'THEME_FOLDER': THEME_FOLDER}))
 
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
-        ip = requests.get('https://api64.ipify.org').text
-        st.write(ip)
         try:
             st.write('FTP connected')
             # for (dirnames, subdirs, filename) in ftp.walk('./public_html/wp-content/themes/' + THEME_FOLDER):
