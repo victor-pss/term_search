@@ -48,6 +48,9 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
         try:
             st.write('FTP connected')
             for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/' + THEME_FOLDER):
+                st.write(str(dirnames))
+                st.write(str(subdirs))
+                st.write(str(filename))
                 for name in filename:
                     dir = dirnames
                     if dir[-1] != '/':
