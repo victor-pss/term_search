@@ -45,25 +45,29 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
     logger.info(get_date() + 'term_search function - ' +  str({'FTP_HOST': FTP_HOST, 'FTP_USER': FTP_USER, 'FTP_PASS': FTP_PASS, 'THEME_FOLDER': THEME_FOLDER}))
 
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
-        for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/' + THEME_FOLDER):
-            for name in filename:
-                dir = dirnames
-                if dir[-1] != '/':
-                    dir += '/'
-                f = dir + name
-                st.write(f)
-                logger.info(get_date() + 'file searched - ' + f)
+        try:
+            st.write('FTP connected')
+            for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/' + THEME_FOLDER):
+                for name in filename:
+                    dir = dirnames
+                    if dir[-1] != '/':
+                        dir += '/'
+                    f = dir + name
+                    st.write(f)
+                    logger.info(get_date() + 'file searched - ' + f)
 
-                if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
-                    with ftp.open(f, 'r', encoding='utf8') as obj:
-                        file = obj.read()
-                        if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
-                            logger.info(get_date() + ' file found    - term found in the above file ^^^^^^^^^')
-                            st.write('found ^^^^^^^^^^^^^')
-                            files.append(f)
-
-    logger.info(get_date() + 'found files - ' + str(files))
-    return files
+                    if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
+                        with ftp.open(f, 'r', encoding='utf8') as obj:
+                            file = obj.read()
+                            # if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
+                            if re.search("drsalamati.com.txt", file, re.IGNORECASE) != None:
+                                logger.info(get_date() + ' file found    - term found in the above file ^^^^^^^^^')
+                                st.write('found ^^^^^^^^^^^^^')
+                                files.append(f)
+        except:
+            return 'error'
+        logger.info(get_date() + 'found files - ' + str(files))
+        return files
 
 
 if 'FTP_HOST' not in st.session_state:
