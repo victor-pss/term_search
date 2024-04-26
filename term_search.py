@@ -122,7 +122,6 @@ with st.form('my_form'):
                 results = term_search(st.session_state['FTP_HOST'], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'])
                 st.session_state['results'] = results
                 st.session_state['query_complete'] = True
-
             st.markdown("""
                     <style>
                         .miner {
