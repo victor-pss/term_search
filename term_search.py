@@ -1,25 +1,8 @@
-import logging
-from datetime import datetime
-
-def get_date():
-    return ' - ' + str(datetime.now()) + ': '
-
-logger = logging.getLogger(__name__)
-logging.basicConfig(format='%(levelname)s:%(message)s', filename='app.log', encoding='utf-8', level=logging.DEBUG)
-
-logger.info(get_date() + 'Starting Imports')
-
 import streamlit as st
 import streamlit.components.v1 as components
 # from streamlit_tags import st_tags
 import ftputil
 import re
-import requests
-
-ip = requests.get('https://api64.ipify.org').text
-st.write(ip)
-
-logger.info(get_date() + 'Imports Complete')
 
 st.markdown("""
     <style>
@@ -46,35 +29,23 @@ st.write("""
 def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
     files = []
 
-    logger.info(get_date() + 'term_search function - ' +  str({'FTP_HOST': FTP_HOST, 'FTP_USER': FTP_USER, 'FTP_PASS': FTP_PASS, 'THEME_FOLDER': THEME_FOLDER}))
-
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
         try:
-            st.write('FTP connected')
-            # for (dirnames, subdirs, filename) in ftp.walk('./public_html/wp-content/themes/' + THEME_FOLDER):
-            for (dirnames, subdirs, filename) in ftp.walk('/'):
-                st.write(str(dirnames))
-                st.write(str(subdirs))
-                st.write(str(filename))
+            for (dirnames, subdirs, filename) in ftp.walk('/public_html/wp-content/themes/' + THEME_FOLDER):
                 for name in filename:
                     dir = dirnames
                     if dir[-1] != '/':
                         dir += '/'
                     f = dir + name
-                    st.write(f)
-                    logger.info(get_date() + 'file searched - ' + f)
-
                     if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
                         with ftp.open(f, 'r', encoding='utf8') as obj:
                             file = obj.read()
                             # if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
                             if re.search("drsalamati.com.txt", file, re.IGNORECASE) != None:
-                                logger.info(get_date() + ' file found    - term found in the above file ^^^^^^^^^')
-                                st.write('found ^^^^^^^^^^^^^')
                                 files.append(f)
         except:
             return 'error'
-        logger.info(get_date() + 'found files - ' + str(files))
+
         return files
 
 
@@ -95,9 +66,6 @@ if 'results' not in st.session_state:
 
 if 'query_complete' not in st.session_state:
     st.session_state['query_complete'] = False
-
-logger.info(get_date() + 'Initial State')
-logger.info(get_date() + str(st.session_state))
 
 with st.form('my_form'):
     # st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)

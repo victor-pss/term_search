@@ -5165,3 +5165,1108 @@ INFO: - 2024-04-26 15:40:22.513796: file searched - /public_html/wp-admin/js/com
 INFO: - 2024-04-26 15:40:22.974545: file searched - /public_html/wp-admin/js/custom-background.js
 INFO: - 2024-04-26 15:40:23.371703: file searched - /public_html/wp-admin/js/custom-background.min.js
 INFO: - 2024-04-26 15:40:23.765366: file searched - /public_html/wp-admin/js/custom-header.js
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e/4505c123aa44696959af46f28e2b9338c54497", inode=43034311, flags=110100, id=47965146): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e", inode=43034310, flags=20500, id=47965149): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e/tmp_obj_8bAirL", inode=43034311, flags=111300, id=47965152): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99/94ade05d5125eb6cf56685bce6df981c4fb982", inode=43034315, flags=110100, id=47965164): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99", inode=43034314, flags=20500, id=47965167): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99/tmp_obj_BXVKMl", inode=43034315, flags=111300, id=47965170): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43034309, flags=11900, id=47965176): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43034309, flags=10800, id=47965177): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43033792, flags=10800, id=47965178): is_file, is_renamed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e/4505c123aa44696959af46f28e2b9338c54497', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e/tmp_obj_8bAirL', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e/tmp_obj_8bAirL', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/8e', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99/94ade05d5125eb6cf56685bce6df981c4fb982', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99/tmp_obj_BXVKMl', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99/tmp_obj_BXVKMl', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/99', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43034309, flags=10800, id=47965177)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 15:40:24.160176: file searched - /public_html/wp-admin/js/customize-controls.js
+INFO: - 2024-04-26 15:40:24.826004: file searched - /public_html/wp-admin/js/customize-controls.min.js
+INFO: - 2024-04-26 15:40:25.422059: file searched - /public_html/wp-admin/js/customize-nav-menus.js
+INFO: - 2024-04-26 15:40:26.018510: file searched - /public_html/wp-admin/js/customize-nav-menus.min.js
+INFO: - 2024-04-26 15:40:26.546997: file searched - /public_html/wp-admin/js/customize-widgets.js
+INFO: - 2024-04-26 15:40:27.075352: file searched - /public_html/wp-admin/js/customize-widgets.min.js
+INFO: - 2024-04-26 15:40:27.538947: file searched - /public_html/wp-admin/js/dashboard.js
+INFO: - 2024-04-26 15:40:28.001589: file searched - /public_html/wp-admin/js/dashboard.min.js
+INFO: - 2024-04-26 15:40:28.397467: file searched - /public_html/wp-admin/js/edit-comments.js
+INFO: - 2024-04-26 15:40:28.861492: file searched - /public_html/wp-admin/js/edit-comments.min.js
+INFO: - 2024-04-26 15:40:29.259113: file searched - /public_html/wp-admin/js/editor-expand.js
+INFO: - 2024-04-26 15:40:29.721885: file searched - /public_html/wp-admin/js/editor-expand.min.js
+INFO: - 2024-04-26 15:40:30.117107: file searched - /public_html/wp-admin/js/editor.js
+INFO: - 2024-04-26 15:40:30.648599: file searched - /public_html/wp-admin/js/editor.min.js
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92/0fdf74d961b15d898b80854c2e1ccb5f53d60d", inode=43034323, flags=110100, id=47965276): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92", inode=43020368, flags=20400, id=47965279): is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92/tmp_obj_zvIUOL", inode=43034323, flags=111300, id=47965282): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43034322, flags=11900, id=47965288): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43034322, flags=10800, id=47965289): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43034309, flags=10800, id=47965290): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG", inode=42830216, flags=11400, id=47965296): is_file, is_inode_meta_mod, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0/8a44a31efe44462f51404879ce8de7f01f6ca5", inode=43034327, flags=110100, id=47965308): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0", inode=43034326, flags=20500, id=47965311): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0/tmp_obj_lzx2eg", inode=43034327, flags=111300, id=47965314): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock", inode=43034330, flags=10100, id=47965317): is_created, is_file
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92/0fdf74d961b15d898b80854c2e1ccb5f53d60d', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92/tmp_obj_zvIUOL', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92/tmp_obj_zvIUOL', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/92', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43034322, flags=10800, id=47965289)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0/8a44a31efe44462f51404879ce8de7f01f6ca5', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0/tmp_obj_lzx2eg', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0/tmp_obj_lzx2eg', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/b0', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD", inode=42276686, flags=11000, id=47965326): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main", inode=42276688, flags=11000, id=47965329): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock", inode=43034331, flags=11900, id=47965332): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43034331, flags=10800, id=47965333): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43033802, flags=10800, id=47965334): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock", inode=43034330, flags=10300, id=47965337): is_coalesced, is_created, is_file, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock", inode=43034332, flags=10300, id=47965343): is_coalesced, is_created, is_file, is_removed
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43034331, flags=10800, id=47965333)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 15:40:31.045090: file searched - /public_html/wp-admin/js/farbtastic.js
+INFO: - 2024-04-26 15:40:31.441374: file searched - /public_html/wp-admin/js/gallery.js
+INFO: - 2024-04-26 15:40:31.835727: file searched - /public_html/wp-admin/js/gallery.min.js
+INFO: - 2024-04-26 15:40:32.230164: file searched - /public_html/wp-admin/js/image-edit.js
+INFO: - 2024-04-26 15:40:32.692328: file searched - /public_html/wp-admin/js/image-edit.min.js
+INFO: - 2024-04-26 15:40:33.087274: file searched - /public_html/wp-admin/js/inline-edit-post.js
+INFO: - 2024-04-26 15:40:33.551916: file searched - /public_html/wp-admin/js/inline-edit-post.min.js
+INFO: - 2024-04-26 15:40:33.947982: file searched - /public_html/wp-admin/js/inline-edit-tax.js
+INFO: - 2024-04-26 15:40:34.343090: file searched - /public_html/wp-admin/js/inline-edit-tax.min.js
+INFO: - 2024-04-26 15:40:34.739893: file searched - /public_html/wp-admin/js/iris.min.js
+INFO: - 2024-04-26 15:40:35.202303: file searched - /public_html/wp-admin/js/language-chooser.js
+INFO: - 2024-04-26 15:40:35.595541: file searched - /public_html/wp-admin/js/language-chooser.min.js
+INFO: - 2024-04-26 15:40:35.989544: file searched - /public_html/wp-admin/js/link.js
+INFO: - 2024-04-26 15:40:36.383715: file searched - /public_html/wp-admin/js/link.min.js
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main", inode=42278662, flags=11000, id=47965515): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock", inode=43034344, flags=11900, id=47965518): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43034344, flags=10800, id=47965519): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43033812, flags=10800, id=47965520): is_file, is_renamed
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43034344, flags=10800, id=47965519)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+INFO: - 2024-04-26 15:40:36.777353: file searched - /public_html/wp-admin/js/media-gallery.js
+INFO: - 2024-04-26 15:40:37.175003: file searched - /public_html/wp-admin/js/media-gallery.min.js
+INFO: - 2024-04-26 15:40:37.568687: file searched - /public_html/wp-admin/js/media-upload.js
+INFO: - 2024-04-26 15:40:37.964536: file searched - /public_html/wp-admin/js/media-upload.min.js
+INFO: - 2024-04-26 15:40:38.358987: file searched - /public_html/wp-admin/js/media.js
+INFO: - 2024-04-26 15:40:38.755478: file searched - /public_html/wp-admin/js/media.min.js
+INFO: - 2024-04-26 15:40:39.148742: file searched - /public_html/wp-admin/js/nav-menu.js
+INFO: - 2024-04-26 15:40:39.672704: file searched - /public_html/wp-admin/js/nav-menu.min.js
+INFO: - 2024-04-26 15:40:40.131999: file searched - /public_html/wp-admin/js/password-strength-meter.js
+INFO: - 2024-04-26 15:40:40.525859: file searched - /public_html/wp-admin/js/password-strength-meter.min.js
+INFO: - 2024-04-26 15:40:40.917908: file searched - /public_html/wp-admin/js/password-toggle.js
+INFO: - 2024-04-26 15:40:41.312027: file searched - /public_html/wp-admin/js/password-toggle.min.js
+INFO: - 2024-04-26 15:40:41.705173: file searched - /public_html/wp-admin/js/plugin-install.js
+INFO: - 2024-04-26 15:40:42.102982: file searched - /public_html/wp-admin/js/plugin-install.min.js
+INFO: - 2024-04-26 15:40:42.498894: file searched - /public_html/wp-admin/js/post.js
+INFO: - 2024-04-26 15:40:42.962720: file searched - /public_html/wp-admin/js/post.min.js
+INFO: - 2024-04-26 15:40:43.426024: file searched - /public_html/wp-admin/js/postbox.js
+INFO: - 2024-04-26 15:40:43.885316: file searched - /public_html/wp-admin/js/postbox.min.js
+INFO: - 2024-04-26 15:40:44.282098: file searched - /public_html/wp-admin/js/privacy-tools.js
+INFO: - 2024-04-26 15:40:44.678292: file searched - /public_html/wp-admin/js/privacy-tools.min.js
+INFO: - 2024-04-26 15:40:45.073290: file searched - /public_html/wp-admin/js/revisions.js
+INFO: - 2024-04-26 15:40:45.534051: file searched - /public_html/wp-admin/js/revisions.min.js
+INFO: - 2024-04-26 15:40:45.994443: file searched - /public_html/wp-admin/js/set-post-thumbnail.js
+INFO: - 2024-04-26 15:40:46.387395: file searched - /public_html/wp-admin/js/set-post-thumbnail.min.js
+INFO: - 2024-04-26 15:40:46.783835: file searched - /public_html/wp-admin/js/site-health.js
+INFO: - 2024-04-26 15:40:47.180817: file searched - /public_html/wp-admin/js/site-health.min.js
+INFO: - 2024-04-26 15:40:47.575825: file searched - /public_html/wp-admin/js/site-icon.js
+INFO: - 2024-04-26 15:40:47.968551: file searched - /public_html/wp-admin/js/site-icon.min.js
+INFO: - 2024-04-26 15:40:48.365074: file searched - /public_html/wp-admin/js/svg-painter.js
+INFO: - 2024-04-26 15:40:48.758385: file searched - /public_html/wp-admin/js/svg-painter.min.js
+INFO: - 2024-04-26 15:40:49.151101: file searched - /public_html/wp-admin/js/tags-box.js
+INFO: - 2024-04-26 15:40:49.545162: file searched - /public_html/wp-admin/js/tags-box.min.js
+INFO: - 2024-04-26 15:40:49.939489: file searched - /public_html/wp-admin/js/tags-suggest.js
+INFO: - 2024-04-26 15:40:50.333152: file searched - /public_html/wp-admin/js/tags-suggest.min.js
+INFO: - 2024-04-26 15:40:50.727639: file searched - /public_html/wp-admin/js/tags.js
+INFO: - 2024-04-26 15:40:51.123912: file searched - /public_html/wp-admin/js/tags.min.js
+INFO: - 2024-04-26 15:40:51.518939: file searched - /public_html/wp-admin/js/theme-plugin-editor.js
+INFO: - 2024-04-26 15:40:51.981209: file searched - /public_html/wp-admin/js/theme-plugin-editor.min.js
+INFO: - 2024-04-26 15:40:52.378394: file searched - /public_html/wp-admin/js/theme.js
+INFO: - 2024-04-26 15:40:52.908219: file searched - /public_html/wp-admin/js/theme.min.js
+INFO: - 2024-04-26 15:40:53.372385: file searched - /public_html/wp-admin/js/updates.js
+INFO: - 2024-04-26 15:40:53.967521: file searched - /public_html/wp-admin/js/updates.min.js
+INFO: - 2024-04-26 15:40:54.493327: file searched - /public_html/wp-admin/js/user-profile.js
+INFO: - 2024-04-26 15:40:54.889597: file searched - /public_html/wp-admin/js/user-profile.min.js
+INFO: - 2024-04-26 15:40:55.287337: file searched - /public_html/wp-admin/js/user-suggest.js
+INFO: - 2024-04-26 15:40:55.682721: file searched - /public_html/wp-admin/js/user-suggest.min.js
+INFO: - 2024-04-26 15:40:56.076900: file searched - /public_html/wp-admin/js/widgets.js
+INFO: - 2024-04-26 15:40:56.541112: file searched - /public_html/wp-admin/js/widgets.min.js
+INFO: - 2024-04-26 15:40:56.937129: file searched - /public_html/wp-admin/js/word-count.js
+INFO: - 2024-04-26 15:40:57.332803: file searched - /public_html/wp-admin/js/word-count.min.js
+INFO: - 2024-04-26 15:40:57.727448: file searched - /public_html/wp-admin/js/xfn.js
+INFO: - 2024-04-26 15:40:58.123167: file searched - /public_html/wp-admin/js/xfn.min.js
+INFO: - 2024-04-26 15:40:58.979258: file searched - /public_html/wp-admin/js/widgets/custom-html-widgets.js
+INFO: - 2024-04-26 15:40:59.374055: file searched - /public_html/wp-admin/js/widgets/custom-html-widgets.min.js
+INFO: - 2024-04-26 15:40:59.770686: file searched - /public_html/wp-admin/js/widgets/media-audio-widget.js
+INFO: - 2024-04-26 15:41:00.166952: file searched - /public_html/wp-admin/js/widgets/media-audio-widget.min.js
+INFO: - 2024-04-26 15:41:00.563657: file searched - /public_html/wp-admin/js/widgets/media-gallery-widget.js
+INFO: - 2024-04-26 15:41:00.960121: file searched - /public_html/wp-admin/js/widgets/media-gallery-widget.min.js
+INFO: - 2024-04-26 15:41:01.357264: file searched - /public_html/wp-admin/js/widgets/media-image-widget.js
+INFO: - 2024-04-26 15:41:01.751243: file searched - /public_html/wp-admin/js/widgets/media-image-widget.min.js
+INFO: - 2024-04-26 15:41:02.147804: file searched - /public_html/wp-admin/js/widgets/media-video-widget.js
+INFO: - 2024-04-26 15:41:02.544473: file searched - /public_html/wp-admin/js/widgets/media-video-widget.min.js
+INFO: - 2024-04-26 15:41:02.939870: file searched - /public_html/wp-admin/js/widgets/media-widgets.js
+INFO: - 2024-04-26 15:41:03.401903: file searched - /public_html/wp-admin/js/widgets/media-widgets.min.js
+INFO: - 2024-04-26 15:41:03.799907: file searched - /public_html/wp-admin/js/widgets/text-widgets.js
+INFO: - 2024-04-26 15:41:04.263956: file searched - /public_html/wp-admin/js/widgets/text-widgets.min.js
+INFO: - 2024-04-26 15:41:05.118943: file searched - /public_html/wp-admin/maint/repair.php
+INFO: - 2024-04-26 15:41:06.437503: file searched - /public_html/wp-admin/network/about.php
+INFO: - 2024-04-26 15:41:06.832431: file searched - /public_html/wp-admin/network/admin.php
+INFO: - 2024-04-26 15:41:07.228599: file searched - /public_html/wp-admin/network/contribute.php
+INFO: - 2024-04-26 15:41:07.622972: file searched - /public_html/wp-admin/network/credits.php
+INFO: - 2024-04-26 15:41:08.019753: file searched - /public_html/wp-admin/network/edit.php
+INFO: - 2024-04-26 15:41:08.416974: file searched - /public_html/wp-admin/network/freedoms.php
+INFO: - 2024-04-26 15:41:08.811754: file searched - /public_html/wp-admin/network/index.php
+INFO: - 2024-04-26 15:41:09.209077: file searched - /public_html/wp-admin/network/menu.php
+INFO: - 2024-04-26 15:41:09.605816: file searched - /public_html/wp-admin/network/plugin-editor.php
+INFO: - 2024-04-26 15:41:10.000955: file searched - /public_html/wp-admin/network/plugin-install.php
+INFO: - 2024-04-26 15:41:10.395455: file searched - /public_html/wp-admin/network/plugins.php
+INFO: - 2024-04-26 15:41:10.792058: file searched - /public_html/wp-admin/network/privacy.php
+INFO: - 2024-04-26 15:41:11.189453: file searched - /public_html/wp-admin/network/profile.php
+INFO: - 2024-04-26 15:41:11.584717: file searched - /public_html/wp-admin/network/settings.php
+INFO: - 2024-04-26 15:41:12.047168: file searched - /public_html/wp-admin/network/setup.php
+INFO: - 2024-04-26 15:41:12.441507: file searched - /public_html/wp-admin/network/site-info.php
+INFO: - 2024-04-26 15:41:12.836946: file searched - /public_html/wp-admin/network/site-new.php
+INFO: - 2024-04-26 15:41:13.232518: file searched - /public_html/wp-admin/network/site-settings.php
+INFO: - 2024-04-26 15:41:13.630284: file searched - /public_html/wp-admin/network/site-themes.php
+INFO: - 2024-04-26 15:41:14.026238: file searched - /public_html/wp-admin/network/site-users.php
+INFO: - 2024-04-26 15:41:14.423032: file searched - /public_html/wp-admin/network/sites.php
+INFO: - 2024-04-26 15:41:14.820559: file searched - /public_html/wp-admin/network/theme-editor.php
+INFO: - 2024-04-26 15:41:15.215673: file searched - /public_html/wp-admin/network/theme-install.php
+INFO: - 2024-04-26 15:41:15.612060: file searched - /public_html/wp-admin/network/themes.php
+INFO: - 2024-04-26 15:41:16.071584: file searched - /public_html/wp-admin/network/update-core.php
+INFO: - 2024-04-26 15:41:16.462442: file searched - /public_html/wp-admin/network/update.php
+INFO: - 2024-04-26 15:41:16.856489: file searched - /public_html/wp-admin/network/upgrade.php
+INFO: - 2024-04-26 15:41:17.253553: file searched - /public_html/wp-admin/network/user-edit.php
+INFO: - 2024-04-26 15:41:17.647393: file searched - /public_html/wp-admin/network/user-new.php
+INFO: - 2024-04-26 15:41:18.041615: file searched - /public_html/wp-admin/network/users.php
+INFO: - 2024-04-26 15:41:18.895382: file searched - /public_html/wp-admin/user/about.php
+INFO: - 2024-04-26 15:41:19.292578: file searched - /public_html/wp-admin/user/admin.php
+INFO: - 2024-04-26 15:41:19.685199: file searched - /public_html/wp-admin/user/credits.php
+INFO: - 2024-04-26 15:41:20.079733: file searched - /public_html/wp-admin/user/freedoms.php
+INFO: - 2024-04-26 15:41:20.476356: file searched - /public_html/wp-admin/user/index.php
+INFO: - 2024-04-26 15:41:20.870740: file searched - /public_html/wp-admin/user/menu.php
+INFO: - 2024-04-26 15:41:21.265470: file searched - /public_html/wp-admin/user/privacy.php
+INFO: - 2024-04-26 15:41:21.659455: file searched - /public_html/wp-admin/user/profile.php
+INFO: - 2024-04-26 15:41:22.052848: file searched - /public_html/wp-admin/user/user-edit.php
+INFO: - 2024-04-26 15:41:22.910720: file searched - /public_html/wp-content/advanced-cache.php
+INFO: - 2024-04-26 15:41:23.307670: file searched - /public_html/wp-content/autoptimize_404_handler.php
+INFO: - 2024-04-26 15:41:23.702029: file searched - /public_html/wp-content/index.php
+INFO: - 2024-04-26 15:41:24.097491: file searched - /public_html/wp-content/maintenance.php
+INFO: - 2024-04-26 15:41:25.878640: file searched - /public_html/wp-content/cache/busting/index.html
+INFO: - 2024-04-26 15:41:26.734181: file searched - /public_html/wp-content/cache/critical-css/index.html
+INFO: - 2024-04-26 15:41:27.589208: file searched - /public_html/wp-content/cache/min/index.html
+INFO: - 2024-04-26 15:41:28.447061: file searched - /public_html/wp-content/cache/wp-rocket/.htaccess
+INFO: - 2024-04-26 15:41:28.448421: file searched - /public_html/wp-content/cache/wp-rocket/index.html
+INFO: - 2024-04-26 15:41:29.309410: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/index-https.html
+INFO: - 2024-04-26 15:41:29.838730: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/index-https.html_gzip
+INFO: - 2024-04-26 15:41:30.304735: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/about-dr-los-cosmetic-surgery-practice-and-team/index-https.html
+INFO: - 2024-04-26 15:41:30.832192: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/about-dr-los-cosmetic-surgery-practice-and-team/index-https.html_gzip
+INFO: - 2024-04-26 15:41:31.298210: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/adolescent/index-https.html
+INFO: - 2024-04-26 15:41:31.825956: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/adolescent/index-https.html_gzip
+INFO: - 2024-04-26 15:41:32.290561: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/adult/index-https.html
+INFO: - 2024-04-26 15:41:32.818586: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/adult/index-https.html_gzip
+INFO: - 2024-04-26 15:41:33.284981: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/index-https.html
+INFO: - 2024-04-26 15:41:33.817395: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/index-https.html_gzip
+INFO: - 2024-04-26 15:41:34.747863: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/author/pss-admin/index-https.html
+INFO: - 2024-04-26 15:41:35.281987: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/author/pss-admin/index-https.html_gzip
+INFO: - 2024-04-26 15:41:35.746292: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/breast-implants-in-2019/index-https.html
+INFO: - 2024-04-26 15:41:36.273738: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/breast-implants-in-2019/index-https.html_gzip
+INFO: - 2024-04-26 15:41:37.202139: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/category/uncategorized/index-https.html
+INFO: - 2024-04-26 15:41:37.728139: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/category/uncategorized/index-https.html_gzip
+INFO: - 2024-04-26 15:41:38.192931: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/dr-adrian-lo-named-top-doc/index-https.html
+INFO: - 2024-04-26 15:41:38.718141: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/dr-adrian-lo-named-top-doc/index-https.html_gzip
+INFO: - 2024-04-26 15:41:39.180900: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/dr-lo-expands-offices/index-https.html
+INFO: - 2024-04-26 15:41:39.707959: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/dr-lo-expands-offices/index-https.html_gzip
+INFO: - 2024-04-26 15:41:40.172593: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/dr-lo-has-been-awarded-one-of-the-top-3-plastic-surgeons-in-philadelphia/index-https.html
+INFO: - 2024-04-26 15:41:40.702100: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/dr-lo-has-been-awarded-one-of-the-top-3-plastic-surgeons-in-philadelphia/index-https.html_gzip
+INFO: - 2024-04-26 15:41:41.166693: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/facts-vs-myths-for-transaxillary-or-armpit-incision-breast-implant-surgery/index-https.html
+INFO: - 2024-04-26 15:41:41.696262: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/facts-vs-myths-for-transaxillary-or-armpit-incision-breast-implant-surgery/index-https.html_gzip
+INFO: - 2024-04-26 15:41:42.157948: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/how-much-pain-is-associated-with-a-tummy-tuck/index-https.html
+INFO: - 2024-04-26 15:41:42.687394: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/how-much-pain-is-associated-with-a-tummy-tuck/index-https.html_gzip
+INFO: - 2024-04-26 15:41:43.148270: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/labiaplasty-a-procedure-for-women-that-is-growing-in-popularity/index-https.html
+INFO: - 2024-04-26 15:41:43.672758: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/labiaplasty-a-procedure-for-women-that-is-growing-in-popularity/index-https.html_gzip
+INFO: - 2024-04-26 15:41:44.135662: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/male-breast-growth-and-pot/index-https.html
+INFO: - 2024-04-26 15:41:44.665851: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/male-breast-growth-and-pot/index-https.html_gzip
+INFO: - 2024-04-26 15:41:45.131639: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/myths-vs-facts-when-it-comes-to-man-boobs-aka-gynecomastia/index-https.html
+INFO: - 2024-04-26 15:41:45.662819: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/myths-vs-facts-when-it-comes-to-man-boobs-aka-gynecomastia/index-https.html_gzip
+INFO: - 2024-04-26 15:41:46.122974: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/nipple-sensation-after-a-breast-surgery/index-https.html
+INFO: - 2024-04-26 15:41:46.653455: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/nipple-sensation-after-a-breast-surgery/index-https.html_gzip
+INFO: - 2024-04-26 15:41:47.117088: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/plastic-surgery-and-feeling-confident-let-us-help-you-feel-more-comfortable-in-your-own-skin/index-https.html
+INFO: - 2024-04-26 15:41:47.649976: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/plastic-surgery-and-feeling-confident-let-us-help-you-feel-more-comfortable-in-your-own-skin/index-https.html_gzip
+INFO: - 2024-04-26 15:41:48.113957: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/pursuing-perfection-of-every-last-body-part/index-https.html
+INFO: - 2024-04-26 15:41:48.646671: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/pursuing-perfection-of-every-last-body-part/index-https.html_gzip
+INFO: - 2024-04-26 15:41:49.110020: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/ready-for-your-consultation/index-https.html
+INFO: - 2024-04-26 15:41:49.634807: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/ready-for-your-consultation/index-https.html_gzip
+INFO: - 2024-04-26 15:41:50.099320: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/scarless-breast-implants-have-become-the-most-popular-type-of-breast-augmentation-surgery-that-dr-adrian-lo-of-philadelphia-pa-performs-on-women/index-https.html
+INFO: - 2024-04-26 15:41:50.629492: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/scarless-breast-implants-have-become-the-most-popular-type-of-breast-augmentation-surgery-that-dr-adrian-lo-of-philadelphia-pa-performs-on-women/index-https.html_gzip
+INFO: - 2024-04-26 15:41:51.556359: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/abdominoplasty/index-https.html
+INFO: - 2024-04-26 15:41:52.084913: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/abdominoplasty/index-https.html_gzip
+INFO: - 2024-04-26 15:41:52.546688: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-breast-implants/index-https.html
+INFO: - 2024-04-26 15:41:53.075998: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-breast-implants/index-https.html_gzip
+INFO: - 2024-04-26 15:41:53.541117: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-breast-surgeon/index-https.html
+INFO: - 2024-04-26 15:41:54.070021: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-breast-surgeon/index-https.html_gzip
+INFO: - 2024-04-26 15:41:54.534717: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-plastic-surgeon/index-https.html
+INFO: - 2024-04-26 15:41:55.065265: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-plastic-surgeon/index-https.html_gzip
+INFO: - 2024-04-26 15:41:55.529448: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-tummy-tuck/index-https.html
+INFO: - 2024-04-26 15:41:56.058378: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/best-tummy-tuck/index-https.html_gzip
+INFO: - 2024-04-26 15:41:56.522332: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-augmentation/index-https.html
+INFO: - 2024-04-26 15:41:57.051923: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-augmentation/index-https.html_gzip
+INFO: - 2024-04-26 15:41:57.515809: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-implants/index-https.html
+INFO: - 2024-04-26 15:41:58.042244: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-implants/index-https.html_gzip
+INFO: - 2024-04-26 15:41:58.506541: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-lift/index-https.html
+INFO: - 2024-04-26 15:41:59.035679: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-lift/index-https.html_gzip
+INFO: - 2024-04-26 15:41:59.498252: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-reduction/index-https.html
+INFO: - 2024-04-26 15:42:00.028881: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/breast-reduction/index-https.html_gzip
+INFO: - 2024-04-26 15:42:00.493075: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/cosmetic-surgery/index-https.html
+INFO: - 2024-04-26 15:42:01.020913: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/cosmetic-surgery/index-https.html_gzip
+INFO: - 2024-04-26 15:42:01.482730: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/gummy-bear/index-https.html
+INFO: - 2024-04-26 15:42:02.016281: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/gummy-bear/index-https.html_gzip
+INFO: - 2024-04-26 15:42:02.480551: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/mommy-makeover/index-https.html
+INFO: - 2024-04-26 15:42:03.010944: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/mommy-makeover/index-https.html_gzip
+INFO: - 2024-04-26 15:42:03.475614: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/nipple-sensation/index-https.html
+INFO: - 2024-04-26 15:42:04.003694: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/nipple-sensation/index-https.html_gzip
+INFO: - 2024-04-26 15:42:04.467798: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/philadelphia-plastic-surgeon/index-https.html
+INFO: - 2024-04-26 15:42:05.001850: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/philadelphia-plastic-surgeon/index-https.html_gzip
+INFO: - 2024-04-26 15:42:05.466049: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/plastic-surgeon-philadelphia/index-https.html
+INFO: - 2024-04-26 15:42:05.999703: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/plastic-surgeon-philadelphia/index-https.html_gzip
+INFO: - 2024-04-26 15:42:06.460465: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/plastic-surgery/index-https.html
+INFO: - 2024-04-26 15:42:06.987302: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/plastic-surgery/index-https.html_gzip
+INFO: - 2024-04-26 15:42:07.450455: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/saline/index-https.html
+INFO: - 2024-04-26 15:42:07.976158: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/saline/index-https.html_gzip
+INFO: - 2024-04-26 15:42:08.441410: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/scheduling-a-consultation/index-https.html
+INFO: - 2024-04-26 15:42:08.973812: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/scheduling-a-consultation/index-https.html_gzip
+INFO: - 2024-04-26 15:42:09.438200: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/sensitive-nipples/index-https.html
+INFO: - 2024-04-26 15:42:09.964508: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/sensitive-nipples/index-https.html_gzip
+INFO: - 2024-04-26 15:42:10.425691: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/silicone/index-https.html
+INFO: - 2024-04-26 15:42:10.953869: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/silicone/index-https.html_gzip
+INFO: - 2024-04-26 15:42:11.417894: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/top-plastic-surgeon/index-https.html
+INFO: - 2024-04-26 15:42:11.945895: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/top-plastic-surgeon/index-https.html_gzip
+INFO: - 2024-04-26 15:42:12.410904: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/tummy-tuck/index-https.html
+INFO: - 2024-04-26 15:42:12.943760: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/tag/tummy-tuck/index-https.html_gzip
+INFO: - 2024-04-26 15:42:13.407751: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/the-cure-for-man-boobs/index-https.html
+INFO: - 2024-04-26 15:42:13.939330: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/the-cure-for-man-boobs/index-https.html_gzip
+INFO: - 2024-04-26 15:42:14.404270: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/the-mommy-make-over/index-https.html
+INFO: - 2024-04-26 15:42:14.930632: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/the-mommy-make-over/index-https.html_gzip
+INFO: - 2024-04-26 15:42:15.391047: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/welcome-to-dr-adrian-los-new-office-in-south-jerseytitle/index-https.html
+INFO: - 2024-04-26 15:42:15.921767: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/welcome-to-dr-adrian-los-new-office-in-south-jerseytitle/index-https.html_gzip
+INFO: - 2024-04-26 15:42:16.386342: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/what-to-expect-at-the-consultation/index-https.html
+INFO: - 2024-04-26 15:42:16.917149: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/blog/what-to-expect-at-the-consultation/index-https.html_gzip
+INFO: - 2024-04-26 15:42:17.379075: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/body-builder/index-https.html
+INFO: - 2024-04-26 15:42:17.905726: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/body-builder/index-https.html_gzip
+INFO: - 2024-04-26 15:42:18.370067: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/contact-us/index-https.html
+INFO: - 2024-04-26 15:42:18.898227: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/contact-us/index-https.html_gzip
+INFO: - 2024-04-26 15:42:19.359666: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/cost-financing/index-https.html
+INFO: - 2024-04-26 15:42:19.889344: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/cost-financing/index-https.html_gzip
+INFO: - 2024-04-26 15:42:20.351334: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/gynecomastia-surgery/index-https.html
+INFO: - 2024-04-26 15:42:20.883496: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/gynecomastia-surgery/index-https.html_gzip
+INFO: - 2024-04-26 15:42:21.347933: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/meet-dr-lo/index-https.html
+INFO: - 2024-04-26 15:42:21.874707: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/meet-dr-lo/index-https.html_gzip
+INFO: - 2024-04-26 15:42:22.337218: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/out-of-town-patients/index-https.html
+INFO: - 2024-04-26 15:42:22.863994: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/out-of-town-patients/index-https.html_gzip
+INFO: - 2024-04-26 15:42:23.323963: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/patient-experience/index-https.html
+INFO: - 2024-04-26 15:42:23.852787: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/patient-experience/index-https.html_gzip
+INFO: - 2024-04-26 15:42:24.315282: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/privacy-policy/index-https.html
+INFO: - 2024-04-26 15:42:24.842374: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/privacy-policy/index-https.html_gzip
+INFO: - 2024-04-26 15:42:25.305424: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/sitemap/index-https.html
+INFO: - 2024-04-26 15:42:25.836651: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/sitemap/index-https.html_gzip
+INFO: - 2024-04-26 15:42:26.300921: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/terms-of-services/index-https.html
+INFO: - 2024-04-26 15:42:26.830991: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/terms-of-services/index-https.html_gzip
+INFO: - 2024-04-26 15:42:27.294773: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/testimonials/index-https.html
+INFO: - 2024-04-26 15:42:27.822078: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/testimonials/index-https.html_gzip
+INFO: - 2024-04-26 15:42:28.284597: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/thank-you/index-https.html
+INFO: - 2024-04-26 15:42:28.810346: file searched - /public_html/wp-content/cache/wp-rocket/www.mygynecomastiasurgeon.com/thank-you/index-https.html_gzip
+INFO: - 2024-04-26 15:42:29.742289: file searched - /public_html/wp-content/gallery/gynecomastia/211.jpg
+INFO: - 2024-04-26 15:42:29.742960: file searched - /public_html/wp-content/gallery/gynecomastia/211.jpg_backup
+INFO: - 2024-04-26 15:42:29.743386: file searched - /public_html/wp-content/gallery/gynecomastia/212.jpg
+INFO: - 2024-04-26 15:42:29.743793: file searched - /public_html/wp-content/gallery/gynecomastia/212.jpg_backup
+INFO: - 2024-04-26 15:42:29.744466: file searched - /public_html/wp-content/gallery/gynecomastia/213.jpg
+INFO: - 2024-04-26 15:42:29.744896: file searched - /public_html/wp-content/gallery/gynecomastia/213.jpg_backup
+INFO: - 2024-04-26 15:42:29.745407: file searched - /public_html/wp-content/gallery/gynecomastia/214.jpg
+INFO: - 2024-04-26 15:42:29.745892: file searched - /public_html/wp-content/gallery/gynecomastia/214.jpg_backup
+INFO: - 2024-04-26 15:42:29.746330: file searched - /public_html/wp-content/gallery/gynecomastia/215.jpg
+INFO: - 2024-04-26 15:42:29.746659: file searched - /public_html/wp-content/gallery/gynecomastia/215.jpg_backup
+INFO: - 2024-04-26 15:42:29.747006: file searched - /public_html/wp-content/gallery/gynecomastia/221.jpg
+INFO: - 2024-04-26 15:42:29.747369: file searched - /public_html/wp-content/gallery/gynecomastia/221.jpg_backup
+INFO: - 2024-04-26 15:42:29.747755: file searched - /public_html/wp-content/gallery/gynecomastia/222.jpg
+INFO: - 2024-04-26 15:42:29.748217: file searched - /public_html/wp-content/gallery/gynecomastia/222.jpg_backup
+INFO: - 2024-04-26 15:42:29.748675: file searched - /public_html/wp-content/gallery/gynecomastia/223.jpg
+INFO: - 2024-04-26 15:42:29.748969: file searched - /public_html/wp-content/gallery/gynecomastia/223.jpg_backup
+INFO: - 2024-04-26 15:42:29.749209: file searched - /public_html/wp-content/gallery/gynecomastia/224.jpg
+INFO: - 2024-04-26 15:42:29.749497: file searched - /public_html/wp-content/gallery/gynecomastia/224.jpg_backup
+INFO: - 2024-04-26 15:42:29.749886: file searched - /public_html/wp-content/gallery/gynecomastia/225.jpg
+INFO: - 2024-04-26 15:42:29.750282: file searched - /public_html/wp-content/gallery/gynecomastia/225.jpg_backup
+INFO: - 2024-04-26 15:42:29.750877: file searched - /public_html/wp-content/gallery/gynecomastia/241.jpg
+INFO: - 2024-04-26 15:42:29.751229: file searched - /public_html/wp-content/gallery/gynecomastia/241.jpg_backup
+INFO: - 2024-04-26 15:42:29.751704: file searched - /public_html/wp-content/gallery/gynecomastia/242.jpg
+INFO: - 2024-04-26 15:42:29.752249: file searched - /public_html/wp-content/gallery/gynecomastia/242.jpg_backup
+INFO: - 2024-04-26 15:42:29.752620: file searched - /public_html/wp-content/gallery/gynecomastia/243.jpg
+INFO: - 2024-04-26 15:42:29.753001: file searched - /public_html/wp-content/gallery/gynecomastia/243.jpg_backup
+INFO: - 2024-04-26 15:42:29.753313: file searched - /public_html/wp-content/gallery/gynecomastia/244.jpg
+INFO: - 2024-04-26 15:42:29.753563: file searched - /public_html/wp-content/gallery/gynecomastia/244.jpg_backup
+INFO: - 2024-04-26 15:42:29.753822: file searched - /public_html/wp-content/gallery/gynecomastia/245.jpg
+INFO: - 2024-04-26 15:42:29.754067: file searched - /public_html/wp-content/gallery/gynecomastia/245.jpg_backup
+INFO: - 2024-04-26 15:42:29.754324: file searched - /public_html/wp-content/gallery/gynecomastia/251.jpg
+INFO: - 2024-04-26 15:42:29.754576: file searched - /public_html/wp-content/gallery/gynecomastia/251.jpg_backup
+INFO: - 2024-04-26 15:42:29.754825: file searched - /public_html/wp-content/gallery/gynecomastia/252.jpg
+INFO: - 2024-04-26 15:42:29.755167: file searched - /public_html/wp-content/gallery/gynecomastia/252.jpg_backup
+INFO: - 2024-04-26 15:42:29.755535: file searched - /public_html/wp-content/gallery/gynecomastia/253.jpg
+INFO: - 2024-04-26 15:42:29.756196: file searched - /public_html/wp-content/gallery/gynecomastia/253.jpg_backup
+INFO: - 2024-04-26 15:42:29.756669: file searched - /public_html/wp-content/gallery/gynecomastia/254.jpg
+INFO: - 2024-04-26 15:42:29.757074: file searched - /public_html/wp-content/gallery/gynecomastia/254.jpg_backup
+INFO: - 2024-04-26 15:42:29.757268: file searched - /public_html/wp-content/gallery/gynecomastia/255.jpg
+INFO: - 2024-04-26 15:42:29.757417: file searched - /public_html/wp-content/gallery/gynecomastia/255.jpg_backup
+INFO: - 2024-04-26 15:42:29.757544: file searched - /public_html/wp-content/gallery/gynecomastia/261.jpg
+INFO: - 2024-04-26 15:42:29.757773: file searched - /public_html/wp-content/gallery/gynecomastia/261.jpg_backup
+INFO: - 2024-04-26 15:42:29.757888: file searched - /public_html/wp-content/gallery/gynecomastia/262.jpg
+INFO: - 2024-04-26 15:42:29.757989: file searched - /public_html/wp-content/gallery/gynecomastia/262.jpg_backup
+INFO: - 2024-04-26 15:42:29.758091: file searched - /public_html/wp-content/gallery/gynecomastia/263.jpg
+INFO: - 2024-04-26 15:42:29.758195: file searched - /public_html/wp-content/gallery/gynecomastia/263.jpg_backup
+INFO: - 2024-04-26 15:42:29.758290: file searched - /public_html/wp-content/gallery/gynecomastia/264.jpg
+INFO: - 2024-04-26 15:42:29.758383: file searched - /public_html/wp-content/gallery/gynecomastia/264.jpg_backup
+INFO: - 2024-04-26 15:42:29.758480: file searched - /public_html/wp-content/gallery/gynecomastia/265.jpg
+INFO: - 2024-04-26 15:42:29.758573: file searched - /public_html/wp-content/gallery/gynecomastia/265.jpg_backup
+INFO: - 2024-04-26 15:42:29.758908: file searched - /public_html/wp-content/gallery/gynecomastia/271.jpg
+INFO: - 2024-04-26 15:42:29.759240: file searched - /public_html/wp-content/gallery/gynecomastia/271.jpg_backup
+INFO: - 2024-04-26 15:42:29.759385: file searched - /public_html/wp-content/gallery/gynecomastia/272.jpg
+INFO: - 2024-04-26 15:42:29.759484: file searched - /public_html/wp-content/gallery/gynecomastia/272.jpg_backup
+INFO: - 2024-04-26 15:42:29.759672: file searched - /public_html/wp-content/gallery/gynecomastia/273.jpg
+INFO: - 2024-04-26 15:42:29.759995: file searched - /public_html/wp-content/gallery/gynecomastia/273.jpg_backup
+INFO: - 2024-04-26 15:42:29.760099: file searched - /public_html/wp-content/gallery/gynecomastia/274.jpg
+INFO: - 2024-04-26 15:42:29.760194: file searched - /public_html/wp-content/gallery/gynecomastia/274.jpg_backup
+INFO: - 2024-04-26 15:42:29.760294: file searched - /public_html/wp-content/gallery/gynecomastia/275.jpg
+INFO: - 2024-04-26 15:42:29.760386: file searched - /public_html/wp-content/gallery/gynecomastia/275.jpg_backup
+INFO: - 2024-04-26 15:42:29.760479: file searched - /public_html/wp-content/gallery/gynecomastia/281.jpg
+INFO: - 2024-04-26 15:42:29.760571: file searched - /public_html/wp-content/gallery/gynecomastia/281.jpg_backup
+INFO: - 2024-04-26 15:42:29.760660: file searched - /public_html/wp-content/gallery/gynecomastia/282.jpg
+INFO: - 2024-04-26 15:42:29.760791: file searched - /public_html/wp-content/gallery/gynecomastia/282.jpg_backup
+INFO: - 2024-04-26 15:42:29.760888: file searched - /public_html/wp-content/gallery/gynecomastia/283.jpg
+INFO: - 2024-04-26 15:42:29.760979: file searched - /public_html/wp-content/gallery/gynecomastia/283.jpg_backup
+INFO: - 2024-04-26 15:42:29.761071: file searched - /public_html/wp-content/gallery/gynecomastia/284.jpg
+INFO: - 2024-04-26 15:42:29.761162: file searched - /public_html/wp-content/gallery/gynecomastia/284.jpg_backup
+INFO: - 2024-04-26 15:42:29.761257: file searched - /public_html/wp-content/gallery/gynecomastia/285.jpg
+INFO: - 2024-04-26 15:42:29.761586: file searched - /public_html/wp-content/gallery/gynecomastia/285.jpg_backup
+INFO: - 2024-04-26 15:42:29.762002: file searched - /public_html/wp-content/gallery/gynecomastia/291.jpg
+INFO: - 2024-04-26 15:42:29.762287: file searched - /public_html/wp-content/gallery/gynecomastia/291.jpg_backup
+INFO: - 2024-04-26 15:42:29.762433: file searched - /public_html/wp-content/gallery/gynecomastia/292.jpg
+INFO: - 2024-04-26 15:42:29.762550: file searched - /public_html/wp-content/gallery/gynecomastia/292.jpg_backup
+INFO: - 2024-04-26 15:42:29.762661: file searched - /public_html/wp-content/gallery/gynecomastia/293.jpg
+INFO: - 2024-04-26 15:42:29.762767: file searched - /public_html/wp-content/gallery/gynecomastia/293.jpg_backup
+INFO: - 2024-04-26 15:42:29.762862: file searched - /public_html/wp-content/gallery/gynecomastia/294.jpg
+INFO: - 2024-04-26 15:42:29.762954: file searched - /public_html/wp-content/gallery/gynecomastia/294.jpg_backup
+INFO: - 2024-04-26 15:42:29.763043: file searched - /public_html/wp-content/gallery/gynecomastia/295.jpg
+INFO: - 2024-04-26 15:42:29.763138: file searched - /public_html/wp-content/gallery/gynecomastia/295.jpg_backup
+INFO: - 2024-04-26 15:42:29.763229: file searched - /public_html/wp-content/gallery/gynecomastia/slide101.jpg
+INFO: - 2024-04-26 15:42:29.763319: file searched - /public_html/wp-content/gallery/gynecomastia/slide101.jpg_backup
+INFO: - 2024-04-26 15:42:29.763410: file searched - /public_html/wp-content/gallery/gynecomastia/slide102.jpg
+INFO: - 2024-04-26 15:42:29.763504: file searched - /public_html/wp-content/gallery/gynecomastia/slide102.jpg_backup
+INFO: - 2024-04-26 15:42:29.763598: file searched - /public_html/wp-content/gallery/gynecomastia/slide103.jpg
+INFO: - 2024-04-26 15:42:29.763691: file searched - /public_html/wp-content/gallery/gynecomastia/slide103.jpg_backup
+INFO: - 2024-04-26 15:42:29.763783: file searched - /public_html/wp-content/gallery/gynecomastia/slide104.jpg
+INFO: - 2024-04-26 15:42:29.763873: file searched - /public_html/wp-content/gallery/gynecomastia/slide104.jpg_backup
+INFO: - 2024-04-26 15:42:29.763967: file searched - /public_html/wp-content/gallery/gynecomastia/slide105.jpg
+INFO: - 2024-04-26 15:42:29.764059: file searched - /public_html/wp-content/gallery/gynecomastia/slide105.jpg_backup
+INFO: - 2024-04-26 15:42:29.764165: file searched - /public_html/wp-content/gallery/gynecomastia/slide11-1.jpg
+INFO: - 2024-04-26 15:42:29.764260: file searched - /public_html/wp-content/gallery/gynecomastia/slide11-1.jpg_backup
+INFO: - 2024-04-26 15:42:29.764351: file searched - /public_html/wp-content/gallery/gynecomastia/slide12-1.jpg
+INFO: - 2024-04-26 15:42:29.764442: file searched - /public_html/wp-content/gallery/gynecomastia/slide12-1.jpg_backup
+INFO: - 2024-04-26 15:42:29.764828: file searched - /public_html/wp-content/gallery/gynecomastia/slide13-1.jpg
+INFO: - 2024-04-26 15:42:29.764926: file searched - /public_html/wp-content/gallery/gynecomastia/slide13-1.jpg_backup
+INFO: - 2024-04-26 15:42:29.765018: file searched - /public_html/wp-content/gallery/gynecomastia/slide14-1.jpg
+INFO: - 2024-04-26 15:42:29.765109: file searched - /public_html/wp-content/gallery/gynecomastia/slide14-1.jpg_backup
+INFO: - 2024-04-26 15:42:29.765201: file searched - /public_html/wp-content/gallery/gynecomastia/slide15-1.jpg
+INFO: - 2024-04-26 15:42:29.765295: file searched - /public_html/wp-content/gallery/gynecomastia/slide15-1.jpg_backup
+INFO: - 2024-04-26 15:42:29.765384: file searched - /public_html/wp-content/gallery/gynecomastia/slide31.jpg
+INFO: - 2024-04-26 15:42:29.765475: file searched - /public_html/wp-content/gallery/gynecomastia/slide31.jpg_backup
+INFO: - 2024-04-26 15:42:29.765563: file searched - /public_html/wp-content/gallery/gynecomastia/slide32.jpg
+INFO: - 2024-04-26 15:42:29.765654: file searched - /public_html/wp-content/gallery/gynecomastia/slide32.jpg_backup
+INFO: - 2024-04-26 15:42:29.771121: file searched - /public_html/wp-content/gallery/gynecomastia/slide33.jpg
+INFO: - 2024-04-26 15:42:29.771336: file searched - /public_html/wp-content/gallery/gynecomastia/slide33.jpg_backup
+INFO: - 2024-04-26 15:42:29.771502: file searched - /public_html/wp-content/gallery/gynecomastia/slide34.jpg
+INFO: - 2024-04-26 15:42:29.771845: file searched - /public_html/wp-content/gallery/gynecomastia/slide34.jpg_backup
+INFO: - 2024-04-26 15:42:29.772045: file searched - /public_html/wp-content/gallery/gynecomastia/slide35.jpg
+INFO: - 2024-04-26 15:42:29.773162: file searched - /public_html/wp-content/gallery/gynecomastia/slide35.jpg_backup
+INFO: - 2024-04-26 15:42:29.773491: file searched - /public_html/wp-content/gallery/gynecomastia/slide51.jpg
+INFO: - 2024-04-26 15:42:29.773647: file searched - /public_html/wp-content/gallery/gynecomastia/slide51.jpg_backup
+INFO: - 2024-04-26 15:42:29.773822: file searched - /public_html/wp-content/gallery/gynecomastia/slide52.jpg
+INFO: - 2024-04-26 15:42:29.774065: file searched - /public_html/wp-content/gallery/gynecomastia/slide52.jpg_backup
+INFO: - 2024-04-26 15:42:29.774168: file searched - /public_html/wp-content/gallery/gynecomastia/slide53.jpg
+INFO: - 2024-04-26 15:42:29.774266: file searched - /public_html/wp-content/gallery/gynecomastia/slide53.jpg_backup
+INFO: - 2024-04-26 15:42:29.774361: file searched - /public_html/wp-content/gallery/gynecomastia/slide54.jpg
+INFO: - 2024-04-26 15:42:29.774459: file searched - /public_html/wp-content/gallery/gynecomastia/slide54.jpg_backup
+INFO: - 2024-04-26 15:42:29.774551: file searched - /public_html/wp-content/gallery/gynecomastia/slide55.jpg
+INFO: - 2024-04-26 15:42:29.774644: file searched - /public_html/wp-content/gallery/gynecomastia/slide55.jpg_backup
+INFO: - 2024-04-26 15:42:29.774736: file searched - /public_html/wp-content/gallery/gynecomastia/slide71.jpg
+INFO: - 2024-04-26 15:42:29.774827: file searched - /public_html/wp-content/gallery/gynecomastia/slide71.jpg_backup
+INFO: - 2024-04-26 15:42:29.774919: file searched - /public_html/wp-content/gallery/gynecomastia/slide72.jpg
+INFO: - 2024-04-26 15:42:29.775026: file searched - /public_html/wp-content/gallery/gynecomastia/slide72.jpg_backup
+INFO: - 2024-04-26 15:42:29.775141: file searched - /public_html/wp-content/gallery/gynecomastia/slide73.jpg
+INFO: - 2024-04-26 15:42:29.775248: file searched - /public_html/wp-content/gallery/gynecomastia/slide73.jpg_backup
+INFO: - 2024-04-26 15:42:29.775349: file searched - /public_html/wp-content/gallery/gynecomastia/slide74.jpg
+INFO: - 2024-04-26 15:42:29.775464: file searched - /public_html/wp-content/gallery/gynecomastia/slide74.jpg_backup
+INFO: - 2024-04-26 15:42:29.775576: file searched - /public_html/wp-content/gallery/gynecomastia/slide75.jpg
+INFO: - 2024-04-26 15:42:29.775685: file searched - /public_html/wp-content/gallery/gynecomastia/slide75.jpg_backup
+INFO: - 2024-04-26 15:42:29.775803: file searched - /public_html/wp-content/gallery/gynecomastia/slide81.jpg
+INFO: - 2024-04-26 15:42:29.775914: file searched - /public_html/wp-content/gallery/gynecomastia/slide81.jpg_backup
+INFO: - 2024-04-26 15:42:29.776034: file searched - /public_html/wp-content/gallery/gynecomastia/slide82.jpg
+INFO: - 2024-04-26 15:42:29.776146: file searched - /public_html/wp-content/gallery/gynecomastia/slide82.jpg_backup
+INFO: - 2024-04-26 15:42:29.776256: file searched - /public_html/wp-content/gallery/gynecomastia/slide83.jpg
+INFO: - 2024-04-26 15:42:29.776365: file searched - /public_html/wp-content/gallery/gynecomastia/slide83.jpg_backup
+INFO: - 2024-04-26 15:42:29.776490: file searched - /public_html/wp-content/gallery/gynecomastia/slide84.jpg
+INFO: - 2024-04-26 15:42:29.776708: file searched - /public_html/wp-content/gallery/gynecomastia/slide84.jpg_backup
+INFO: - 2024-04-26 15:42:29.776865: file searched - /public_html/wp-content/gallery/gynecomastia/slide85.jpg
+INFO: - 2024-04-26 15:42:29.776998: file searched - /public_html/wp-content/gallery/gynecomastia/slide85.jpg_backup
+INFO: - 2024-04-26 15:42:29.777108: file searched - /public_html/wp-content/gallery/gynecomastia/slide91.jpg
+INFO: - 2024-04-26 15:42:29.777219: file searched - /public_html/wp-content/gallery/gynecomastia/slide91.jpg_backup
+INFO: - 2024-04-26 15:42:29.777340: file searched - /public_html/wp-content/gallery/gynecomastia/slide92.jpg
+INFO: - 2024-04-26 15:42:29.777445: file searched - /public_html/wp-content/gallery/gynecomastia/slide92.jpg_backup
+INFO: - 2024-04-26 15:42:29.777560: file searched - /public_html/wp-content/gallery/gynecomastia/slide93.jpg
+INFO: - 2024-04-26 15:42:29.777665: file searched - /public_html/wp-content/gallery/gynecomastia/slide93.jpg_backup
+INFO: - 2024-04-26 15:42:29.777803: file searched - /public_html/wp-content/gallery/gynecomastia/slide94.jpg
+INFO: - 2024-04-26 15:42:29.777916: file searched - /public_html/wp-content/gallery/gynecomastia/slide94.jpg_backup
+INFO: - 2024-04-26 15:42:29.778110: file searched - /public_html/wp-content/gallery/gynecomastia/slide95.jpg
+INFO: - 2024-04-26 15:42:29.778325: file searched - /public_html/wp-content/gallery/gynecomastia/slide95.jpg_backup
+INFO: - 2024-04-26 15:42:30.244170: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/05-nggid0218-ngg0dyn-0x250-00f0w011c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.245395: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/17-nggid0230-ngg0dyn-0x250-00f0w011c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.246439: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/211.jpg-nggid0296-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.247247: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/212.jpg-nggid0297-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.248417: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/213.jpg-nggid0298-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.249273: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/214.jpg-nggid0299-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.249902: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/215.jpg-nggid03100-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.250698: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/221.jpg-nggid03101-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.251516: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/222.jpg-nggid03102-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.252052: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/223.jpg-nggid03103-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.252671: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/224.jpg-nggid03104-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.253466: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/225.jpg-nggid03105-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.254150: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/241.jpg-nggid03106-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.254585: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/242.jpg-nggid03107-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.255049: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/243.jpg-nggid03108-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.255567: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/244.jpg-nggid03109-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.256044: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/245.jpg-nggid03110-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.256485: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/251.jpg-nggid03111-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.256906: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/252.jpg-nggid03112-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.257201: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/253.jpg-nggid03113-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.257531: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/254.jpg-nggid03114-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.257814: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/255.jpg-nggid03115-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.258067: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/261.jpg-nggid03116-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.258438: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/262.jpg-nggid03117-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.258724: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/263.jpg-nggid03118-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.259091: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/264.jpg-nggid03119-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.259333: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/265.jpg-nggid03120-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.259568: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/271.jpg-nggid03121-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.259924: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/272.jpg-nggid03122-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.260211: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/273.jpg-nggid03123-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.260617: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/274.jpg-nggid03124-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.261010: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/275.jpg-nggid03125-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.261345: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/281.jpg-nggid03126-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.261644: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/282.jpg-nggid03127-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.262013: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/283.jpg-nggid03128-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.262303: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/284.jpg-nggid03129-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.262599: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/285.jpg-nggid03130-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.262934: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/291.jpg-nggid03131-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.263221: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/292.jpg-nggid03132-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.263488: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/293.jpg-nggid03133-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.263761: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/294.jpg-nggid03134-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.264049: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/295.jpg-nggid03135-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.264529: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide101.jpg-nggid0291-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.264879: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide102.jpg-nggid0292-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.265287: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide103.jpg-nggid0293-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.265880: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide104.jpg-nggid0294-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.266505: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide105.jpg-nggid0295-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.266914: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide11-1.jpg-nggid0246-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.267273: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide12-1.jpg-nggid0247-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.267538: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide13-1.jpg-nggid0248-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.267786: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide14-1.jpg-nggid0249-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.268044: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide15-1.jpg-nggid0250-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.268290: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide31.jpg-nggid0256-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.268528: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide32.jpg-nggid0257-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.268902: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide33.jpg-nggid0258-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.269114: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide34.jpg-nggid0259-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.269314: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide35.jpg-nggid0260-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.269539: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide51.jpg-nggid0266-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.269778: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide52.jpg-nggid0267-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.270018: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide53.jpg-nggid0268-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.270259: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide54.jpg-nggid0269-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.270494: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide55.jpg-nggid0270-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.270748: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide71.jpg-nggid0276-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.270991: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide72.jpg-nggid0277-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.271227: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide73.jpg-nggid0278-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.271458: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide74.jpg-nggid0279-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.271686: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide75.jpg-nggid0280-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.271921: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide81.jpg-nggid0281-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.272151: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide82.jpg-nggid0282-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.272392: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide83.jpg-nggid0283-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.272631: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide84.jpg-nggid0284-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.272872: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide85.jpg-nggid0285-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.273229: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide91.jpg-nggid0286-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.274617: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide92.jpg-nggid0287-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.274878: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide93.jpg-nggid0288-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.275289: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide94.jpg-nggid0289-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.275798: file searched - /public_html/wp-content/gallery/gynecomastia/dynamic/slide95.jpg-nggid0290-ngg0dyn-350x350-00f0w010c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:30.740776: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_211.jpg
+INFO: - 2024-04-26 15:42:30.741441: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_212.jpg
+INFO: - 2024-04-26 15:42:30.741863: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_213.jpg
+INFO: - 2024-04-26 15:42:30.742263: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_214.jpg
+INFO: - 2024-04-26 15:42:30.742863: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_215.jpg
+INFO: - 2024-04-26 15:42:30.743380: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_221.jpg
+INFO: - 2024-04-26 15:42:30.744002: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_222.jpg
+INFO: - 2024-04-26 15:42:30.744535: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_223.jpg
+INFO: - 2024-04-26 15:42:30.744995: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_224.jpg
+INFO: - 2024-04-26 15:42:30.745751: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_225.jpg
+INFO: - 2024-04-26 15:42:30.746380: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_241.jpg
+INFO: - 2024-04-26 15:42:30.746739: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_242.jpg
+INFO: - 2024-04-26 15:42:30.747041: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_243.jpg
+INFO: - 2024-04-26 15:42:30.747425: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_244.jpg
+INFO: - 2024-04-26 15:42:30.748325: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_245.jpg
+INFO: - 2024-04-26 15:42:30.748790: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_251.jpg
+INFO: - 2024-04-26 15:42:30.749295: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_252.jpg
+INFO: - 2024-04-26 15:42:30.749715: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_253.jpg
+INFO: - 2024-04-26 15:42:30.750061: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_254.jpg
+INFO: - 2024-04-26 15:42:30.750496: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_255.jpg
+INFO: - 2024-04-26 15:42:30.750874: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_261.jpg
+INFO: - 2024-04-26 15:42:30.751231: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_262.jpg
+INFO: - 2024-04-26 15:42:30.751834: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_263.jpg
+INFO: - 2024-04-26 15:42:30.752265: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_264.jpg
+INFO: - 2024-04-26 15:42:30.752629: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_265.jpg
+INFO: - 2024-04-26 15:42:30.753015: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_271.jpg
+INFO: - 2024-04-26 15:42:30.753399: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_272.jpg
+INFO: - 2024-04-26 15:42:30.753728: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_273.jpg
+INFO: - 2024-04-26 15:42:30.754071: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_274.jpg
+INFO: - 2024-04-26 15:42:30.754555: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_275.jpg
+INFO: - 2024-04-26 15:42:30.754919: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_281.jpg
+INFO: - 2024-04-26 15:42:30.755231: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_282.jpg
+INFO: - 2024-04-26 15:42:30.755648: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_283.jpg
+INFO: - 2024-04-26 15:42:30.756073: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_284.jpg
+INFO: - 2024-04-26 15:42:30.756501: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_285.jpg
+INFO: - 2024-04-26 15:42:30.756922: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_291.jpg
+INFO: - 2024-04-26 15:42:30.757292: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_292.jpg
+INFO: - 2024-04-26 15:42:30.757540: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_293.jpg
+INFO: - 2024-04-26 15:42:30.757833: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_294.jpg
+INFO: - 2024-04-26 15:42:30.758236: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_295.jpg
+INFO: - 2024-04-26 15:42:30.758551: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide101.jpg
+INFO: - 2024-04-26 15:42:30.758863: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide102.jpg
+INFO: - 2024-04-26 15:42:30.759243: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide103.jpg
+INFO: - 2024-04-26 15:42:30.759553: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide104.jpg
+INFO: - 2024-04-26 15:42:30.759849: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide105.jpg
+INFO: - 2024-04-26 15:42:30.760238: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide11-1.jpg
+INFO: - 2024-04-26 15:42:30.760550: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide12-1.jpg
+INFO: - 2024-04-26 15:42:30.760821: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide13-1.jpg
+INFO: - 2024-04-26 15:42:30.761028: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide14-1.jpg
+INFO: - 2024-04-26 15:42:30.761251: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide15-1.jpg
+INFO: - 2024-04-26 15:42:30.761587: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide31.jpg
+INFO: - 2024-04-26 15:42:30.761745: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide32.jpg
+INFO: - 2024-04-26 15:42:30.761941: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide33.jpg
+INFO: - 2024-04-26 15:42:30.762305: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide34.jpg
+INFO: - 2024-04-26 15:42:30.762450: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide35.jpg
+INFO: - 2024-04-26 15:42:30.762553: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide51.jpg
+INFO: - 2024-04-26 15:42:30.762649: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide52.jpg
+INFO: - 2024-04-26 15:42:30.762745: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide53.jpg
+INFO: - 2024-04-26 15:42:30.762837: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide54.jpg
+INFO: - 2024-04-26 15:42:30.763019: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide55.jpg
+INFO: - 2024-04-26 15:42:30.763134: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide71.jpg
+INFO: - 2024-04-26 15:42:30.763234: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide72.jpg
+INFO: - 2024-04-26 15:42:30.763334: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide73.jpg
+INFO: - 2024-04-26 15:42:30.763444: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide74.jpg
+INFO: - 2024-04-26 15:42:30.763568: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide75.jpg
+INFO: - 2024-04-26 15:42:30.763765: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide81.jpg
+INFO: - 2024-04-26 15:42:30.764012: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide82.jpg
+INFO: - 2024-04-26 15:42:30.764117: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide83.jpg
+INFO: - 2024-04-26 15:42:30.764212: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide84.jpg
+INFO: - 2024-04-26 15:42:30.764306: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide85.jpg
+INFO: - 2024-04-26 15:42:30.764400: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide91.jpg
+INFO: - 2024-04-26 15:42:30.764493: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide92.jpg
+INFO: - 2024-04-26 15:42:30.764584: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide93.jpg
+INFO: - 2024-04-26 15:42:30.764674: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide94.jpg
+INFO: - 2024-04-26 15:42:30.764766: file searched - /public_html/wp-content/gallery/gynecomastia/thumbs/thumbs_slide95.jpg
+INFO: - 2024-04-26 15:42:31.228698: file searched - /public_html/wp-content/gallery/gynecomastia2/01.jpg
+INFO: - 2024-04-26 15:42:31.229436: file searched - /public_html/wp-content/gallery/gynecomastia2/01.jpg_backup
+INFO: - 2024-04-26 15:42:31.230060: file searched - /public_html/wp-content/gallery/gynecomastia2/02.jpg
+INFO: - 2024-04-26 15:42:31.230384: file searched - /public_html/wp-content/gallery/gynecomastia2/02.jpg_backup
+INFO: - 2024-04-26 15:42:31.693723: file searched - /public_html/wp-content/gallery/gynecomastia2/thumbs/thumbs_01.jpg
+INFO: - 2024-04-26 15:42:31.694402: file searched - /public_html/wp-content/gallery/gynecomastia2/thumbs/thumbs_02.jpg
+INFO: - 2024-04-26 15:42:32.156747: file searched - /public_html/wp-content/gallery/test/photo-1423753623104-718aaace6772.jpg
+INFO: - 2024-04-26 15:42:32.157272: file searched - /public_html/wp-content/gallery/test/photo-1423753623104-718aaace6772.jpg_backup
+INFO: - 2024-04-26 15:42:33.083954: file searched - /public_html/wp-content/gallery/test/dynamic/photo-1423753623104-718aaace6772.jpg-nggid0233-ngg0dyn-0x250-00f0w011c010r110f110r010t010.jpg
+INFO: - 2024-04-26 15:42:33.545797: file searched - /public_html/wp-content/gallery/test/thumbs/thumbs_photo-1423753623104-718aaace6772.jpg
+INFO: - 2024-04-26 15:42:34.010053: file searched - /public_html/wp-content/maintenance/template.phtml
+INFO: - 2024-04-26 15:42:34.474744: file searched - /public_html/wp-content/maintenance/assets/styles.css
+INFO: - 2024-04-26 15:42:34.867101: file searched - /public_html/wp-content/maintenance/assets/timer.js
+INFO: - 2024-04-26 15:42:35.723290: file searched - /public_html/wp-content/maintenance/assets/fonts/open-sans-300.woff
+INFO: - 2024-04-26 15:42:35.724702: file searched - /public_html/wp-content/maintenance/assets/fonts/open-sans-300.woff2
+INFO: - 2024-04-26 15:42:35.725305: file searched - /public_html/wp-content/maintenance/assets/fonts/open-sans-regular.woff
+INFO: - 2024-04-26 15:42:35.725967: file searched - /public_html/wp-content/maintenance/assets/fonts/open-sans-regular.woff2
+INFO: - 2024-04-26 15:42:36.192272: file searched - /public_html/wp-content/maintenance/assets/images/bg.jpg
+INFO: - 2024-04-26 15:42:36.193203: file searched - /public_html/wp-content/maintenance/assets/images/facebook.svg
+INFO: - 2024-04-26 15:42:36.193856: file searched - /public_html/wp-content/maintenance/assets/images/instagram.svg
+INFO: - 2024-04-26 15:42:36.195118: file searched - /public_html/wp-content/maintenance/assets/images/plesk-logo.png
+INFO: - 2024-04-26 15:42:36.196032: file searched - /public_html/wp-content/maintenance/assets/images/twitter.svg
+INFO: - 2024-04-26 15:42:36.657892: file searched - /public_html/wp-content/mu-plugins/0-worker.php
+INFO: - 2024-04-26 15:43:02.039562: file searched - /public_html/wp-content/ngg_styles/nggallery.css
+INFO: - 2024-04-26 15:43:02.899310: file searched - /public_html/wp-content/plugins/index.php
+INFO: - 2024-04-26 15:43:03.758372: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/acf.php
+INFO: - 2024-04-26 15:43:04.222214: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/readme.txt
+INFO: - 2024-04-26 15:43:05.614241: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-dark.css
+INFO: - 2024-04-26 15:43:06.012676: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-dark.css.map
+INFO: - 2024-04-26 15:43:06.013636: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-dark.min.css
+INFO: - 2024-04-26 15:43:06.410176: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-field-group.css
+INFO: - 2024-04-26 15:43:07.000833: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-field-group.css.map
+INFO: - 2024-04-26 15:43:07.002132: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-field-group.min.css
+INFO: - 2024-04-26 15:43:07.536186: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css
+INFO: - 2024-04-26 15:43:08.202413: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.css.map
+INFO: - 2024-04-26 15:43:08.203723: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-global.min.css
+INFO: - 2024-04-26 15:43:08.805206: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-input.css
+INFO: - 2024-04-26 15:43:09.331950: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-input.css.map
+INFO: - 2024-04-26 15:43:09.332949: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/acf-input.min.css
+INFO: - 2024-04-26 15:43:10.326233: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/pro/acf-pro-field-group.css
+INFO: - 2024-04-26 15:43:10.721448: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/pro/acf-pro-field-group.css.map
+INFO: - 2024-04-26 15:43:10.722553: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/pro/acf-pro-field-group.min.css
+INFO: - 2024-04-26 15:43:11.117690: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/pro/acf-pro-input.css
+INFO: - 2024-04-26 15:43:11.579178: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/pro/acf-pro-input.css.map
+INFO: - 2024-04-26 15:43:11.579965: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/css/pro/acf-pro-input.min.css
+INFO: - 2024-04-26 15:43:12.440135: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-escaped-html-notice.js
+INFO: - 2024-04-26 15:43:12.837344: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-escaped-html-notice.js.map
+INFO: - 2024-04-26 15:43:12.838613: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-escaped-html-notice.min.js
+INFO: - 2024-04-26 15:43:13.234049: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-field-group.js
+INFO: - 2024-04-26 15:43:13.767764: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-field-group.js.map
+INFO: - 2024-04-26 15:43:13.768684: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-field-group.min.js
+INFO: - 2024-04-26 15:43:14.233988: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-input.js
+INFO: - 2024-04-26 15:43:14.903509: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-input.js.map
+INFO: - 2024-04-26 15:43:14.904278: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-input.min.js
+INFO: - 2024-04-26 15:43:15.499390: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-internal-post-type.js
+INFO: - 2024-04-26 15:43:15.896965: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-internal-post-type.js.map
+INFO: - 2024-04-26 15:43:15.898096: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf-internal-post-type.min.js
+INFO: - 2024-04-26 15:43:16.293480: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf.js
+INFO: - 2024-04-26 15:43:16.887074: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf.js.map
+INFO: - 2024-04-26 15:43:16.888056: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/acf.min.js
+INFO: - 2024-04-26 15:43:17.808294: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-blocks.js
+INFO: - 2024-04-26 15:43:18.407723: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-blocks.js.map
+INFO: - 2024-04-26 15:43:18.408532: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-blocks.min.js
+INFO: - 2024-04-26 15:43:18.873654: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-field-group.js
+INFO: - 2024-04-26 15:43:19.333449: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-field-group.js.map
+INFO: - 2024-04-26 15:43:19.334505: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-field-group.min.js
+INFO: - 2024-04-26 15:43:19.730163: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-input.js
+INFO: - 2024-04-26 15:43:20.260119: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-input.js.map
+INFO: - 2024-04-26 15:43:20.261049: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-input.min.js
+INFO: - 2024-04-26 15:43:20.723334: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-ui-options-page.js
+INFO: - 2024-04-26 15:43:21.119828: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-ui-options-page.js.map
+INFO: - 2024-04-26 15:43:21.121139: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/build/js/pro/acf-pro-ui-options-page.min.js
+INFO: - 2024-04-26 15:43:21.980999: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.png
+INFO: - 2024-04-26 15:43:21.982444: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/acf-logo.svg
+INFO: - 2024-04-26 15:43:21.982823: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/empty-group.svg
+INFO: - 2024-04-26 15:43:21.983420: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/empty-post-types.svg
+INFO: - 2024-04-26 15:43:21.985297: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/empty-taxonomies.svg
+INFO: - 2024-04-26 15:43:21.986689: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/face-sad.svg
+INFO: - 2024-04-26 15:43:21.987664: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-preview-grid.png
+INFO: - 2024-04-26 15:43:21.988960: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icon-upgrade-pro.svg
+INFO: - 2024-04-26 15:43:21.989775: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/pro-upgrade-grid-bg.svg
+INFO: - 2024-04-26 15:43:21.990229: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/pro-upgrade-overlay.svg
+INFO: - 2024-04-26 15:43:21.990809: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/spinner.gif
+INFO: - 2024-04-26 15:43:21.991459: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/spinner@2x.gif
+INFO: - 2024-04-26 15:43:21.992115: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-black.svg
+INFO: - 2024-04-26 15:43:21.992750: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/wp-engine-horizontal-white.svg
+INFO: - 2024-04-26 15:43:22.455428: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-states/checkbox-active.svg
+INFO: - 2024-04-26 15:43:22.456776: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-states/checkbox-indeterminate.svg
+INFO: - 2024-04-26 15:43:22.457633: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-states/radio-active.svg
+INFO: - 2024-04-26 15:43:22.924500: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-accordion.svg
+INFO: - 2024-04-26 15:43:22.925970: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-button-group.svg
+INFO: - 2024-04-26 15:43:22.926869: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-checkbox.svg
+INFO: - 2024-04-26 15:43:22.928057: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-clone.svg
+INFO: - 2024-04-26 15:43:22.928754: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-color-picker.svg
+INFO: - 2024-04-26 15:43:22.929546: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-date-picker.svg
+INFO: - 2024-04-26 15:43:22.930097: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-date-time-picker.svg
+INFO: - 2024-04-26 15:43:22.930813: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-default.svg
+INFO: - 2024-04-26 15:43:22.931454: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-email.svg
+INFO: - 2024-04-26 15:43:22.932065: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-file.svg
+INFO: - 2024-04-26 15:43:22.932762: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-flexible-content.svg
+INFO: - 2024-04-26 15:43:22.933410: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-gallery.svg
+INFO: - 2024-04-26 15:43:22.934155: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-google-map.svg
+INFO: - 2024-04-26 15:43:22.934775: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-group.svg
+INFO: - 2024-04-26 15:43:22.935262: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-image.svg
+INFO: - 2024-04-26 15:43:22.935669: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-link.svg
+INFO: - 2024-04-26 15:43:22.936060: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-message.svg
+INFO: - 2024-04-26 15:43:22.936548: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-number.svg
+INFO: - 2024-04-26 15:43:22.936952: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-oembed.svg
+INFO: - 2024-04-26 15:43:22.937332: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-page-link.svg
+INFO: - 2024-04-26 15:43:22.937798: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-password.svg
+INFO: - 2024-04-26 15:43:22.938184: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-post-object.svg
+INFO: - 2024-04-26 15:43:22.938531: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-radio.svg
+INFO: - 2024-04-26 15:43:22.938977: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-range.svg
+INFO: - 2024-04-26 15:43:22.939338: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-relationship.svg
+INFO: - 2024-04-26 15:43:22.939704: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-repeater.svg
+INFO: - 2024-04-26 15:43:22.940033: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-select.svg
+INFO: - 2024-04-26 15:43:22.940315: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-tab.svg
+INFO: - 2024-04-26 15:43:22.940600: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-taxonomy.svg
+INFO: - 2024-04-26 15:43:22.940881: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-text.svg
+INFO: - 2024-04-26 15:43:22.941160: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-textarea.svg
+INFO: - 2024-04-26 15:43:22.941440: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-time-picker.svg
+INFO: - 2024-04-26 15:43:22.941721: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-true-false.svg
+INFO: - 2024-04-26 15:43:22.942007: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-url.svg
+INFO: - 2024-04-26 15:43:22.942280: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-user.svg
+INFO: - 2024-04-26 15:43:22.942578: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-icons/icon-field-wysiwyg.svg
+INFO: - 2024-04-26 15:43:23.404311: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-accordion.png
+INFO: - 2024-04-26 15:43:23.405794: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-button-group.png
+INFO: - 2024-04-26 15:43:23.406595: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-checkbox.png
+INFO: - 2024-04-26 15:43:23.407432: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-clone.png
+INFO: - 2024-04-26 15:43:23.408376: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-color-picker.png
+INFO: - 2024-04-26 15:43:23.408788: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-date-picker.png
+INFO: - 2024-04-26 15:43:23.409273: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-date-time.png
+INFO: - 2024-04-26 15:43:23.409635: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-email.png
+INFO: - 2024-04-26 15:43:23.410044: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-file.png
+INFO: - 2024-04-26 15:43:23.410392: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-flexible-content.png
+INFO: - 2024-04-26 15:43:23.410793: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-gallery.png
+INFO: - 2024-04-26 15:43:23.411394: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-google-map.png
+INFO: - 2024-04-26 15:43:23.411779: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-group.png
+INFO: - 2024-04-26 15:43:23.412134: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-image.png
+INFO: - 2024-04-26 15:43:23.412648: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-link.png
+INFO: - 2024-04-26 15:43:23.413058: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-message.png
+INFO: - 2024-04-26 15:43:23.413591: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-number.png
+INFO: - 2024-04-26 15:43:23.414007: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-oembed.png
+INFO: - 2024-04-26 15:43:23.414323: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-page-link.png
+INFO: - 2024-04-26 15:43:23.414735: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-password.png
+INFO: - 2024-04-26 15:43:23.415120: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-post-object.png
+INFO: - 2024-04-26 15:43:23.415470: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-radio-button.png
+INFO: - 2024-04-26 15:43:23.415761: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-range.png
+INFO: - 2024-04-26 15:43:23.416054: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-relationship.png
+INFO: - 2024-04-26 15:43:23.416530: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-repeater.png
+INFO: - 2024-04-26 15:43:23.416863: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-select.png
+INFO: - 2024-04-26 15:43:23.417312: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-tabs.png
+INFO: - 2024-04-26 15:43:23.417664: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-taxonomy.png
+INFO: - 2024-04-26 15:43:23.417998: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-text.png
+INFO: - 2024-04-26 15:43:23.418398: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-textarea.png
+INFO: - 2024-04-26 15:43:23.418712: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-time.png
+INFO: - 2024-04-26 15:43:23.418971: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-true-false.png
+INFO: - 2024-04-26 15:43:23.419232: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-url.png
+INFO: - 2024-04-26 15:43:23.419488: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-user.png
+INFO: - 2024-04-26 15:43:23.419758: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/field-type-previews/field-preview-wysiwyg.png
+INFO: - 2024-04-26 15:43:23.885758: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-add.svg
+INFO: - 2024-04-26 15:43:23.887343: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-alert-triangle.svg
+INFO: - 2024-04-26 15:43:23.887999: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-arrow-left.svg
+INFO: - 2024-04-26 15:43:23.888796: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-arrow-right.svg
+INFO: - 2024-04-26 15:43:23.889724: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-arrow-up-right.svg
+INFO: - 2024-04-26 15:43:23.890183: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-check-circle-solid.svg
+INFO: - 2024-04-26 15:43:23.890858: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-check.svg
+INFO: - 2024-04-26 15:43:23.891383: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-down.svg
+INFO: - 2024-04-26 15:43:23.891978: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-left-double.svg
+INFO: - 2024-04-26 15:43:23.892388: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-left.svg
+INFO: - 2024-04-26 15:43:23.892989: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-right-double.svg
+INFO: - 2024-04-26 15:43:23.893669: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-right.svg
+INFO: - 2024-04-26 15:43:23.894211: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-chevron-up.svg
+INFO: - 2024-04-26 15:43:23.894824: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-close-circle.svg
+INFO: - 2024-04-26 15:43:23.895315: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-close.svg
+INFO: - 2024-04-26 15:43:23.895801: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-copy.svg
+INFO: - 2024-04-26 15:43:23.896120: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-document.svg
+INFO: - 2024-04-26 15:43:23.896512: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-dots-grid.svg
+INFO: - 2024-04-26 15:43:23.896804: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-draggable.svg
+INFO: - 2024-04-26 15:43:23.897139: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-export.svg
+INFO: - 2024-04-26 15:43:23.897484: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-extended-menu.svg
+INFO: - 2024-04-26 15:43:23.898051: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-field-groups.svg
+INFO: - 2024-04-26 15:43:23.898438: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-fields.svg
+INFO: - 2024-04-26 15:43:23.898743: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-globe.svg
+INFO: - 2024-04-26 15:43:23.899141: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-help.svg
+INFO: - 2024-04-26 15:43:23.899408: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-hidden.svg
+INFO: - 2024-04-26 15:43:23.899647: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-import.svg
+INFO: - 2024-04-26 15:43:23.899938: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-info-red.svg
+INFO: - 2024-04-26 15:43:23.900333: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-info-solid.svg
+INFO: - 2024-04-26 15:43:23.900628: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-info.svg
+INFO: - 2024-04-26 15:43:23.900871: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-key-solid.svg
+INFO: - 2024-04-26 15:43:23.901203: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-key.svg
+INFO: - 2024-04-26 15:43:23.901438: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-layout.svg
+INFO: - 2024-04-26 15:43:23.901671: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-lock.svg
+INFO: - 2024-04-26 15:43:23.901899: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-play.svg
+INFO: - 2024-04-26 15:43:23.902131: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-post-type.svg
+INFO: - 2024-04-26 15:43:23.902366: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-regenerate.svg
+INFO: - 2024-04-26 15:43:23.902795: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-search.svg
+INFO: - 2024-04-26 15:43:23.903038: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-settings.svg
+INFO: - 2024-04-26 15:43:23.904032: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-sliders.svg
+INFO: - 2024-04-26 15:43:23.904492: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-stars.svg
+INFO: - 2024-04-26 15:43:23.904929: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-taxonomies.svg
+INFO: - 2024-04-26 15:43:23.905392: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-time.svg
+INFO: - 2024-04-26 15:43:23.905911: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-tools.svg
+INFO: - 2024-04-26 15:43:23.906301: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-trash.svg
+INFO: - 2024-04-26 15:43:23.906877: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-updates.svg
+INFO: - 2024-04-26 15:43:23.907344: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-warning-alt-red.svg
+INFO: - 2024-04-26 15:43:23.907665: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-warning-alt.svg
+INFO: - 2024-04-26 15:43:23.908110: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/images/icons/icon-warning.svg
+INFO: - 2024-04-26 15:43:24.834393: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/color-picker-alpha/wp-color-picker-alpha.js
+INFO: - 2024-04-26 15:43:25.298170: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/color-picker-alpha/wp-color-picker-alpha.min.js
+INFO: - 2024-04-26 15:43:26.156032: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/jquery-ui.css
+INFO: - 2024-04-26 15:43:26.618286: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/jquery-ui.min.css
+INFO: - 2024-04-26 15:43:27.545722: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-bg_highlight-soft_0_ffffff_1x100.png
+INFO: - 2024-04-26 15:43:27.547506: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-icons_444444_256x240.png
+INFO: - 2024-04-26 15:43:27.548033: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-icons_DDDDDD_256x240.png
+INFO: - 2024-04-26 15:43:27.548507: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/datepicker/images/ui-icons_ffffff_256x240.png
+INFO: - 2024-04-26 15:43:28.473279: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2-spinner.gif
+INFO: - 2024-04-26 15:43:28.474574: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.css
+INFO: - 2024-04-26 15:43:28.935568: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.js
+INFO: - 2024-04-26 15:43:29.530543: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.min.js
+INFO: - 2024-04-26 15:43:30.125953: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2.png
+INFO: - 2024-04-26 15:43:30.127076: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/3/select2x2.png
+INFO: - 2024-04-26 15:43:30.590121: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.css
+INFO: - 2024-04-26 15:43:31.053385: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.full.js
+INFO: - 2024-04-26 15:43:31.651091: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.full.min.js
+INFO: - 2024-04-26 15:43:32.188340: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.js
+INFO: - 2024-04-26 15:43:32.785599: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.min.css
+INFO: - 2024-04-26 15:43:33.181096: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/select2/4/select2.min.js
+INFO: - 2024-04-26 15:43:34.242007: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.css
+INFO: - 2024-04-26 15:43:34.639529: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.js
+INFO: - 2024-04-26 15:43:35.171304: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.min.css
+INFO: - 2024-04-26 15:43:35.568697: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/assets/inc/timepicker/jquery-ui-timepicker-addon.min.js
+INFO: - 2024-04-26 15:43:36.496172: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-bidirectional-functions.php
+INFO: - 2024-04-26 15:43:36.890163: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-field-functions.php
+INFO: - 2024-04-26 15:43:37.353024: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-field-group-functions.php
+INFO: - 2024-04-26 15:43:37.749863: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-form-functions.php
+INFO: - 2024-04-26 15:43:38.145044: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-helper-functions.php
+INFO: - 2024-04-26 15:43:38.542085: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-hook-functions.php
+INFO: - 2024-04-26 15:43:38.937790: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-input-functions.php
+INFO: - 2024-04-26 15:43:39.333053: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-internal-post-type-functions.php
+INFO: - 2024-04-26 15:43:39.796942: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-meta-functions.php
+INFO: - 2024-04-26 15:43:40.192849: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-post-functions.php
+INFO: - 2024-04-26 15:43:40.589090: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-post-type-functions.php
+INFO: - 2024-04-26 15:43:40.983104: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-taxonomy-functions.php
+INFO: - 2024-04-26 15:43:41.379560: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-user-functions.php
+INFO: - 2024-04-26 15:43:41.773169: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-utility-functions.php
+INFO: - 2024-04-26 15:43:42.168724: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-value-functions.php
+INFO: - 2024-04-26 15:43:42.564168: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/acf-wp-functions.php
+INFO: - 2024-04-26 15:43:42.959750: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/assets.php
+INFO: - 2024-04-26 15:43:43.355131: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/class-acf-data.php
+INFO: - 2024-04-26 15:43:43.752225: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/class-acf-internal-post-type.php
+INFO: - 2024-04-26 15:43:44.211477: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/compatibility.php
+INFO: - 2024-04-26 15:43:44.608556: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/deprecated.php
+INFO: - 2024-04-26 15:43:45.005020: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields.php
+INFO: - 2024-04-26 15:43:45.401511: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/l10n.php
+INFO: - 2024-04-26 15:43:45.796959: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/local-fields.php
+INFO: - 2024-04-26 15:43:46.255574: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/local-json.php
+INFO: - 2024-04-26 15:43:46.650835: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/local-meta.php
+INFO: - 2024-04-26 15:43:47.046146: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations.php
+INFO: - 2024-04-26 15:43:47.441677: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/loop.php
+INFO: - 2024-04-26 15:43:47.835570: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/media.php
+INFO: - 2024-04-26 15:43:48.231450: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api.php
+INFO: - 2024-04-26 15:43:48.626154: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/revisions.php
+INFO: - 2024-04-26 15:43:49.020392: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/third-party.php
+INFO: - 2024-04-26 15:43:49.415484: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/upgrades.php
+INFO: - 2024-04-26 15:43:49.812338: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/validation.php
+INFO: - 2024-04-26 15:43:50.208749: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/wpml.php
+INFO: - 2024-04-26 15:43:51.065422: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/Blocks/Bindings.php
+INFO: - 2024-04-26 15:43:51.925739: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-internal-post-type-list.php
+INFO: - 2024-04-26 15:43:52.391050: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-internal-post-type.php
+INFO: - 2024-04-26 15:43:52.788285: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-notices.php
+INFO: - 2024-04-26 15:43:53.183057: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-options-pages-preview.php
+INFO: - 2024-04-26 15:43:53.580926: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-tools.php
+INFO: - 2024-04-26 15:43:53.974567: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin-upgrade.php
+INFO: - 2024-04-26 15:43:54.369855: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/admin.php
+INFO: - 2024-04-26 15:43:55.224974: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/post-types/admin-field-group.php
+INFO: - 2024-04-26 15:43:55.688706: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/post-types/admin-field-groups.php
+INFO: - 2024-04-26 15:43:56.084291: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/post-types/admin-post-type.php
+INFO: - 2024-04-26 15:43:56.480483: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/post-types/admin-post-types.php
+INFO: - 2024-04-26 15:43:56.876635: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/post-types/admin-taxonomies.php
+INFO: - 2024-04-26 15:43:57.271737: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/post-types/admin-taxonomy.php
+INFO: - 2024-04-26 15:43:58.128280: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/tools/class-acf-admin-tool-export.php
+INFO: - 2024-04-26 15:43:58.525587: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/tools/class-acf-admin-tool-import.php
+INFO: - 2024-04-26 15:43:58.922447: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/tools/class-acf-admin-tool.php
+INFO: - 2024-04-26 15:43:59.781956: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/browse-fields-modal.php
+INFO: - 2024-04-26 15:44:00.179201: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/escaped-html-notice.php
+INFO: - 2024-04-26 15:44:00.575991: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/options-page-preview.php
+INFO: - 2024-04-26 15:44:01.435244: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/conditional-logic.php
+INFO: - 2024-04-26 15:44:01.831061: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/field.php
+INFO: - 2024-04-26 15:44:02.226980: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/fields.php
+INFO: - 2024-04-26 15:44:02.622049: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/list-empty.php
+INFO: - 2024-04-26 15:44:03.016296: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/location-group.php
+INFO: - 2024-04-26 15:44:03.410485: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/location-rule.php
+INFO: - 2024-04-26 15:44:03.806736: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/locations.php
+INFO: - 2024-04-26 15:44:04.204629: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/options.php
+INFO: - 2024-04-26 15:44:04.600941: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-field-group/pro-features.php
+INFO: - 2024-04-26 15:44:05.462851: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-post-type/advanced-settings.php
+INFO: - 2024-04-26 15:44:05.925708: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-post-type/basic-settings.php
+INFO: - 2024-04-26 15:44:06.321083: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-post-type/list-empty.php
+INFO: - 2024-04-26 15:44:07.177332: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-taxonomy/advanced-settings.php
+INFO: - 2024-04-26 15:44:07.642820: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-taxonomy/basic-settings.php
+INFO: - 2024-04-26 15:44:08.037309: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/acf-taxonomy/list-empty.php
+INFO: - 2024-04-26 15:44:08.892902: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/global/form-top.php
+INFO: - 2024-04-26 15:44:09.287756: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/global/header.php
+INFO: - 2024-04-26 15:44:09.683594: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/global/navigation.php
+INFO: - 2024-04-26 15:44:10.543779: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/tools/tools.php
+INFO: - 2024-04-26 15:44:11.401130: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/upgrade/network.php
+INFO: - 2024-04-26 15:44:11.796386: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/upgrade/notice.php
+INFO: - 2024-04-26 15:44:12.191858: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/admin/views/upgrade/upgrade.php
+INFO: - 2024-04-26 15:44:13.049953: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-check-screen.php
+INFO: - 2024-04-26 15:44:13.445378: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-local-json-diff.php
+INFO: - 2024-04-26 15:44:13.841804: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-query-users.php
+INFO: - 2024-04-26 15:44:14.238474: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-query.php
+INFO: - 2024-04-26 15:44:14.633452: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-upgrade.php
+INFO: - 2024-04-26 15:44:15.029379: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax-user-setting.php
+INFO: - 2024-04-26 15:44:15.424996: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/ajax/class-acf-ajax.php
+INFO: - 2024-04-26 15:44:16.280083: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-helpers.php
+INFO: - 2024-04-26 15:44:16.813040: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-template.php
+INFO: - 2024-04-26 15:44:17.272641: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/api/api-term.php
+INFO: - 2024-04-26 15:44:18.130588: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-accordion.php
+INFO: - 2024-04-26 15:44:18.526766: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-button-group.php
+INFO: - 2024-04-26 15:44:18.923165: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-checkbox.php
+INFO: - 2024-04-26 15:44:19.318821: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-color_picker.php
+INFO: - 2024-04-26 15:44:19.713764: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-date_picker.php
+INFO: - 2024-04-26 15:44:20.110773: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-date_time_picker.php
+INFO: - 2024-04-26 15:44:20.506846: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-email.php
+INFO: - 2024-04-26 15:44:20.902998: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-file.php
+INFO: - 2024-04-26 15:44:21.297875: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-google-map.php
+INFO: - 2024-04-26 15:44:21.691549: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-group.php
+INFO: - 2024-04-26 15:44:22.086876: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-image.php
+INFO: - 2024-04-26 15:44:22.482827: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-link.php
+INFO: - 2024-04-26 15:44:22.880061: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-message.php
+INFO: - 2024-04-26 15:44:23.275848: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-number.php
+INFO: - 2024-04-26 15:44:23.670726: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-oembed.php
+INFO: - 2024-04-26 15:44:24.066338: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-output.php
+INFO: - 2024-04-26 15:44:24.459852: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-page_link.php
+INFO: - 2024-04-26 15:44:24.922141: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-password.php
+INFO: - 2024-04-26 15:44:25.317323: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-post_object.php
+INFO: - 2024-04-26 15:44:25.781411: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-radio.php
+INFO: - 2024-04-26 15:44:26.178925: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-range.php
+INFO: - 2024-04-26 15:44:26.572943: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-relationship.php
+INFO: - 2024-04-26 15:44:27.036080: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-select.php
+INFO: - 2024-04-26 15:44:27.498780: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-separator.php
+INFO: - 2024-04-26 15:44:27.892813: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-tab.php
+INFO: - 2024-04-26 15:44:28.288168: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-taxonomy.php
+INFO: - 2024-04-26 15:44:28.749797: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-text.php
+INFO: - 2024-04-26 15:44:29.147146: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-textarea.php
+INFO: - 2024-04-26 15:44:29.543042: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-time_picker.php
+INFO: - 2024-04-26 15:44:29.937958: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-true_false.php
+INFO: - 2024-04-26 15:44:30.332707: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-url.php
+INFO: - 2024-04-26 15:44:30.726120: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-user.php
+INFO: - 2024-04-26 15:44:31.188908: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field-wysiwyg.php
+INFO: - 2024-04-26 15:44:31.585097: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/fields/class-acf-field.php
+INFO: - 2024-04-26 15:44:32.443397: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-attachment.php
+INFO: - 2024-04-26 15:44:32.838804: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-comment.php
+INFO: - 2024-04-26 15:44:33.233762: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-customizer.php
+INFO: - 2024-04-26 15:44:33.630409: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-front.php
+INFO: - 2024-04-26 15:44:34.027282: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-gutenberg.php
+INFO: - 2024-04-26 15:44:34.425297: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-nav-menu.php
+INFO: - 2024-04-26 15:44:34.820230: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-post.php
+INFO: - 2024-04-26 15:44:35.218256: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-taxonomy.php
+INFO: - 2024-04-26 15:44:35.613170: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-user.php
+INFO: - 2024-04-26 15:44:36.008493: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/forms/form-widget.php
+INFO: - 2024-04-26 15:44:36.862534: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/legacy/legacy-locations.php
+INFO: - 2024-04-26 15:44:37.720261: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/abstract-acf-legacy-location.php
+INFO: - 2024-04-26 15:44:38.116177: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/abstract-acf-location.php
+INFO: - 2024-04-26 15:44:38.511643: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-attachment.php
+INFO: - 2024-04-26 15:44:38.905302: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-comment.php
+INFO: - 2024-04-26 15:44:39.300101: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-current-user-role.php
+INFO: - 2024-04-26 15:44:39.697300: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-current-user.php
+INFO: - 2024-04-26 15:44:40.091387: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-nav-menu-item.php
+INFO: - 2024-04-26 15:44:40.487523: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-nav-menu.php
+INFO: - 2024-04-26 15:44:40.881875: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page-parent.php
+INFO: - 2024-04-26 15:44:41.275430: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page-template.php
+INFO: - 2024-04-26 15:44:41.670770: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page-type.php
+INFO: - 2024-04-26 15:44:42.066776: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-page.php
+INFO: - 2024-04-26 15:44:42.462820: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-category.php
+INFO: - 2024-04-26 15:44:42.858578: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-format.php
+INFO: - 2024-04-26 15:44:43.254789: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-status.php
+INFO: - 2024-04-26 15:44:43.649842: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-taxonomy.php
+INFO: - 2024-04-26 15:44:44.044488: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-template.php
+INFO: - 2024-04-26 15:44:44.439584: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post-type.php
+INFO: - 2024-04-26 15:44:44.835227: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-post.php
+INFO: - 2024-04-26 15:44:45.230727: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-taxonomy.php
+INFO: - 2024-04-26 15:44:45.625646: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-user-form.php
+INFO: - 2024-04-26 15:44:46.019827: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-user-role.php
+INFO: - 2024-04-26 15:44:46.415636: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/locations/class-acf-location-widget.php
+INFO: - 2024-04-26 15:44:47.272986: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/post-types/class-acf-field-group.php
+INFO: - 2024-04-26 15:44:47.667287: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/post-types/class-acf-post-type.php
+INFO: - 2024-04-26 15:44:48.127146: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/post-types/class-acf-taxonomy.php
+INFO: - 2024-04-26 15:44:49.048226: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api/acf-rest-api-functions.php
+INFO: - 2024-04-26 15:44:49.443399: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api/class-acf-rest-api.php
+INFO: - 2024-04-26 15:44:49.904683: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api/class-acf-rest-embed-links.php
+INFO: - 2024-04-26 15:44:50.298666: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/rest-api/class-acf-rest-request.php
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=47980413): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+INFO: - 2024-04-26 15:44:51.155354: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/includes/walkers/class-acf-walker-taxonomy-field.php
+INFO: - 2024-04-26 15:44:52.018777: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ar.l10n.php
+INFO: - 2024-04-26 15:44:52.415071: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ar.mo
+INFO: - 2024-04-26 15:44:52.416442: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ar.po
+INFO: - 2024-04-26 15:44:52.417530: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-bg_BG.l10n.php
+INFO: - 2024-04-26 15:44:52.879048: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-bg_BG.mo
+INFO: - 2024-04-26 15:44:52.880190: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-bg_BG.po
+INFO: - 2024-04-26 15:44:52.881238: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ca.l10n.php
+INFO: - 2024-04-26 15:44:53.409071: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ca.mo
+INFO: - 2024-04-26 15:44:53.409829: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-ca.po
+INFO: - 2024-04-26 15:44:53.410284: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-cs_CZ.l10n.php
+INFO: - 2024-04-26 15:44:53.935084: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-cs_CZ.mo
+INFO: - 2024-04-26 15:44:53.936061: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-cs_CZ.po
+INFO: - 2024-04-26 15:44:53.936747: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-da_DK.l10n.php
+INFO: - 2024-04-26 15:44:54.396857: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-da_DK.mo
+INFO: - 2024-04-26 15:44:54.397653: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-da_DK.po
+INFO: - 2024-04-26 15:44:54.398357: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_CH.l10n.php
+INFO: - 2024-04-26 15:44:54.792996: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_CH.mo
+INFO: - 2024-04-26 15:44:54.794083: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_CH.po
+INFO: - 2024-04-26 15:44:54.794911: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE.l10n.php
+INFO: - 2024-04-26 15:44:55.323023: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE.mo
+INFO: - 2024-04-26 15:44:55.324433: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE.po
+INFO: - 2024-04-26 15:44:55.324880: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE_formal.l10n.php
+INFO: - 2024-04-26 15:44:55.851530: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE_formal.mo
+INFO: - 2024-04-26 15:44:55.852455: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-de_DE_formal.po
+INFO: - 2024-04-26 15:44:55.852858: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-el.l10n.php
+INFO: - 2024-04-26 15:44:56.382008: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-el.mo
+INFO: - 2024-04-26 15:44:56.383134: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-el.po
+INFO: - 2024-04-26 15:44:56.384062: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-en_CA.l10n.php
+INFO: - 2024-04-26 15:44:56.842310: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-en_CA.mo
+INFO: - 2024-04-26 15:44:56.843006: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-en_CA.po
+INFO: - 2024-04-26 15:44:56.843728: file searched - /public_html/wp-content/plugins/advanced-custom-fields-pro/lang/acf-en_GB.l10n.php
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=47982042): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=47983471): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
