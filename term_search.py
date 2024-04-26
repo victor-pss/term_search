@@ -14,6 +14,7 @@ import streamlit.components.v1 as components
 # from streamlit_tags import st_tags
 import ftputil
 import re
+import requests
 
 logger.info(get_date() + 'Imports Complete')
 
@@ -45,6 +46,8 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
     logger.info(get_date() + 'term_search function - ' +  str({'FTP_HOST': FTP_HOST, 'FTP_USER': FTP_USER, 'FTP_PASS': FTP_PASS, 'THEME_FOLDER': THEME_FOLDER}))
 
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
+        ip = requests.get('https://api64.ipify.org').text
+        st.write(ip)
         try:
             st.write('FTP connected')
             # for (dirnames, subdirs, filename) in ftp.walk('./public_html/wp-content/themes/' + THEME_FOLDER):
