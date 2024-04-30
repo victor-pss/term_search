@@ -3,6 +3,9 @@ import streamlit.components.v1 as components
 # from streamlit_tags import st_tags
 import ftputil
 import re
+import requests
+
+ip = requests.get('https://api64.ipify.org').text
 
 st.markdown("""
     <style>
@@ -114,3 +117,5 @@ if st.session_state['query_complete'] is True:
         st.write(len(st.session_state['results']), 'were found')
         for el in st.session_state['results']:
             st.write(el)
+
+st.write("Server IP: " + str(ip))
