@@ -43,8 +43,7 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
                     if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
                         with ftp.open(f, 'r', encoding='utf8') as obj:
                             file = obj.read()
-                            # if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
-                            if re.search("drsalamati.com.txt", file, re.IGNORECASE) != None:
+                            if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
                                 files.append(f)
         except:
             return 'error'
