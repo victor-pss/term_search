@@ -6498,3 +6498,128 @@ DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code
 DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
 DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=50231157): is_file, is_inode_meta_mod, is_modified
 DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43165783, flags=10100, id=50231863): is_created, is_file
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf", inode=43165784, flags=20100, id=50231866): is_created, is_directory
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf/tmp_obj_pqA4Iu", inode=43165785, flags=10100, id=50231869): is_created, is_file
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf/tmp_obj_pqA4Iu', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf/0d3712e823ba11ba4b71896f7d876b4c9074d2", inode=43165785, flags=110100, id=50231875): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf", inode=43165784, flags=20500, id=50231878): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf/tmp_obj_pqA4Iu", inode=43165785, flags=111300, id=50231881): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3/c9bd4deebf902c2d6e255d4679b2d755b02ce8", inode=43165788, flags=110100, id=50231890): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3", inode=43013041, flags=20400, id=50231893): is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3/tmp_obj_BAbT92", inode=43165788, flags=111300, id=50231896): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43165783, flags=11900, id=50231902): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43165783, flags=10800, id=50231903): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43164484, flags=10800, id=50231904): is_file, is_renamed
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf/tmp_obj_pqA4Iu', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf/tmp_obj_pqA4Iu', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/bf', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3/c9bd4deebf902c2d6e255d4679b2d755b02ce8', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3/tmp_obj_BAbT92', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3/tmp_obj_BAbT92', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/f3', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43165783, flags=10800, id=50231903)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b/ea64fd4bf68b927744ae2c2991a5b587f3b20e", inode=43165827, flags=110100, id=50232509): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b", inode=43165826, flags=20500, id=50232512): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b/tmp_obj_NurNyQ", inode=43165827, flags=111300, id=50232515): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock", inode=43165825, flags=11900, id=50232521): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43165825, flags=10800, id=50232522): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43165783, flags=10800, id=50232523): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG", inode=42830216, flags=11400, id=50232529): is_file, is_inode_meta_mod, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51/48b63c6c91417780ffcb19efab48e105468978", inode=43165831, flags=110100, id=50232541): is_created, is_file, is_hardlink
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51", inode=43165830, flags=20500, id=50232544): is_created, is_directory, is_inode_meta_mod
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51/tmp_obj_4sWErs", inode=43165831, flags=111300, id=50232547): is_coalesced, is_created, is_file, is_hardlink, is_modified, is_removed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD", inode=42276686, flags=11000, id=50232559): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main", inode=42276688, flags=11000, id=50232562): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock", inode=43165835, flags=11900, id=50232565): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43165835, flags=10800, id=50232566): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43164494, flags=10800, id=50232567): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock", inode=43165834, flags=10300, id=50232570): is_coalesced, is_created, is_file, is_removed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b/ea64fd4bf68b927744ae2c2991a5b587f3b20e', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b/tmp_obj_NurNyQ', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b/tmp_obj_NurNyQ', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/2b', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index", inode=43165825, flags=10800, id=50232522)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/index', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/COMMIT_EDITMSG', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51/48b63c6c91417780ffcb19efab48e105468978', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51', dest_path='', event_type='created', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51/tmp_obj_4sWErs', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51/tmp_obj_4sWErs', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/51', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/HEAD', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/heads/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main", inode=43165835, flags=10800, id=50232566)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/heads', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/HEAD.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock", inode=43165836, flags=10300, id=50232576): is_coalesced, is_created, is_file, is_removed
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects/maintenance.lock', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/objects', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main", inode=42278662, flags=11000, id=50232764): is_file, is_modified
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock", inode=43165848, flags=11900, id=50232767): is_coalesced, is_created, is_file, is_modified, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43165848, flags=10800, id=50232768): is_file, is_renamed
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43164509, flags=10800, id=50232769): is_file, is_renamed
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/logs/refs/remotes/origin/main', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:queue_event FileCreatedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='created', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Destination event for rename is NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main", inode=43165848, flags=10800, id=50232768)
+DEBUG:queue_event FileMovedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main.lock', dest_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', event_type='moved', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:queue_event FileDeletedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin/main', dest_path='', event_type='deleted', is_directory=False, is_synthetic=False)
+DEBUG:queue_event DirModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/.git/refs/remotes/origin', dest_path='', event_type='modified', is_directory=True, is_synthetic=False)
+DEBUG:Starting new HTTPS connection (1): api64.ipify.org:443
+DEBUG:https://api64.ipify.org:443 "GET / HTTP/1.1" 200 13
+DEBUG:Starting new HTTPS connection (1): api64.ipify.org:443
+DEBUG:https://api64.ipify.org:443 "GET / HTTP/1.1" 200 14
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=50938933): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Starting new HTTPS connection (1): api64.ipify.org:443
+DEBUG:https://api64.ipify.org:443 "GET / HTTP/1.1" 200 13
+DEBUG:NativeEvent(path="/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py", inode=42276818, flags=11400, id=50941555): is_file, is_inode_meta_mod, is_modified
+DEBUG:queue_event FileModifiedEvent(src_path='/Users/victoralcaraz/Documents/code/python/termsearch/term_search/term_search.py', dest_path='', event_type='modified', is_directory=False, is_synthetic=False)
+DEBUG:Starting new HTTPS connection (1): api64.ipify.org:443
+DEBUG:https://api64.ipify.org:443 "GET / HTTP/1.1" 200 13
+DEBUG:Starting new HTTPS connection (1): api64.ipify.org:443
+DEBUG:https://api64.ipify.org:443 "GET / HTTP/1.1" 200 13

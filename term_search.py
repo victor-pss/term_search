@@ -1,6 +1,6 @@
 import streamlit as st
 import streamlit.components.v1 as components
-# from streamlit_tags import st_tags
+from streamlit_tags import st_tags
 import ftputil
 import re
 import requests
@@ -29,7 +29,7 @@ st.write("""
     appears in the directory.
     """)
 
-def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
+def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER, TERMS):
     files = []
 
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
@@ -43,8 +43,16 @@ def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER):
                     if name.endswith('.php') or name.endswith('.css') or name.endswith('.html') or name.endswith('.js'):
                         with ftp.open(f, 'r', encoding='utf8') as obj:
                             file = obj.read()
-                            if re.search("the_field", file, re.IGNORECASE) != None or re.search("the_sub_field", file, re.IGNORECASE) != None:
-                                files.append(f)
+                            test = '(?:% s)' % '|'.join(TERMS)
+                            results = re.findall(test, file, re.IGNORECASE)
+                            if len(results) != 0:
+                                set = {}
+                                for x in results:
+                                    if x in set:
+                                        set[x] += 1
+                                    else:
+                                        set[x] = 1
+                                files.append(str(f) + ' - ' + ', '.join(f"[{key} - {value} times]" for key, value in set.items()))
         except:
             return 'error'
 
@@ -66,20 +74,24 @@ if 'THEME_FOLDER' not in st.session_state:
 if 'results' not in st.session_state:
     st.session_state['results'] = []
 
+if 'TERMS' not in st.session_state:
+    st.session_state['TERMS'] = ''
+
 if 'query_complete' not in st.session_state:
     st.session_state['query_complete'] = False
 
 with st.form('my_form'):
-    # st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)
-    st.session_state['FTP_HOST'] = st.text_input('FTP Host', key=None)
+    st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)
+    # st.session_state['FTP_HOST'] = st.text_input('FTP Host', key=None)
     st.session_state['FTP_USER'] = st.text_input('FTP User', key=None)
     st.session_state['FTP_PASS'] = st.text_input('FTP Password', type="password", key=None)
-    # st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None) 
-    st.session_state['THEME_FOLDER'] = st.text_input('Theme Folder', key=None)
+    st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None) 
+    # st.session_state['THEME_FOLDER'] = st.text_input('Theme Folder', key=None)
+    st.session_state['TERMS'] = st_tags(label='What do you want to search for?', text='Press Enter to add terms', value=['the_field', 'the_sub_field'])
     submit_button = st.form_submit_button("Submit")
 
     if submit_button:
-        if st.session_state['FTP_HOST'] and st.session_state['FTP_USER'] and st.session_state['FTP_PASS'] and st.session_state['THEME_FOLDER']:
+        if st.session_state['FTP_HOST'] and st.session_state['FTP_USER'] and st.session_state['FTP_PASS'] and st.session_state['THEME_FOLDER'] and st.session_state['TERMS']:
             st.markdown("""
                     <style>
                         .miner {
@@ -94,7 +106,7 @@ with st.form('my_form'):
                     </div>
                 """, unsafe_allow_html=True)
             with st.spinner('Working on your request...'):
-                results = term_search(st.session_state['FTP_HOST'], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'])
+                results = term_search(st.session_state['FTP_HOST'][0], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'][0], st.session_state['TERMS'])
                 st.session_state['results'] = results
                 st.session_state['query_complete'] = True
             st.markdown("""
