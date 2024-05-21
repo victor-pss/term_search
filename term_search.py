@@ -29,13 +29,13 @@ st.write("""
     appears in the directory.
     """)
 
-def term_search(FTP_HOST, FTP_USER, FTP_PASS, THEME_FOLDER, TERMS):
+def term_search(FTP_HOST, FTP_USER, FTP_PASS, TERMS):
     files = []
 
     # Connect to the FTP server and search for the TERMS in the theme folder
     with ftputil.FTPHost(FTP_HOST, FTP_USER, FTP_PASS) as ftp:
         try:
-            path = f'/public_html/wp-content/themes/{THEME_FOLDER}'
+            path = f'/public_html/wp-content/themes'
             for (dirnames, subdirs, filename) in ftp.walk(path):
                 for name in filename:
                     if name.endswith(('.php', '.css', '.html', '.js')): # Only search for php, css, html, and js files
@@ -72,7 +72,6 @@ with st.form('my_form'):
     st.session_state['FTP_HOST'] = st_tags(label='FTP Host', text='Press Enter to add the host', suggestions=['92.204.128.116', '92.204.139.144',  '92.204.139.241'], maxtags=1, key=None)
     st.session_state['FTP_USER'] = st.text_input('FTP User', key=None)
     st.session_state['FTP_PASS'] = st.text_input('FTP Password', type="password", key=None)
-    st.session_state['THEME_FOLDER'] = st_tags(label='Theme Folder', text='Press Enter to add folder', suggestions=['pss-theme', 'click5-wp'], maxtags=1, key=None)
     st.session_state['TERMS'] = st_tags(label='What do you want to search for?', text='Press Enter to add terms', value=['the_field', 'the_sub_field'])
     submit_button = st.form_submit_button("Submit")
 
@@ -91,9 +90,9 @@ with st.form('my_form'):
                     <img style="width: 470px; height: 75px; object-fit: cover;" src="https://pss-application-assets.s3.amazonaws.com/code-digger/miner.gif" />
                 </div>
             """, unsafe_allow_html=True)
-        if all(st.session_state.get(key) for key in ['FTP_HOST', 'FTP_USER', 'FTP_PASS', 'THEME_FOLDER', 'TERMS']):
+        if all(st.session_state.get(key) for key in ['FTP_HOST', 'FTP_USER', 'FTP_PASS', 'TERMS']):
             with st.spinner('Working on your request...'):
-                results = term_search(st.session_state['FTP_HOST'][0], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['THEME_FOLDER'][0], st.session_state['TERMS'])
+                results = term_search(st.session_state['FTP_HOST'][0], st.session_state['FTP_USER'], st.session_state['FTP_PASS'], st.session_state['TERMS'])
                 st.session_state['results'] = results
                 st.session_state['query_complete'] = True
             st.markdown("""
